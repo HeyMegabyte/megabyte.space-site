@@ -6,13 +6,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "/assets-enterprise-page/native/*",
-        "destination": "/build/assets-enterprise-page/native/*",
-        "type": 301
-      }
     ]
   }
 }
