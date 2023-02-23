@@ -57,7 +57,7 @@ export class SolutionPage implements ComponentInterface {
     return (
       <Host>
         <meta-tags
-          page-title={'Provision ' + this.framework.name + ' with Install Doctor'}
+          page-title={'Provision ' + this.framework.name + ' with Megabyte Labs'}
           description={
             'Headlessly deploy a fully configured workstation on ' +
             this.framework.name
@@ -74,13 +74,13 @@ export class SolutionPage implements ComponentInterface {
               class="react"
             />
             <Heading level={2} as="h1">
-              {this.framework.name} &amp; Install Doctor
+              {this.framework.name} &amp; Megabyte Labs
             </Heading>
             <Paragraph level={2}>
               Get more out of{' '}
               {this.framework.name}
               {' '}
-              by provisioning it with Install Doctor
+              by provisioning it with Megabyte Labs
             </Paragraph>
             {/* <Button
               anchor

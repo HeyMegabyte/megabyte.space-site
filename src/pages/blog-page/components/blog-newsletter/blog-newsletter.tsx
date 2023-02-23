@@ -54,7 +54,7 @@ export class BlogNewsletter {
           },
           {
             name: 'first_campaign_conversion',
-            value: 'Install Doctor Newsletter',
+            value: 'Megabyte Labs Newsletter',
           },
         ],
         context: {

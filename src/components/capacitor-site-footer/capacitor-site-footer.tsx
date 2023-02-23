@@ -71,7 +71,7 @@ export class CapacitorSiteFooter {
           },
           {
             name: 'first_campaign_conversion',
-            value: 'Install Doctor Newsletter',
+            value: 'Megabyte Labs Newsletter',
           },
         ],
         context: {
@@ -103,7 +103,7 @@ export class CapacitorSiteFooter {
               <div>
                 <Heading level={4}>Join our Newsletter</Heading>
                 <Paragraph level={4}>
-                  Keep up to date with all the latest Install Doctor news and updates
+                  Keep up to date with all the latest Megabyte Labs news and updates
                 </Paragraph>
               </div>
               <div class="form-group">
@@ -159,8 +159,7 @@ export class CapacitorSiteFooter {
                 />
                 <p>© {new Date().getFullYear()} Megabyte LLC</p>
                 <p>
-                  <a href="https://megabyte.space" target="_blank">Megabyte Labs Open Source</a> | Released
-                  under <span id="mit">MIT License</span>
+                  <a href="https://megabyte.space" target="_blank">Megabyte Labs Open Source</a>
                 </p>
               </Col>
               <Col md={6} sm={8} xs={12} cols={12}>
@@ -169,23 +168,18 @@ export class CapacitorSiteFooter {
                     <Heading level={5}>Documentation</Heading>
                     <ul class="routes">
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/getting-started">
-                          Getting Started
+                        <a class="ui-paragraph-4" href="/docs">
+                          Overview
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/features">
-                          Features
+                        <a class="ui-paragraph-4" href="/docs/philosophy">
+                          Philosophy
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/customization">
-                          Customization
-                        </a>
-                      </li>
-                      <li>
-                        <a class="ui-paragraph-4" href="/docs/contributing">
-                          Contributing
+                        <a class="ui-paragraph-4" href="/docs/repositories">
+                          Repositories
                         </a>
                       </li>
                     </ul>
@@ -193,16 +187,6 @@ export class CapacitorSiteFooter {
                   <div>
                     <Heading level={5}>Resources</Heading>
                     <ul class="routes">
-                      <li>
-                        <a class="ui-paragraph-4" href="/enterprise">
-                          Enterprise
-                        </a>
-                      </li>
-                      <li>
-                        <a class="ui-paragraph-4" href="/community">
-                          Community
-                        </a>
-                      </li>
                       <li>
                         <a
                           class="ui-paragraph-4"
@@ -212,11 +196,13 @@ export class CapacitorSiteFooter {
                         </a>
                       </li>
                       <li>
-                        <a
-                          class="ui-paragraph-4"
-                          href="https://github.com/megabyte-labs/install.doctor/discussions"
-                        >
-                          Discussions
+                        <a class="ui-paragraph-4" href="/community">
+                          Community
+                        </a>
+                      </li>
+                      <li>
+                        <a class="ui-paragraph-4" href="/enterprise">
+                          Enterprise
                         </a>
                       </li>
                     </ul>
@@ -236,7 +222,7 @@ export class CapacitorSiteFooter {
                       <li>
                         <a
                           class="ui-paragraph-4"
-                          href="https://facebook.com/InstallDoctor"
+                          href="https://facebook.com/MegabyteLabs"
                           target="_blank"
                         >
                           Facebook
@@ -245,15 +231,10 @@ export class CapacitorSiteFooter {
                       <li>
                         <a
                           class="ui-paragraph-4"
-                          href="https://twitter.com/installdoc"
+                          href="https://twitter.com/MegabyteLabs"
                           target="_blank"
                         >
                           Twitter
-                        </a>
-                      </li>
-                      <li>
-                        <a class="ui-paragraph-4" href="https://megabyte.space" target="_blank">
-                          Megabyte Labs
                         </a>
                       </li>
                     </ul>

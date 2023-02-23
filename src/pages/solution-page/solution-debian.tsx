@@ -144,9 +144,9 @@ run setup:vms
       </ResponsiveContainer>
       <section id="continue">
         <ResponsiveContainer>
-          <Heading level={3}>Continue your Install Doctor Journey.</Heading>
+          <Heading level={3}>Continue your Megabyte Labs Journey.</Heading>
           <Paragraph>
-            This is only the beginning. Learn more about the Install Doctor{' '}
+            This is only the beginning. Learn more about the Megabyte Labs{' '}
             <a href="/docs/customization">
               development workflow
             </a>{' '}

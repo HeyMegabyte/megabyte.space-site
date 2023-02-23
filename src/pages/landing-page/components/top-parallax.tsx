@@ -3,7 +3,6 @@ import { ResponsiveContainer, Button } from '@ionic-internal/ionic-ds';
 
 import Parallax from 'parallax-js';
 
-import Capacitor3Rainbow from '../assets/capacitor-3-rainbow.svg';
 import { Background } from '../assets/bg-3-only.svg';
 // import { Background } from '../assets/bg-boxes.svg';
 
@@ -48,15 +47,15 @@ export class LandingPage {
             <div id="square-8" data-depth="0.5" />
             <Background id="bg" data-depth="0.3" />
           </div>
-          <Capacitor3Rainbow />
           <h1>
-            <span class="reveal">Faster.</span>
-            <span class="reveal">Smaller.</span>
-            <span class="reveal">Simpler.</span>
+            <span class="reveal">Open.</span>
+            <span class="reveal">Source.</span>
+            <span class="reveal">Wizardry.</span>
           </h1>
           <p class="reveal">
-            A brand new approach to building native apps with the Web — now even
-            faster, more modular, and more enjoyable to build with than ever.
+          Join us in our quest to build the ultimate device deployment tools, scripts, and software
+or follow us to reap the benefits of expert-configured, open-source software
+built with paranoid-level security practices.
           </p>
           <div class="btns">
             <Button
@@ -67,16 +66,16 @@ export class LandingPage {
               href="/docs/getting-started"
               anchor={true}
             >
-              Try Capacitor 3 <span>{'->'}</span>
+              Get Beta Access  <span>{'->'}</span>
             </Button>
             <Button
               class="reveal"
               kind="round"
               color="indigo"
-              href="https://ionic.io/blog/announcing-capacitor-3-0/"
+              href="/products"
               anchor={true}
             >
-              Read the Blog post <span>{'->'}</span>
+              View Products <span>{'->'}</span>
             </Button>
           </div>
         </ResponsiveContainer>

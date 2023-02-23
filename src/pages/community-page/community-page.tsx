@@ -23,7 +23,7 @@ export class CommunityPage {
         <meta-tags
           page-title="Community"
           description={
-            'Get connected and get help from the Install Doctor community'
+            'Get connected and get help from the Megabyte Labs community'
           }
         />
         <Top />

@@ -7,7 +7,7 @@
         },
         {
             "type": "paragraph",
-            "text": "Install Doctor is a large and growing project with a passionate community. Engage with the Install Doctor team and other helpful community members through the official forum, GitHub community, Twitter, and more.",
+            "text": "Megabyte Labs is a large and growing project with a passionate community. Engage with the Megabyte Labs team and other helpful community members through the official forum, GitHub community, Twitter, and more.",
             "spans": []
         }
     ],
@@ -76,7 +76,7 @@
                 },
                 {
                     "type": "paragraph",
-                    "text": "Peruse through our official GitHub Discussions forum to find announcements, ideas, polls, questions, answers, and examples of other user's implementation of Install Doctor.",
+                    "text": "Peruse through our official GitHub Discussions forum to find announcements, ideas, polls, questions, answers, and examples of other user's implementation of Megabyte Labs.",
                     "spans": []
                 }
             ],
@@ -108,12 +108,12 @@
             "text": [
                 {
                     "type": "heading4",
-                    "text": "Install Doctor Forum",
+                    "text": "Megabyte Labs Forum",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Join the Install Doctor community forum. Ask questions to the community or find answers to commonly asked questions.",
+                    "text": "Join the Megabyte Labs community forum. Ask questions to the community or find answers to commonly asked questions.",
                     "spans": []
                 }
             ],
@@ -138,12 +138,12 @@
             "text": [
                 {
                     "type": "heading4",
-                    "text": "@InstallDoc",
+                    "text": "@MegabyteLabs",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Follow Install Doctor on Twitter for the latest releases, features, and events.",
+                    "text": "Follow Megabyte Labs on Twitter for the latest releases, features, and events.",
                     "spans": []
                 }
             ],
@@ -158,7 +158,7 @@
                             "type": "hyperlink",
                             "data": {
                                 "link_type": "Web",
-                                "url": "https://twitter.com/installdoc",
+                                "url": "https://twitter.com/MegabyteLabs",
                                 "target": "_blank"
                             }
                         }
@@ -179,12 +179,12 @@
             "text": [
                 {
                     "type": "heading4",
-                    "text": "r/InstallDoctor",
+                    "text": "r/MegabyteLabs",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Join the community on Reddit with discussions around Install Doctor.",
+                    "text": "Join the community on Reddit with discussions around Megabyte Labs.",
                     "spans": []
                 }
             ],
@@ -199,7 +199,7 @@
                             "type": "hyperlink",
                             "data": {
                                 "link_type": "Web",
-                                "url": "https://www.reddit.com/r/installdoctor/",
+                                "url": "https://www.reddit.com/r/MegabyteLabs/",
                                 "target": "_blank"
                             }
                         }
@@ -225,7 +225,7 @@
                 },
                 {
                     "type": "paragraph",
-                    "text": "Ask questions about Install Doctor, or find answers to questions posted by other users.",
+                    "text": "Ask questions about Megabyte Labs, or find answers to questions posted by other users.",
                     "spans": []
                 }
             ],
@@ -240,7 +240,7 @@
                             "type": "hyperlink",
                             "data": {
                                 "link_type": "Web",
-                                "url": "https://stackoverflow.com/tags/installdoctor",
+                                "url": "https://stackoverflow.com/tags/MegabyteLabs",
                                 "target": "_blank"
                             }
                         }

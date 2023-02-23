@@ -20,7 +20,7 @@
                 }
             },
             "title": "Secure, reliable multi-OS provisioning for enterprise teams",
-            "text": "Increase your team's capacity by provisioning their devices with Install Doctor on any OS or virtualization platform.",
+            "text": "Increase your team's capacity by provisioning their devices with Megabyte Labs on any OS or virtualization platform.",
             "cta_1": "Talk to sales",
             "cta_2": "Talk to an expert"
         }
@@ -84,7 +84,7 @@
                     "width": 364,
                     "height": 343
                 },
-                "alt": "Book cover with title reading \"Provisioning Operating Systems with Install Doctor\"",
+                "alt": "Book cover with title reading \"Provisioning Operating Systems with Megabyte Labs\"",
                 "copyright": null,
                 "url": "https://install.doctor/assets/img/landing/ebook-text-box.png",
                 "2x": {
@@ -92,7 +92,7 @@
                         "width": 728,
                         "height": 686
                     },
-                    "alt": "Book cover with title reading \"Provisioning Operating Systems with Install Doctor\"",
+                    "alt": "Book cover with title reading \"Provisioning Operating Systems with Megabyte Labs\"",
                     "copyright": null,
                     "url": "https://install.doctor/assets/img/landing/ebook-text-box-2x.png"
                 }
@@ -100,7 +100,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "Provision your computing environments faster. Our free guide details the benefits of leveraging Install Doctor to define the state of your PCs.",
+                    "text": "Provision your computing environments faster. Our free guide details the benefits of leveraging Megabyte Labs to define the state of your PCs.",
                     "spans": [
                         {
                             "start": 0,
@@ -447,7 +447,7 @@
                     "width": 608,
                     "height": 608
                 },
-                "alt": "Wheel of operating system icons around Install Doctor icon",
+                "alt": "Wheel of operating system icons around Megabyte Labs icon",
                 "copyright": null,
                 "url": "https://install.doctor/assets/img/enterprise/os-wheel.png",
                 "2x": {
@@ -455,7 +455,7 @@
                         "width": 1216,
                         "height": 1216
                     },
-                    "alt": "Wheel of operating system icons around Install Doctor icon",
+                    "alt": "Wheel of operating system icons around Megabyte Labs icon",
                     "copyright": null,
                     "url": "https://install.doctor/assets/img/enterprise/os-wheel-2x.png"
                 }
@@ -474,7 +474,7 @@
                     ]
                 }
             ],
-            "subtext": "Different operating systems are sometimes required for different jobs. But, your team should feel comfortable on any platform. That is why Install Doctor gives you the freedom to apply your system configuration on any operating system or virtualization platform from a single configuration."
+            "subtext": "Different operating systems are sometimes required for different jobs. But, your team should feel comfortable on any platform. That is why Megabyte Labs gives you the freedom to apply your system configuration on any operating system or virtualization platform from a single configuration."
         }
     ],
     "security": [
@@ -484,7 +484,7 @@
                     "width": 608,
                     "height": 600
                 },
-                "alt": "Security icons around Install Doctor icon",
+                "alt": "Security icons around Megabyte Labs icon",
                 "copyright": null,
                 "url": "https://install.doctor/assets/img/enterprise/security-wheel.png",
                 "2x": {
@@ -492,7 +492,7 @@
                         "width": 1216,
                         "height": 1201
                     },
-                    "alt": "Security icons around Install Doctor icon",
+                    "alt": "Security icons around Megabyte Labs icon",
                     "copyright": null,
                     "url": "https://install.doctor/assets/img/enterprise/security-wheel-2x.png"
                 }
@@ -567,7 +567,7 @@
             "subtext": [
                 {
                     "type": "paragraph",
-                    "text": "Most of the files on your system never change but, with traditional systems, those files still remain part of attack surface. With Install Doctor's Immutable Golden Image (IGI) feature, you can leverage a USB-C hard-drive with special firmware to store the majority of your system immutably while still leveraging traditional disks via a union file system. This gives you the capability of rebooting to clear ransomware while retaining stateful data on hard-disks, S3 buckets, and the like.",
+                    "text": "Most of the files on your system never change but, with traditional systems, those files still remain part of attack surface. With Megabyte Labs's Immutable Golden Image (IGI) feature, you can leverage a USB-C hard-drive with special firmware to store the majority of your system immutably while still leveraging traditional disks via a union file system. This gives you the capability of rebooting to clear ransomware while retaining stateful data on hard-disks, S3 buckets, and the like.",
                     "spans": [
                         {
                             "start": 148,
@@ -646,11 +646,11 @@
                     ]
                 }
             ],
-            "subtextAlt": "Install Doctor bundles free, open-source, power-user tools and services that improve your team. There are so many open-source projects integrated into Install Doctor's stack. It might be confusing to determine where to start.<br/>With an Enterprise agreement, you connect directly to a seasoned solutions architect who works with you to satisfy your needs using free, open-source projects. Exclusive Enterprise-only features include single sign-on integration, a self-service portal, and a write-protected, hardware-backed file-system implementation.",
+            "subtextAlt": "Megabyte Labs bundles free, open-source, power-user tools and services that improve your team. There are so many open-source projects integrated into Megabyte Labs's stack. It might be confusing to determine where to start.<br/>With an Enterprise agreement, you connect directly to a seasoned solutions architect who works with you to satisfy your needs using free, open-source projects. Exclusive Enterprise-only features include single sign-on integration, a self-service portal, and a write-protected, hardware-backed file-system implementation.",
             "subtext": [
                 {
                     "type": "paragraph",
-                    "text": "Install Doctor bundles free, open-source, power-user tools and services that can improve your team's efficiency. There are so many open-source projects integrated into Install Doctor's stack. It might be confusing to determine where to start.",
+                    "text": "Megabyte Labs bundles free, open-source, power-user tools and services that can improve your team's efficiency. There are so many open-source projects integrated into Megabyte Labs's stack. It might be confusing to determine where to start.",
                     "spans": []
                 },
                 {
@@ -713,7 +713,7 @@
                 }
             },
             "title": "Enterprise + Open-Source Features",
-            "text": "With the addition to Enterprise-exclusive features, Install Doctor is a unique, robust offering. It is 1 OAK - 1 Of A Kind."
+            "text": "With the addition to Enterprise-exclusive features, Megabyte Labs is a unique, robust offering. It is 1 OAK - 1 Of A Kind."
         },
         {
             "icon": {
@@ -735,7 +735,7 @@
                 }
             },
             "title": "Guaranteed SLA",
-            "text": "Timely support and troubleshooting when you need it most. Get expert help directly from the Install Doctor team with guaranteed response times."
+            "text": "Timely support and troubleshooting when you need it most. Get expert help directly from the Megabyte Labs team with guaranteed response times."
         },
         {
             "icon": {
@@ -848,7 +848,7 @@
             "paragraph_2": [
                 {
                     "type": "paragraph",
-                    "text": "See how Install Doctor is using the power of freely available, open-source software to slash requirements and deliver secure, enterprise-grade solutions in less time.",
+                    "text": "See how Megabyte Labs is using the power of freely available, open-source software to slash requirements and deliver secure, enterprise-grade solutions in less time.",
                     "spans": []
                 }
             ],
@@ -859,7 +859,7 @@
     "demo": [
         {
             "supertext": "Talk to Sales",
-            "title": "Install Doctor for Enterprise"
+            "title": "Megabyte Labs for Enterprise"
         }
     ]
 }

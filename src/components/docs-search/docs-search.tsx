@@ -27,7 +27,7 @@ export class DocsSearch implements ComponentInterface {
   private contentWidth = 736;
   private uniqueId = Math.random().toString().replace('.', '');
 
-  @Prop() theme: SiteHeader['theme'] = 'light';
+  @Prop() theme: SiteHeader['theme'] = 'dark';
   @Prop() placeholder = 'Search';
 
   @Element() el: HTMLElement;
@@ -91,7 +91,7 @@ export class DocsSearch implements ComponentInterface {
     window.docsearch({
       appId: 'S9NORH1KTE',
       apiKey: 'e14004b94a1f75b3bb71fc63f070466c',
-      indexName: `installdoc`,
+      indexName: `MegabyteLabs`,
       inputSelector: `#input-${this.uniqueId}`,
       debug: false, // Set debug to true if you want to inspect the dropdown
       queryHook: () => {

@@ -22,11 +22,12 @@ export class EnterprisePage {
     const {
       Top,
       Native,
-      Ebook,
+      // Ebook,
       MicroFrontends,
+      Approach,
       Plugins,
-      Security,
-      Delivery,
+      // Security,
+      // Delivery,
       SupportGuidance,
       Features,
       Demo,
@@ -39,12 +40,12 @@ export class EnterprisePage {
         <enterprise-subnav />
         <Top />
         <Native />
-        <Ebook />
-        {/* <Approach /> */}
+        {/* <Ebook /> */}
+        <Approach />
         <MicroFrontends />
         <Plugins />
-        <Security />
-        <Delivery />
+        {/* <Security /> */}
+        {/* <Delivery /> */}
         <SupportGuidance />
         <Features />
         <Editions />
@@ -182,10 +183,10 @@ export class EnterprisePage {
             onModalClose={() => (this.ebookModalOpen = false)}
           >
             <Heading level={2}>
-              Free Install Doctor eBook
+              Free Megabyte Labs eBook
             </Heading>
             <Paragraph>
-              Fill out and submit the form below to get your free copy of <strong>Open-Source, Cross-OS Workstations with Install Doctor</strong> sent to your e-mail.
+              Fill out and submit the form below to get your free copy of <strong>Open-Source, Cross-OS Workstations with Megabyte Labs</strong> sent to your e-mail.
             </Paragraph>
             <capacitor-hubspot-form formId="df7c28cd-d123-4ea2-aa2c-d7cb304fd398" />
           </site-modal>
@@ -212,67 +213,67 @@ export class EnterprisePage {
     );
   };
 
-  // Approach = () => {
-  //   const {
-  //     approach,
-  //     approach_traditional,
-  //     approach_traditional__list,
-  //     approach_web,
-  //     approach_web__list,
-  //   } = this.data;
-  //   const { supertext, title } = approach[0];
+  Approach = () => {
+    const {
+      approach,
+      approach_traditional,
+      approach_traditional__list,
+      approach_web,
+      approach_web__list,
+    } = this.data;
+    const { supertext, title } = approach[0];
 
-  //   return (
-  //     <section id="approach">
-  //       <ResponsiveContainer>
-  //         <div class="heading-group">
-  //           <p class="ui-heading-6">
-  //             <sup>{supertext}</sup>
-  //           </p>
-  //           <PrismicRichText richText={title} />
-  //         </div>
-  //         <div class="split">
-  //           <article class="traditional column">
-  //             <Heading>{approach_traditional[0]['title']}</Heading>
-  //             <Paragraph>{approach_traditional[0]['text']}</Paragraph>
-  //             <PrismicResponsiveImage
-  //               image={approach_traditional[0]['image']}
-  //             />
-  //             <div class="list">
-  //               <Heading level={4}>
-  //                 {approach_traditional[0]['subtitle']}
-  //               </Heading>
-  //               <ul>
-  //                 {approach_traditional__list.map(({ text, icon }) => (
-  //                   <li>
-  //                     <PrismicResponsiveImage image={icon} />
-  //                     <Paragraph>{text}</Paragraph>
-  //                   </li>
-  //                 ))}
-  //               </ul>
-  //             </div>
-  //           </article>
-  //           <article class="web column">
-  //             <Heading>{approach_web[0]['title']}</Heading>
-  //             <Paragraph>{approach_web[0]['text']}</Paragraph>
-  //             <PrismicResponsiveImage image={approach_web[0]['image']} />
-  //             <div class="list">
-  //               <Heading level={4}>{approach_web[0]['subtitle']}</Heading>
-  //               <ul>
-  //                 {approach_web__list.map(({ text, icon }) => (
-  //                   <li>
-  //                     <PrismicResponsiveImage image={icon} />
-  //                     <Paragraph>{text}</Paragraph>
-  //                   </li>
-  //                 ))}
-  //               </ul>
-  //             </div>
-  //           </article>
-  //         </div>
-  //       </ResponsiveContainer>
-  //     </section>
-  //   );
-  // };
+    return (
+      <section id="approach">
+        <ResponsiveContainer>
+          <div class="heading-group">
+            <p class="ui-heading-6">
+              <sup>{supertext}</sup>
+            </p>
+            <PrismicRichText richText={title} />
+          </div>
+          <div class="split">
+            <article class="traditional column">
+              <Heading>{approach_traditional[0]['title']}</Heading>
+              <Paragraph>{approach_traditional[0]['text']}</Paragraph>
+              <PrismicResponsiveImage
+                image={approach_traditional[0]['image']}
+              />
+              <div class="list">
+                <Heading level={4}>
+                  {approach_traditional[0]['subtitle']}
+                </Heading>
+                <ul>
+                  {approach_traditional__list.map(({ text, icon }) => (
+                    <li>
+                      <PrismicResponsiveImage image={icon} />
+                      <Paragraph>{text}</Paragraph>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+            <article class="web column">
+              <Heading>{approach_web[0]['title']}</Heading>
+              <Paragraph>{approach_web[0]['text']}</Paragraph>
+              <PrismicResponsiveImage image={approach_web[0]['image']} />
+              <div class="list">
+                <Heading level={4}>{approach_web[0]['subtitle']}</Heading>
+                <ul>
+                  {approach_web__list.map(({ text, icon }) => (
+                    <li>
+                      <PrismicResponsiveImage image={icon} />
+                      <Paragraph>{text}</Paragraph>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+          </div>
+        </ResponsiveContainer>
+      </section>
+    );
+  };
 
   MicroFrontends = () => {
     const { micro_frontends } = this.data;

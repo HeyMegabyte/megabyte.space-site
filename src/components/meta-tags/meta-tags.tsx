@@ -7,11 +7,11 @@ import Helmet from '@stencil/helmet';
 export class MetaTags {
   site = 'https://install.doctor';
   @Prop() pageTitle =
-    'Install Doctor - Cross-OS provisioning technology';
+    'Megabyte Labs - Cross-OS provisioning technology';
   @Prop() description =
     'Provision productivity-enhancing environments with a single-line of code';
   @Prop() image = 'https://capacitorjs.com/assets/img/og.png';
-  @Prop() authorTwitter = '@installdoc';
+  @Prop() authorTwitter = '@MegabyteLabs';
   @Prop() ogType = 'website';
   @Prop() canonicalUrl = `${this.site}${location.pathname}`;
 
@@ -20,7 +20,7 @@ export class MetaTags {
   render() {
     const prettyTitle =
       this.pageTitle ===
-      'Install Doctor - Cross-OS provisioning technology'
+      'Megabyte Labs - Cross-OS provisioning technology'
         ? this.pageTitle
         : `${this.pageTitle} - Capacitor`;
 

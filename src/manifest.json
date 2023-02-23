@@ -1,6 +1,6 @@
 {
-    "name": "Install Doctor",
-    "short_name": "Install Doctor",
+    "name": "Megabyte Labs",
+    "short_name": "Megabyte Labs",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://install.doctor",
+    "start_url": "https://megabyte.space",
     "display": "standalone"
 }

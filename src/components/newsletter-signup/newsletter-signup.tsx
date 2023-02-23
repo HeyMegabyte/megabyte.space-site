@@ -65,7 +65,7 @@ export class NewsletterSignup {
           },
           {
             name: 'first_campaign_conversion',
-            value: 'Install Doctor Newsletter',
+            value: 'Megabyte Labs Newsletter',
           },
         ],
         context: {
@@ -95,7 +95,7 @@ export class NewsletterSignup {
           <div class="heading-group">
             <Heading>The latest updates. Delivered monthly.</Heading>
             <Paragraph>
-              Install Doctor is getting better every day. Sign up for a monthly email
+              Megabyte Labs is getting better every day. Sign up for a monthly email
               on the latest updates, releases, articles, news, and exclusive beta features!
             </Paragraph>
           </div>

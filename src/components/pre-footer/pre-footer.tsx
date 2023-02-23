@@ -38,7 +38,7 @@ export class PreFooter {
               Provision your operating system, learn how to customize it, and unlock integrations with free cloud services.
             </Paragraph>
           </a>
-          <a href="/docs/features">
+          <a href="/docs">
             <svg
               width="48"
               height="50"
@@ -64,7 +64,7 @@ export class PreFooter {
               Explore Features <span class="arrow">-&gt;</span>
             </Heading>
             <Paragraph>
-              Explore the features and apps that are included with Install Doctor.
+              Explore the features and apps that are included with Megabyte Labs.
             </Paragraph>
           </a>
         </ResponsiveContainer>

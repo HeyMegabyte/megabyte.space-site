@@ -18,9 +18,9 @@ export class BlogPage {
 
   Helmet = () => (
     <Helmet>
-      <title>Install Doctor Blog</title>
-      <meta name="description" content={'Install Doctor Blog'} />
-      <meta name="twitter:description" content={`Install Doctor Blog`} />
+      <title>Megabyte Labs Blog</title>
+      <meta name="description" content={'Megabyte Labs Blog'} />
+      <meta name="twitter:description" content={`Megabyte Labs Blog`} />
       <meta
         name="twitter:image"
         content="https://install.doctor/assets/img/og.png"
@@ -42,10 +42,10 @@ export class BlogPage {
         <ResponsiveContainer>
           <div class="heading-group">
             <Heading level={2} as="h1">
-              Install Doctor Blog
+              Megabyte Labs Blog
             </Heading>
             <Paragraph level={2}>
-              Articles by the Install Doctor team and community
+              Articles by the Megabyte Labs team and community
             </Paragraph>
           </div>
           <div class="content">

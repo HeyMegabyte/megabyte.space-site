@@ -83,9 +83,9 @@ run setup:webapps
       </ResponsiveContainer>
       <section id="continue">
         <ResponsiveContainer>
-          <Heading level={3}>Continue your Install Doctor Journey.</Heading>
+          <Heading level={3}>Continue your Megabyte Labs Journey.</Heading>
           <Paragraph>
-            This is only the beginning. Learn more about the Install Doctor{' '}
+            This is only the beginning. Learn more about the Megabyte Labs{' '}
             <a href="/docs/customization">
               development workflow
             </a>{' '}
@@ -93,7 +93,7 @@ run setup:webapps
             <a href="/docs/features">
               amazing features
             </a>{' '}
-            . Install Doctor includes quite a bit of Qubes-specific features. These features are detailed in the{' '}
+            . Megabyte Labs includes quite a bit of Qubes-specific features. These features are detailed in the{' '}
             <a href="/docs/qubes">
               Qubes documentation
             </a>{' '}

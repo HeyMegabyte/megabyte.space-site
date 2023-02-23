@@ -1,5 +1,5 @@
 ---
-title: Install Doctor Self-Service Portal
+title: Megabyte Labs Self-Service Portal
 slug: self-service-portal
 date: 2023-02-19 14:00:00
 author: Brian Zalewski <brian@megabyte.space>

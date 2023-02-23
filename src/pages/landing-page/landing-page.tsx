@@ -25,31 +25,31 @@ export class LandingPage {
 
   render() {
     const {
-      Top,
-      Started,
+      // Top,
+      // Started,
       Native,
-      Features,
+      // Features,
       Framework,
       Tweets,
       Cta,
-      Ebook,
+      // Ebook,
       // IoniconfCta,
     } = this;
 
     return (
       <Host>
         <meta-tags />
-        <Top />
+        <top-parallax />
+        {/* <Top /> */}
         {/* <IoniconfCta /> */}
-        {/* <top-parallax /> */}
-        <Started />
-        <Ebook />
+        {/* <Started / > */}
+        {/* <Ebook /> */}
         <Native />
-        <Features />
+        {/*<Features /> */}
         <Framework />
         <Tweets />
         <Cta />
-        <pre-footer />
+        {/* <pre-footer /> */}
         <capacitor-site-footer />
       </Host>
     );
@@ -80,7 +80,7 @@ export class LandingPage {
                 kind="round"
                 variation="light"
                 anchor
-                href="/docs/features"
+                href="/docs"
                 class="secondary"
               >
                 {secondary}
@@ -358,10 +358,10 @@ firefoxAddOns:
             onModalClose={() => (this.ebookModalOpen = false)}
           >
             <Heading level={2}>
-              Free Install Doctor eBook
+              Free Megabyte Labs eBook
             </Heading>
             <Paragraph>
-              Fill out and submit the form below to get your free copy of <strong>Open-Source, Cross-OS Workstations with Install Doctor</strong> sent to your e-mail.
+              Fill out and submit the form below to get your free copy of <strong>Open-Source, Cross-OS Workstations with Megabyte Labs</strong> sent to your e-mail.
             </Paragraph>
             <capacitor-hubspot-form formId="df7c28cd-d123-4ea2-aa2c-d7cb304fd398" />
           </site-modal>

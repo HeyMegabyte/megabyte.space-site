@@ -5,11 +5,11 @@ export interface State {
 }
 
 const { state } = createStore<State>({
-  pageTheme: 'light',
+  pageTheme: 'dark',
 });
 
 export const defaults = {
-  title: 'Install Doctor',
+  title: 'Megabyte Labs',
   description: 'Setup your workstation automatically with the best, free open-source software',
   meta_image: 'https://install.doctor/assets/img/og.png',
 };

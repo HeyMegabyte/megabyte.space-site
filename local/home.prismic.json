@@ -7,7 +7,7 @@
         },
         {
             "type": "paragraph",
-            "text": "Install Doctor is a free provisioning tool compatible with most operating systems that lets you define the state of your operating system. With it, you can re-format often and provision your devices rapidly. Without any customization, it provisions an expertly configured eco-system of popular, free, open-source GitHub projects. It also provides a framework for defining your ideal configurations with as little work as possible.",
+            "text": "Megabyte Labs is a free provisioning tool compatible with most operating systems that lets you define the state of your operating system. With it, you can re-format often and provision your devices rapidly. Without any customization, it provisions an expertly configured eco-system of popular, free, open-source GitHub projects. It also provides a framework for defining your ideal configurations with as little work as possible.",
             "spans": [],
             "note": "By default, it installs an editor-curated collection of the most well-received projects on GitHub along with optimized settings."
         }
@@ -72,17 +72,17 @@
         {
             "number": "01",
             "title": "Get started with a one-liner and guided prompts.",
-            "text": "It is incredibly easy to get started with Install Doctor. Run the one-liner and you will be guided through interactive prompts where you can input any missing information."
+            "text": "It is incredibly easy to get started with Megabyte Labs. Run the one-liner and you will be guided through interactive prompts where you can input any missing information."
         },
         {
             "number": "02",
             "title": "Customize the script with your own fork.",
-            "text": "Fork the Install Doctor project on GitHub and use the same convienient script to provision your devices by defining an environment variable with your username/project-name."
+            "text": "Fork the Megabyte Labs project on GitHub and use the same convienient script to provision your devices by defining an environment variable with your username/project-name."
         },
         {
             "number": "03",
             "title": "Test it out in a VM with Vagrant.",
-            "text": "Test out Install Doctor before provisioning your main workstations with a one-liner. The script will install Vagrant, ensure a suitable virtualization platform is installed, and then provision a VM."
+            "text": "Test out Megabyte Labs before provisioning your main workstations with a one-liner. The script will install Vagrant, ensure a suitable virtualization platform is installed, and then provision a VM."
         },
         {
             "number": "04",
@@ -97,7 +97,7 @@
         {
             "number": "06",
             "title": "Pin all your plugins, packages, and extensions.",
-            "text": "Configure Install Doctor to install your favorite packages while provisioning your device by defining them in YAML."
+            "text": "Configure Megabyte Labs to install your favorite packages while provisioning your device by defining them in YAML."
         }
     ],
     "started__icons": [],
@@ -126,7 +126,7 @@
                     "width": 364,
                     "height": 343
                 },
-                "alt": "Book cover with title reading \"Provisioning Operating Systems with Install Doctor\"",
+                "alt": "Book cover with title reading \"Provisioning Operating Systems with Megabyte Labs\"",
                 "copyright": null,
                 "url": "https://install.doctor/assets/img/landing/ebook-text-box.png",
                 "2x": {
@@ -134,7 +134,7 @@
                         "width": 728,
                         "height": 686
                     },
-                    "alt": "Book cover with title reading \"Provisioning Operating Systems with Install Doctor\"",
+                    "alt": "Book cover with title reading \"Provisioning Operating Systems with Megabyte Labs\"",
                     "copyright": null,
                     "url": "https://install.doctor/assets/img/landing/ebook-text-box-2x.png"
                 }
@@ -142,7 +142,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "Provision your computing environments faster. Our free guide details the benefits of leveraging Install Doctor to define the state of your PCs.",
+                    "text": "Provision your computing environments faster. Our free guide details the benefits of leveraging Megabyte Labs to define the state of your PCs.",
                     "spans": [
                         {
                             "start": 0,
@@ -158,7 +158,7 @@
     "native": [
         {
             "type": "heading2",
-            "text": "Automatically provision your devices.",
+            "text": "Developer-first, open-source",
             "spans": [
                 {
                     "start": 14,
@@ -182,12 +182,12 @@
             "item": [
                 {
                     "type": "heading4",
-                    "text": "OS-independent",
+                    "text": "Developer-first",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Bring your devices to roughly equivalent states, regardless of the operating system you choose.",
+                    "text": "Tools and products that place the developer first, a key to rapid and effective engineering.",
                     "spans": []
                 }
             ]
@@ -205,12 +205,12 @@
             "item": [
                 {
                     "type": "heading4",
-                    "text": "Security-focused",
+                    "text": "Open-source",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Provision your devices with clever security measures that will mitigate security risks and give hackers a PITA.",
+                    "text": "Pay nothing. Leverage our superior, free, open-source projects. Save time and money.",
                     "spans": []
                 }
             ]
@@ -228,12 +228,12 @@
             "item": [
                 {
                     "type": "heading4",
-                    "text": "Virtualization-friendly",
+                    "text": "Community-powered",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Use Install Doctor to provision VMs, leverage pre-configured Docker sandboxing, and even provision a fully configured Qubes environment.",
+                    "text": "Leverage the power of our community to get answers from subject matter experts.",
                     "spans": []
                 }
             ]
@@ -433,7 +433,7 @@
                 },
                 {
                     "type": "paragraph",
-                    "text": "Easily customize your own version of Install Doctor and host it, optionally bundled with your encrypted secrets, on GitHub.",
+                    "text": "Easily customize your own version of Megabyte Labs and host it, optionally bundled with your encrypted secrets, on GitHub.",
                     "spans": []
                 }
             ]
@@ -442,21 +442,21 @@
     "framework": [
         {
             "type": "heading2",
-            "text": "Bring your own operating system.",
+            "text": "Stunning interfaces, innovative products",
             "spans": [
                 {
-                    "start": 15,
-                    "end": 34,
+                    "start": 13,
+                    "end": 42,
                     "type": "em"
                 }
             ]
         },
         {
             "type": "paragraph",
-            "text": "Use Install Doctor to provision a wide range of operating systems and virtualization platforms. The latest x86-64 releases of Archlinux, CentOS, Debian, Fedora, macOS, Qubes, Ubuntu, and Windows are officiallysupported. Support for other operating systems is also possible.",
+            "text": "Megabyte Labs is the brand that houses numerous innovative products and services. Full-fledged Angular references projects, free web services, and innovative provisioning systems with stunning, intuitive experiences are just some of the projects we are responsible for.",
             "spans": [
                 {
-                    "start": 126,
+                    "start": 100,
                     "end": 135,
                     "type": "hyperlink",
                     "data": {
@@ -705,7 +705,7 @@
             "title": [
                 {
                     "type": "heading2",
-                    "text": "What people are saying about Install Doctor.",
+                    "text": "What people are saying about Megabyte Labs.",
                     "spans": [
                         {
                             "start": 23,
@@ -742,7 +742,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "The default configuration of @InstallDoc is an educational tool that helps me learn about emerging open-source technologies.. Hopefully people find it as useful as I do",
+                    "text": "The default configuration of @MegabyteLabs is an educational tool that helps me learn about emerging open-source technologies.. Hopefully people find it as useful as I do",
                     "spans": [
                         {
                             "start": 29,
@@ -750,7 +750,7 @@
                             "type": "hyperlink",
                             "data": {
                                 "link_type": "Web",
-                                "url": "https://twitter.com/InstallDoc",
+                                "url": "https://twitter.com/MegabyteLabs",
                                 "target": "_blank"
                             }
                         }
@@ -766,7 +766,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "The Install Doctor Community is growing. Connect with us, your opinion matters.",
+                    "text": "The Megabyte Labs community is growing. Connect with us, your opinion matters.",
                     "spans": [
                         {
                             "start": 40,
@@ -791,7 +791,7 @@
             },
             "link": {
                 "link_type": "Web",
-                "url": "https://twitter.com/InstallDoc",
+                "url": "https://twitter.com/MegabyteLabs",
                 "target": "_blank"
             },
             "text": "Follow us on Twitter"
@@ -867,7 +867,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "Ready for enterprise. With Install Doctor Enterprise, access advanced security features, integrate SSO, and utilize a proprietary hardware-based, read-only file system.",
+                    "text": "Ready for enterprise. With Megabyte Labs Enterprise, give your enterprise by the advantage by providing it with subject matter expert level support.",
                     "spans": [
                         {
                             "start": 0,
@@ -1075,20 +1075,20 @@
         },
         {
             "type": "paragraph",
-            "text": "Dive in and start provisioning your devices with Install Doctor",
+            "text": "Dive in and start provisioning your devices with Megabyte Labs",
             "spans": []
         }
     ],
     "get_started2": [
         {
-            "title": "Ready to get started?",
-            "text": "Dive in and start provisioning your devices with Install Doctor"
+            "title": "Want to learn more?",
+            "text": "Find out more about our polished, open-source web applications and tools"
         }
     ],
     "get_started__ctas": [
         {
-            "primary": "Get Started",
-            "secondary": "Explore Features"
+            "primary": "View Products",
+            "secondary": "Explore Documentation"
         }
     ],
     "whitepaper_ad": {
@@ -1120,11 +1120,11 @@
     },
     "announcement": {
         "tag_text": "Blog",
-        "desktop_text": "The Switch from Gas Station to Install Doctor",
-        "mobile_text": "From Gas Station to Install Doctor",
+        "desktop_text": "Announcing Megabyte Labs, a Multi-OS Provision System",
+        "mobile_text": "Megabyte Labs, a Multi-OS Provision System",
         "link": {
             "link_type": "Web",
-            "url": "/blog/gas-station-predecessor"
+            "url": "/blog/install-doctor"
         }
     }
 }
