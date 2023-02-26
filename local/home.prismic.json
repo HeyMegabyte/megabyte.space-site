@@ -37,7 +37,7 @@
         },
         "alt": "Archlinux, CentOS, Debian, Fedora, macOS, Qubes, Ubuntu, and Windows icons",
         "copyright": null,
-        "url": "https://install.doctor/assets/img/landing/supported-os-icon.png",
+        "url": "https://megabyte.space/assets/img/landing/supported-os-icon.png",
         "2x": {
             "dimensions": {
                 "width": 385,
@@ -45,7 +45,7 @@
             },
             "alt": "Archlinux, CentOS, Debian, Fedora, macOS, Qubes, Ubuntu, and Windows icons",
             "copyright": null,
-            "url": "https://install.doctor/assets/img/landing/supported-os-icon-2x.png"
+            "url": "https://megabyte.space/assets/img/landing/supported-os-icon-2x.png"
         }
     },
     "top__ctas": [
@@ -110,7 +110,7 @@
                 },
                 "alt": "See-through tiles",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/see-thru-tiles.png",
+                "url": "https://megabyte.space/assets/img/landing/see-thru-tiles.png",
                 "2x": {
                     "dimensions": {
                         "width": 2432,
@@ -118,7 +118,7 @@
                     },
                     "alt": "See-through tiles",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/see-thru-tiles-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/see-thru-tiles-2x.png"
                 }
             },
             "book": {
@@ -128,7 +128,7 @@
                 },
                 "alt": "Book cover with title reading \"Provisioning Operating Systems with Megabyte Labs\"",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/ebook-text-box.png",
+                "url": "https://megabyte.space/assets/img/landing/ebook-text-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 728,
@@ -136,7 +136,7 @@
                     },
                     "alt": "Book cover with title reading \"Provisioning Operating Systems with Megabyte Labs\"",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/ebook-text-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/ebook-text-box-2x.png"
                 }
             },
             "text": [
@@ -161,7 +161,7 @@
             "text": "Developer-first, open-source",
             "spans": [
                 {
-                    "start": 14,
+                    "start": 16,
                     "end": 42,
                     "type": "em"
                 }
@@ -172,12 +172,12 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 100,
-                    "height": 132
+                    "width": 64,
+                    "height": 64
                 },
-                "alt": "Triple phone icon",
+                "alt": "Coding icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/triple-phone-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/icon-coding.png"
             },
             "item": [
                 {
@@ -195,12 +195,12 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 124,
-                    "height": 132
+                    "width": 64,
+                    "height": 64
                 },
-                "alt": "Cube with sphere inside icon",
+                "alt": "Open-source icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/cube-sphere-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/icon-open-source.png"
             },
             "item": [
                 {
@@ -218,12 +218,12 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 120,
-                    "height": 128
+                    "width": 64,
+                    "height": 64
                 },
-                "alt": "Tripe stack layered icon",
+                "alt": "Community icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/triple-stack-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/icon-community.png"
             },
             "item": [
                 {
@@ -262,7 +262,7 @@
                 },
                 "alt": "Camera icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/camera-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/camera-icon.png"
             },
             "item": [
                 {
@@ -285,7 +285,7 @@
                 },
                 "alt": "File system icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/file-system-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/file-system-icon.png"
             },
             "item": [
                 {
@@ -308,7 +308,7 @@
                 },
                 "alt": "Antenna icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/pin-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/pin-icon.png"
             },
             "item": [
                 {
@@ -331,7 +331,7 @@
                 },
                 "alt": "Spherical rings icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/sphere-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/sphere-icon.png"
             },
             "item": [
                 {
@@ -354,7 +354,7 @@
                 },
                 "alt": "Bell icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/notifications-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/notifications-icon.png"
             },
             "item": [
                 {
@@ -377,7 +377,7 @@
                 },
                 "alt": "Person with circle around icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/network-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/network-icon.png"
             },
             "item": [
                 {
@@ -400,7 +400,7 @@
                 },
                 "alt": "Three encompassing circles icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/three-circles-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/three-circles-icon.png"
             },
             "item": [
                 {
@@ -423,7 +423,7 @@
                 },
                 "alt": "Slider adjustment icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/configure-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/configure-icon.png"
             },
             "item": [
                 {
@@ -442,10 +442,10 @@
     "framework": [
         {
             "type": "heading2",
-            "text": "Stunning interfaces, innovative products",
+            "text": "Next-generation tech solutions",
             "spans": [
                 {
-                    "start": 13,
+                    "start": 15,
                     "end": 42,
                     "type": "em"
                 }
@@ -453,81 +453,8 @@
         },
         {
             "type": "paragraph",
-            "text": "Megabyte Labs is the brand that houses numerous innovative products and services. Full-fledged Angular references projects, free web services, and innovative provisioning systems with stunning, intuitive experiences are just some of the projects we are responsible for.",
-            "spans": [
-                {
-                    "start": 100,
-                    "end": 135,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/archlinux"
-                    }
-                },
-                {
-                    "start": 137,
-                    "end": 143,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/centos"
-                    }
-                },
-                {
-                    "start": 145,
-                    "end": 151,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/debian"
-                    }
-                },
-                {
-                    "start": 153,
-                    "end": 159,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/fedora"
-                    }
-                },
-                {
-                    "start": 161,
-                    "end": 167,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/macos"
-                    }
-                },
-                {
-                    "start": 168,
-                    "end": 173,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/qubes"
-                    }
-                },
-                {
-                    "start": 175,
-                    "end": 181,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/ubuntu"
-                    }
-                },
-                {
-                    "start": 187,
-                    "end": 194,
-                    "type": "hyperlink",
-                    "data": {
-                        "link_type": "Web",
-                        "url": "https://install.doctor/solution/windows"
-                    }
-                }
-            ]
+            "text": "We take pride in using only the best open-source technologies to provide our clients with reliable, scalable, and innovative solutions.",
+            "spans": []
         }
     ],
     "framework__list": [
@@ -537,20 +464,20 @@
                     "width": 272,
                     "height": 200
                 },
-                "alt": "Archlinux logo tile",
+                "alt": "Ansible logo tile",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/archlinux-box.png",
+                "url": "https://megabyte.space/assets/img/landing/ansible-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 544,
                         "height": 400
                     },
-                    "alt": "Archlinux logo tile",
+                    "alt": "Ansible logo tile",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/archlinux-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/ansible-box-2x.png"
                 }
             },
-            "link": "/solution/archlinux"
+            "link": "/solution/ansible"
         },
         {
             "logo": {
@@ -558,20 +485,20 @@
                     "width": 272,
                     "height": 200
                 },
-                "alt": "CentOS logo tile",
+                "alt": "GitLab CI/CD logo tile",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/centos-box.png",
+                "url": "https://megabyte.space/assets/img/landing/cicd-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 544,
                         "height": 400
                     },
-                    "alt": "CentOS logo tile",
+                    "alt": "GitLab CI/CD logo tile",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/centos-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/cicd-box-2x.png"
                 }
             },
-            "link": "/solution/centos"
+            "link": "/solution/devops"
         },
         {
             "logo": {
@@ -579,62 +506,20 @@
                     "width": 272,
                     "height": 200
                 },
-                "alt": "Debian logo tile",
+                "alt": "Cordova logo tile",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/debian-box.png",
+                "url": "https://megabyte.space/assets/img/landing/cordova-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 544,
                         "height": 400
                     },
-                    "alt": "Debian logo tile",
+                    "alt": "Cordova logo tile",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/debian-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/cordova-box-2x.png"
                 }
             },
-            "link": "/solution/debian"
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 272,
-                    "height": 200
-                },
-                "alt": "Fedora logo tile",
-                "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/fedora-box.png",
-                "2x": {
-                    "dimensions": {
-                        "width": 544,
-                        "height": 400
-                    },
-                    "alt": "Fedora logo tile",
-                    "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/fedora-box-2x.png"
-                }
-            },
-            "link": "/solution/fedora"
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 272,
-                    "height": 200
-                },
-                "alt": "macOS logo tile",
-                "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/macos-box.png",
-                "2x": {
-                    "dimensions": {
-                        "width": 544,
-                        "height": 400
-                    },
-                    "alt": "macOS logo tile",
-                    "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/macos-box-2x.png"
-                }
-            },
-            "link": "/solution/macos"
+            "link": "/solution/hybrid"
         },
         {
             "logo": {
@@ -644,7 +529,7 @@
                 },
                 "alt": "Qubes logo tile",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/qubes-box.png",
+                "url": "https://megabyte.space/assets/img/landing/qubes-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 544,
@@ -652,7 +537,7 @@
                     },
                     "alt": "Qubes logo tile",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/qubes-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/qubes-box-2x.png"
                 }
             },
             "link": "/solution/qubes"
@@ -663,20 +548,20 @@
                     "width": 272,
                     "height": 200
                 },
-                "alt": "Ubuntu logo tile",
+                "alt": "Rust logo tile",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/ubuntu-box.png",
+                "url": "https://megabyte.space/assets/img/landing/rust-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 544,
                         "height": 400
                     },
-                    "alt": "Ubuntu logo tile",
+                    "alt": "Rust logo tile",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/ubuntu-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/rust-box-2x.png"
                 }
             },
-            "link": "/solution/ubuntu"
+            "link": "/solution/rust"
         },
         {
             "logo": {
@@ -684,20 +569,197 @@
                     "width": 272,
                     "height": 200
                 },
-                "alt": "Windows logo tile",
+                "alt": "TypeScript logo tile",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/windows-box.png",
+                "url": "https://megabyte.space/assets/img/landing/typescript-box.png",
                 "2x": {
                     "dimensions": {
                         "width": 544,
                         "height": 400
                     },
-                    "alt": "Windows logo tile",
+                    "alt": "TypeScript logo tile",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/windows-box-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/typescript-box-2x.png"
                 }
             },
-            "link": "/solution/windows"
+            "link": "/solution/typescript"
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 272,
+                    "height": 200
+                },
+                "alt": "WordPress logo tile",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/wordpress-box.png",
+                "2x": {
+                    "dimensions": {
+                        "width": 544,
+                        "height": 400
+                    },
+                    "alt": "WordPress logo tile",
+                    "copyright": null,
+                    "url": "https://megabyte.space/assets/img/landing/wordpress-box-2x.png"
+                }
+            },
+            "link": "/solution/wordpress"
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 272,
+                    "height": 200
+                },
+                "alt": "Kubernetes logo tile",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/kubernetes-box.png",
+                "2x": {
+                    "dimensions": {
+                        "width": 544,
+                        "height": 400
+                    },
+                    "alt": "Kubernetes logo tile",
+                    "copyright": null,
+                    "url": "https://megabyte.space/assets/img/landing/kubernetes-box-2x.png"
+                }
+            },
+            "link": "/solution/kubernetes"
+        }
+    ],
+    "products": [
+        {
+            "type": "heading2",
+            "text": "Gorgeous interfaces, innovative products",
+            "spans": [
+                {
+                    "start": 20,
+                    "end": 42,
+                    "type": "em"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "text": "Full-fledged Angular reference projects, free web services, and innovative provisioning systems with stunning, intuitive experiences are some of the brands and projects we have developed.",
+            "spans": [
+                {
+                    "start": 13,
+                    "end": 39,
+                    "type": "hyperlink",
+                    "data": {
+                        "link_type": "Web",
+                        "url": "https://musicblobs.com",
+                        "target": "_blank"
+                    }
+                },
+                {
+                    "start": 41,
+                    "end": 58,
+                    "type": "hyperlink",
+                    "data": {
+                        "link_type": "Web",
+                        "url": "https://linkbl.ink",
+                        "target": "_blank"
+                    }
+                },
+                {
+                    "start": 75,
+                    "end": 95,
+                    "type": "hyperlink",
+                    "data": {
+                        "link_type": "Web",
+                        "url": "https://install.doctor",
+                        "target": "_blank"
+                    }
+                }
+            ]
+        }
+    ],
+    "products__list": [
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 272,
+                    "height": 200
+                },
+                "alt": "Install Doctor logo tile",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/install-doctor-box.png",
+                "2x": {
+                    "dimensions": {
+                        "width": 544,
+                        "height": 400
+                    },
+                    "alt": "Install Doctor logo tile",
+                    "copyright": null,
+                    "url": "https://megabyte.space/assets/img/landing/install-doctor-box-2x.png"
+                }
+            },
+            "link": "https://install.doctor"
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 272,
+                    "height": 200
+                },
+                "alt": "Music Blobs logo tile",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/musicblobs-box.png",
+                "2x": {
+                    "dimensions": {
+                        "width": 544,
+                        "height": 400
+                    },
+                    "alt": "Music Blobs logo tile",
+                    "copyright": null,
+                    "url": "https://megabyte.space/assets/img/landing/musicblobs-box-2x.png"
+                }
+            },
+            "link": "https://musicblobs.com"
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 272,
+                    "height": 200
+                },
+                "alt": "LinkBlink logo tile",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/linkblink-box.png",
+                "2x": {
+                    "dimensions": {
+                        "width": 544,
+                        "height": 400
+                    },
+                    "alt": "LinkBlink logo tile",
+                    "copyright": null,
+                    "url": "https://megabyte.space/assets/img/landing/linkblink-box-2x.png"
+                }
+            },
+            "link": "https://linkbl.ink"
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 272,
+                    "height": 200
+                },
+                "alt": "The Best Sites logo tile",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/thebestsites-box.png",
+                "2x": {
+                    "dimensions": {
+                        "width": 544,
+                        "height": 400
+                    },
+                    "alt": "The Best Sites logo tile",
+                    "copyright": null,
+                    "url": "https://megabyte.space/assets/img/landing/thebestsites-box-2x.png"
+                }
+            },
+            "link": "https://thebestsites.com"
         }
     ],
     "tweets": [
@@ -726,7 +788,7 @@
                 },
                 "alt": "Brian Zalewski Twitter profile picture",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/twitter-brian-zalewski.png",
+                "url": "https://megabyte.space/assets/img/landing/twitter-brian-zalewski.png",
                 "2x": {
                     "dimensions": {
                         "width": 80,
@@ -734,7 +796,7 @@
                     },
                     "alt": "Brian Zalewski Twitter profile picture",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/twitter-brian-zalewski-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/twitter-brian-zalewski-2x.png"
                 }
             },
             "name": "Brian Zalewski",
@@ -742,11 +804,11 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "The default configuration of @MegabyteLabs is an educational tool that helps me learn about emerging open-source technologies.. Hopefully people find it as useful as I do",
+                    "text": "@MegabyteLabs FTW!",
                     "spans": [
                         {
-                            "start": 29,
-                            "end": 40,
+                            "start": 0,
+                            "end": 13,
                             "type": "hyperlink",
                             "data": {
                                 "link_type": "Web",
@@ -762,7 +824,7 @@
     ],
     "tweets__bottom": [
         {
-            "emoji": "👋",
+            "emoji": "",
             "text": [
                 {
                     "type": "paragraph",
@@ -787,7 +849,7 @@
                 },
                 "alt": "Twitter icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/twitter-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/twitter-icon.png"
             },
             "link": {
                 "link_type": "Web",
@@ -804,14 +866,14 @@
                 },
                 "alt": "Github icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/github-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/github-icon.png"
             },
             "link": {
                 "link_type": "Web",
-                "url": "https://github.com/megabyte-labs/install.doctor",
+                "url": "https://github.com/megabyte-labs",
                 "target": "_blank"
             },
-            "text": "Star us on GitHub"
+            "text": "Join us on GitHub"
         },
         {
             "icon": {
@@ -819,16 +881,16 @@
                     "width": 49,
                     "height": 48
                 },
-                "alt": "Chat bubble icon",
+                "alt": "Slack icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/chat-icon.png"
+                "url": "https://megabyte.space/assets/img/landing/chat-icon.png"
             },
             "link": {
                 "link_type": "Web",
-                "url": "https://forum.megabyte.space/c/install-doctor",
+                "url": "https://megabyte-labs.slack.com",
                 "target": "_blank"
             },
-            "text": "Join the Forum"
+            "text": "Connect on Slack"
         }
     ],
     "cta": [
@@ -840,7 +902,7 @@
                 },
                 "alt": "Raised platforms with app icons",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/landing/cap-enterprise-cta.png",
+                "url": "https://megabyte.space/assets/img/landing/cap-enterprise-cta.png",
                 "2x": {
                     "dimensions": {
                         "width": 2432,
@@ -848,7 +910,7 @@
                     },
                     "alt": "Raised platforms with app icons",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/landing/cap-enterprise-cta-2x.png"
+                    "url": "https://megabyte.space/assets/img/landing/cap-enterprise-cta-2x.png"
                 }
             },
             "title": [
@@ -867,7 +929,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "Ready for enterprise. With Megabyte Labs Enterprise, give your enterprise by the advantage by providing it with subject matter expert level support.",
+                    "text": "Ready for enterprise. Augment your enterprise with subject matter experts.",
                     "spans": [
                         {
                             "start": 0,
@@ -1087,7 +1149,7 @@
     ],
     "get_started__ctas": [
         {
-            "primary": "View Products",
+            "primary": "Browse Code",
             "secondary": "Explore Documentation"
         }
     ],
@@ -1124,7 +1186,7 @@
         "mobile_text": "Megabyte Labs, a Multi-OS Provision System",
         "link": {
             "link_type": "Web",
-            "url": "/blog/install-doctor"
+            "url": "/blog/megabyte-labs"
         }
     }
 }

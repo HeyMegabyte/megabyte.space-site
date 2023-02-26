@@ -31,6 +31,7 @@ body {
 html,
 body {
   scroll-padding-top: 80px;
+  background-color: black;
 }
 
 img {
@@ -74,6 +75,11 @@ li a {
     opacity: 0.7;
   }
 }
+
+capacitor-site {
+  background-color: white;
+}
+
 enterprise-page {
   #top .background.sc-enterprise-page {
     width: 100%;
@@ -97,35 +103,35 @@ landing-page {
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(1) {
-    background: #cfecfa;
+    background: #cccccc;
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(2) {
-    background: #f5caeb;
+    background: #f6dcd7;
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(3) {
-    background: #fdcbdd;
+    background: #d0d7df;
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(4) {
-    background: #b7d2fa
+    background: #d8e4f6
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(5) {
-    background: #cfcfcf;
+    background: #f8dedc;
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(6) {
-    background: #e1edff;
+    background: #d9e4f8;
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(7) {
-    background: #fbdbd0;
+    background: #d0e5f0;
   }
 
   .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(8) {
-    background: #cceeff;
+    background: #d8e2f8;
   }
 
   #features.sc-landing-page .heading-group.sc-landing-page .ui-heading.sc-landing-page {
@@ -139,6 +145,66 @@ landing-page {
   #cta.sc-landing-page .ui-heading-2.sc-landing-page {
     max-width: 44rem;
   }
+
+  #products .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(1) {
+    background: #cccccc;
+  }
+
+  #products .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(2) {
+    background: #c6d2e5;
+  }
+
+  #products .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(3) {
+    background: #fad6d9;
+  }
+
+  #products .ui-col.ui-col-6.ui-col-sm-3.sc-landing-page:nth-child(4) {
+    background: #cccccc
+  }
 }
 
-.cls-1{fill:#fff;}.cls-2{fill:#14ade8 !important;}.cls-3{fill:#0450ec;}
+.cls-1{fill:#fff !important;}
+.cls-2{fill:#14ade8 !important;}
+.cls-3{fill:#0450ec !important;}
+
+
+h2#h-developer-first-open-source {
+  max-width: 350px;
+}
+
+#products.sc-landing-page h2#h-gorgeous-interfaces-innovative-products {
+  max-width: 500px;
+}
+capacitor-site-footer {
+  .logo {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  capacitor-site-footer {
+    .ui-grid {
+      .logo {
+        margin: 0 auto;
+        margin-bottom: 14px;
+      }
+
+      .ui-col-12 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+#websites img.sc-community-page {
+  height: 48px;
+  width: 48px;
+}
+
+#h-cross-platform-web-applications {
+  max-width: 400px;
+}
+
+* {
+  scroll-behavior: smooth;
+}

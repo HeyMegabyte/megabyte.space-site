@@ -1,12 +1,12 @@
-import { Component, Host, h, Prop } from '@stencil/core';
+import { Component, Host, h, Prop } from '@stencil/core'
 
 import {
   Heading,
   Paragraph,
   ResponsiveContainer,
-} from '@ionic-internal/ionic-ds';
-import { BlogData } from 'src/data.server/blog';
-import Helmet from '@stencil/helmet';
+} from '@ionic-internal/ionic-ds'
+import { BlogData } from 'src/data.server/blog'
+import Helmet from '@stencil/helmet'
 
 @Component({
   tag: 'blog-page',
@@ -14,7 +14,7 @@ import Helmet from '@stencil/helmet';
   scoped: true,
 })
 export class BlogPage {
-  @Prop() data: BlogData[];
+  @Prop() data: BlogData[]
 
   Helmet = () => (
     <Helmet>
@@ -23,17 +23,17 @@ export class BlogPage {
       <meta name="twitter:description" content={`Megabyte Labs Blog`} />
       <meta
         name="twitter:image"
-        content="https://install.doctor/assets/img/og.png"
+        content="https://megabyte.space/assets/img/og.png"
       />
       <meta
         property="og:image"
-        content="https://install.doctor/assets/img/og.png"
+        content="https://megabyte.space/assets/img/og.png"
       />
     </Helmet>
   );
 
   render() {
-    if (!this.data) console.error('No blog posts received');
+    if (!this.data) console.error('No blog posts received')
 
     return (
       <Host>
@@ -55,10 +55,10 @@ export class BlogPage {
               </article>
             ))}
             {/* <blog-pagination rssIcon /> */}
-            <blog-newsletter />
           </div>
         </ResponsiveContainer>
+        <capacitor-site-footer />
       </Host>
-    );
+    )
   }
 }

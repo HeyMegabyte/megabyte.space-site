@@ -14,9 +14,17 @@ export const config: Config = {
     {
       type: 'www',
       prerenderConfig: './prerender.config.ts',
-      baseUrl: 'https://install.doctor/',
-      serviceWorker: null,
+      baseUrl: 'https://megabyte.space/',
+      serviceWorker: {
+        globPatterns: [
+          '**/*.{js,css,json,html,ico,png}'
+        ]
+      },
       copy: [
+        {
+          src: '../docs/build',
+          dest: 'docs'
+        },
         {
           src: '../node_modules/@ionic-internal/ionic-ds/www/assets/fonts',
           dest: 'assets/fonts'
@@ -56,6 +64,10 @@ export const config: Config = {
         {
           src: './safari-pinned-tab.svg',
           dest: 'safari-pinned-tab.svg'
+        },
+        {
+          src: './sitemap_index.xml',
+          dest: 'sitemap_index.xml'
         }
       ],
     },

@@ -21,6 +21,12 @@
   margin-inline-end: auto;
 }
 
+.content > .sc-blog-page:last-child {
+  .post {
+    border-bottom: 0;
+  }
+}
+
 blog-post + blog-post {
   margin-block-start: 82px;
 }

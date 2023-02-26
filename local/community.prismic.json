@@ -20,7 +20,7 @@
                 },
                 "alt": "Card with Discord icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/discord-graphic.png",
+                "url": "https://megabyte.space/assets/img/community/discord-graphic.png",
                 "2x": {
                     "dimensions": {
                         "width": 680,
@@ -28,7 +28,7 @@
                     },
                     "alt": "Card with Discord icon",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/community/discord-graphic-2x.png"
+                    "url": "https://megabyte.space/assets/img/community/discord-graphic-2x.png"
                 }
             },
             "text": [
@@ -45,7 +45,7 @@
             ],
             "link": {
                 "link_type": "Web",
-                "url": "https://discord.com/channels/1077138419953713222/1077138479928049734",
+                "url": "https://discord.com/channels/1077138419953713222/1078553488642027550",
                 "target": "_blank"
             }
         },
@@ -57,7 +57,7 @@
                 },
                 "alt": "GitHub discussions forum on card",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/support-community.png",
+                "url": "https://megabyte.space/assets/img/community/support-community.png",
                 "2x": {
                     "dimensions": {
                         "width": 680,
@@ -65,7 +65,7 @@
                     },
                     "alt": "GitHub discussions forum on card",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/community/support-community-2x.png"
+                    "url": "https://megabyte.space/assets/img/community/support-community-2x.png"
                 }
             },
             "text": [
@@ -82,7 +82,7 @@
             ],
             "link": {
                 "link_type": "Web",
-                "url": "https://github.com/megabyte-labs/install.doctor/discussions",
+                "url": "https://github.com/orgs/megabyte-labs/discussions",
                 "target": "_blank"
             }
         },
@@ -94,7 +94,7 @@
                 },
                 "alt": "Message icons with world map behind",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/community-graphic.png",
+                "url": "https://megabyte.space/assets/img/community/community-graphic.png",
                 "2x": {
                     "dimensions": {
                         "width": 680,
@@ -102,24 +102,24 @@
                     },
                     "alt": "Message icons with world map behind",
                     "copyright": null,
-                    "url": "https://install.doctor/assets/img/community/community-graphic-2x.png"
+                    "url": "https://megabyte.space/assets/img/community/community-graphic-2x.png"
                 }
             },
             "text": [
                 {
                     "type": "heading4",
-                    "text": "Megabyte Labs Forum",
+                    "text": "Megabyte Labs Matrix",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Join the Megabyte Labs community forum. Ask questions to the community or find answers to commonly asked questions.",
+                    "text": "Join the Megabyte Labs matrix chat room (i.e. gitter.im). Ask questions to the community or help other users with their questions.",
                     "spans": []
                 }
             ],
             "link": {
                 "link_type": "Web",
-                "url": "https://forum.megabyte.space/c/install-doctor",
+                "url": "https://matrix.to/#/#megabyte-labs_community:gitter.im",
                 "target": "_blank"
             }
         }
@@ -128,12 +128,12 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 84,
-                    "height": 69
+                    "width": 64,
+                    "height": 64
                 },
                 "alt": "Twitter icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/twitter-icon.png"
+                "url": "https://megabyte.space/assets/img/community/twitter-icon.png"
             },
             "text": [
                 {
@@ -169,12 +169,12 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 80,
-                    "height": 69
+                    "width": 64,
+                    "height": 64
                 },
                 "alt": "Reddit icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/reddit-icon.png"
+                "url": "https://megabyte.space/assets/img/community/reddit-icon.png"
             },
             "text": [
                 {
@@ -210,22 +210,22 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 68,
-                    "height": 80
+                    "width": 64,
+                    "height": 64
                 },
-                "alt": "Stack Overflow icon",
+                "alt": "Slack icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/stack-overflow-icon.png"
+                "url": "https://megabyte.space/assets/img/community/slack-icon.png"
             },
             "text": [
                 {
                     "type": "heading4",
-                    "text": "StackOverflow",
+                    "text": "Slack",
                     "spans": []
                 },
                 {
                     "type": "paragraph",
-                    "text": "Ask questions about Megabyte Labs, or find answers to questions posted by other users.",
+                    "text": "Connect with us on Slack to join the discussion, get help, or just hang out.",
                     "spans": []
                 }
             ],
@@ -240,7 +240,7 @@
                             "type": "hyperlink",
                             "data": {
                                 "link_type": "Web",
-                                "url": "https://stackoverflow.com/tags/MegabyteLabs",
+                                "url": "https://megabyte-labs.slack.com",
                                 "target": "_blank"
                             }
                         }
@@ -251,12 +251,12 @@
         {
             "icon": {
                 "dimensions": {
-                    "width": 84,
-                    "height": 84
+                    "width": 64,
+                    "height": 64
                 },
                 "alt": "GitHub icon",
                 "copyright": null,
-                "url": "https://install.doctor/assets/img/community/github-icon.png"
+                "url": "https://megabyte.space/assets/img/community/github-icon.png"
             },
             "text": [
                 {

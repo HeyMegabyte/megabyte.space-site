@@ -10,8 +10,8 @@ const { state } = createStore<State>({
 
 export const defaults = {
   title: 'Megabyte Labs',
-  description: 'Setup your workstation automatically with the best, free open-source software',
-  meta_image: 'https://install.doctor/assets/img/og.png',
+  description: 'Explore the Megabyte Labs eco-system for free, enterprise-grade, open-source projects and solutions',
+  meta_image: 'https://megabyte.space/assets/img/og.png',
 };
 
 export default state;

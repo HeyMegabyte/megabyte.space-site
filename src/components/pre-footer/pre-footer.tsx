@@ -1,9 +1,9 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, Host, h } from '@stencil/core'
 import {
   ResponsiveContainer,
   Heading,
   Paragraph,
-} from '@ionic-internal/ionic-ds';
+} from '@ionic-internal/ionic-ds'
 
 @Component({
   tag: 'pre-footer',
@@ -16,7 +16,7 @@ export class PreFooter {
       <Host>
         <div class="squares"></div>
         <ResponsiveContainer>
-          <a href="/docs/getting-started">
+          <a href="/docs">
             <svg
               width="56"
               height="50"
@@ -32,13 +32,13 @@ export class PreFooter {
               />
             </svg>
             <Heading level={4}>
-              Installation Guide <span class="arrow">-&gt;</span>
+              Documentation <span class="arrow">-&gt;</span>
             </Heading>
             <Paragraph>
-              Provision your operating system, learn how to customize it, and unlock integrations with free cloud services.
+              Browse through the documentation that lays out the design-patterns and philosophy used by our open-source projects.
             </Paragraph>
           </a>
-          <a href="/docs">
+          <a href="https://gitlab.com/megabyte-labs" target="_blank">
             <svg
               width="48"
               height="50"
@@ -61,14 +61,14 @@ export class PreFooter {
               />
             </svg>
             <Heading level={4}>
-              Explore Features <span class="arrow">-&gt;</span>
+              Explore Code <span class="arrow">-&gt;</span>
             </Heading>
             <Paragraph>
-              Explore the features and apps that are included with Megabyte Labs.
+              Browse through the code that powers our brands, products, and apps.
             </Paragraph>
           </a>
         </ResponsiveContainer>
       </Host>
-    );
+    )
   }
 }

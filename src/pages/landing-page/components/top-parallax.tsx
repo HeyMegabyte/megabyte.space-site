@@ -1,10 +1,10 @@
-import { Component, h } from '@stencil/core';
-import { ResponsiveContainer, Button } from '@ionic-internal/ionic-ds';
+import { Component, State, h } from '@stencil/core'
+import { ResponsiveContainer, Button } from '@ionic-internal/ionic-ds'
 
-import Parallax from 'parallax-js';
-
-import { Background } from '../assets/bg-3-only.svg';
+// import { Background } from '../assets/bg-3-only.svg';
 // import { Background } from '../assets/bg-boxes.svg';
+
+import { importResource } from '../../../utils/common'
 
 @Component({
   tag: 'top-parallax',
@@ -12,50 +12,46 @@ import { Background } from '../assets/bg-3-only.svg';
   scoped: true,
 })
 export class LandingPage {
-  $shapes!: HTMLDivElement;
+  $shapes!: HTMLDivElement
   libID = 'parallax-lib';
-  parallaxInstance: Parallax;
+
+  @State() showEmailInput: boolean = false;
+  @State() showCommunity: boolean = false;
 
   disconnectedCallback() {
-    this.parallaxInstance.distroy();
+    // this.parallaxInstance.distroy()
   }
 
+
+
   componentDidLoad() {
-    this.parallaxInstance = new Parallax(this.$shapes, {
-      invertX: false,
-      invertY: false,
-      scalarX: 3,
-      scalarY: 3,
-    });
+    importResource({ propertyName: 'particles', link: '/assets/js/particles.js' }, () => { })
+  }
+
+  showEmail(e) {
+    if (!this.showCommunity) {
+      e.preventDefault()
+      this.showEmailInput = true
+      setTimeout(() => {
+        this.showCommunity = true
+      }, 1000)
+    }
   }
 
   render() {
     return (
       <section id="top">
+        <div id="homing-particles" class="section-overlay"></div>
         <ResponsiveContainer>
-          <div id="shapes" ref={el => (this.$shapes = el as HTMLDivElement)}>
-            <div id="circle-1" data-depth="0.8" />
-            <div id="circle-2" data-depth="0.3" />
-            <div id="circle-3" data-depth="0.6" />
-            <div id="square-1" data-depth="0.7" />
-            <div id="square-2" data-depth="0.7" />
-            <div id="square-3" data-depth="0.6" />
-            <div id="square-4" data-depth="0.3" />
-            <div id="square-5" data-depth="0.1" />
-            <div id="square-6" data-depth="0.2" />
-            <div id="square-7" data-depth="0.3" />
-            <div id="square-8" data-depth="0.5" />
-            <Background id="bg" data-depth="0.3" />
-          </div>
           <h1>
-            <span class="reveal">Open.</span>
-            <span class="reveal">Source.</span>
-            <span class="reveal">Wizardry.</span>
+            <span class="reveal">Open</span>
+            <span class="reveal">Source</span>
+            <span class="reveal">Wizardry</span>
           </h1>
           <p class="reveal">
-          Join us in our quest to build the ultimate device deployment tools, scripts, and software
-or follow us to reap the benefits of expert-configured, open-source software
-built with paranoid-level security practices.
+            Join us in our quest to build the ultimate device deployment tools, scripts, and software
+            or follow us to reap the benefits of expert-configured, open-source software
+            built with paranoid-level security practices.
           </p>
           <div class="btns">
             <Button
@@ -63,23 +59,28 @@ built with paranoid-level security practices.
               kind="round"
               color="indigo"
               variation="light"
-              href="/docs/getting-started"
+              href={this.showCommunity ? '/community' : ''}
+              onClick={(e) => this.showEmail(e)}
               anchor={true}
             >
-              Get Beta Access  <span>{'->'}</span>
+              {this.showCommunity ? 'Join Community' : 'Get Beta Access'}  <span>{'->'}</span>
             </Button>
             <Button
               class="reveal"
               kind="round"
               color="indigo"
-              href="/products"
+              href="https://gitlab.com/megabyte-labs"
+              target="_blank"
               anchor={true}
             >
-              View Products <span>{'->'}</span>
+              Browse Code <span>{'->'}</span>
             </Button>
+            <newsletter-signup-parallax class={{
+              open: this.showEmailInput
+            }} />
           </div>
         </ResponsiveContainer>
       </section>
-    );
+    )
   }
 }

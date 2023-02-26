@@ -1,31 +1,31 @@
-import { Build, Component, Element, Host, Prop, h } from '@stencil/core';
-import Helmet from '@stencil/helmet';
+import { Build, Component, Element, Host, Prop, h } from '@stencil/core'
+import Helmet from '@stencil/helmet'
 
 @Component({
   tag: 'meta-tags',
 })
 export class MetaTags {
-  site = 'https://install.doctor';
+  site = 'https://megabyte.space';
   @Prop() pageTitle =
-    'Megabyte Labs - Cross-OS provisioning technology';
+    'Megabyte Labs: Enterprise-grade open-source solutions';
   @Prop() description =
-    'Provision productivity-enhancing environments with a single-line of code';
-  @Prop() image = 'https://capacitorjs.com/assets/img/og.png';
+    'Find free, enterprise-grade, open-source projects and solutions';
+  @Prop() image = 'https://megabyte.space/assets/img/og.png';
   @Prop() authorTwitter = '@MegabyteLabs';
   @Prop() ogType = 'website';
   @Prop() canonicalUrl = `${this.site}${location.pathname}`;
 
-  @Element() el;
+  @Element() el
 
   render() {
     const prettyTitle =
       this.pageTitle ===
-      'Megabyte Labs - Cross-OS provisioning technology'
+        'Megabyte Labs: Enterprise-grade open-source solutions'
         ? this.pageTitle
-        : `${this.pageTitle} - Capacitor`;
+        : `${this.pageTitle} | Megabyte Labs`
 
     if (!this.el.isConnected || Build.isServer) {
-      return <Host></Host>;
+      return <Host></Host>
     }
 
     return (
@@ -44,6 +44,6 @@ export class MetaTags {
         <meta name="twitter:creator" content={this.authorTwitter} />
         <link rel="canonical" href={this.canonicalUrl} />
       </Helmet>
-    );
+    )
   }
 }

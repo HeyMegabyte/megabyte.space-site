@@ -1,11 +1,11 @@
-import { Component, Host, h, Prop } from '@stencil/core';
+import { Component, Host, h, Prop } from '@stencil/core'
 import {
   ResponsiveContainer,
   PrismicRichText,
   PrismicResponsiveImage,
   Grid,
   Col,
-} from '@ionic-internal/ionic-ds';
+} from '@ionic-internal/ionic-ds'
 
 @Component({
   tag: 'community-page',
@@ -13,32 +13,28 @@ import {
   scoped: true,
 })
 export class CommunityPage {
-  @Prop() data: any;
+  @Prop() data: any
 
   render() {
-    const { Top, Websites } = this;
+    const { Top, Websites } = this
 
     return (
       <Host>
         <meta-tags
-          page-title="Community"
+          page-title="Community | Megabyte Labs"
           description={
             'Get connected and get help from the Megabyte Labs community'
           }
         />
         <Top />
         <Websites />
-        <ResponsiveContainer id="newsletter" as="section">
-          <newsletter-signup />
-        </ResponsiveContainer>
-        <pre-footer />
         <capacitor-site-footer />
       </Host>
-    );
+    )
   }
 
   Top = () => {
-    const { top, top__list } = this.data;
+    const { top, top__list } = this.data
 
     return (
       <ResponsiveContainer id="top" as="section">
@@ -56,19 +52,19 @@ export class CommunityPage {
           ))}
         </div>
       </ResponsiveContainer>
-    );
+    )
   };
 
   Websites = () => {
-    const { websites__list } = this.data;
+    const { websites__list } = this.data
 
-    const dimensions = ['40x32', '40x34', '34x40', '40x40'];
+    const dimensions = ['48x48', '48x48', '48x48', '48x48']
 
     return (
       <ResponsiveContainer id="websites" as="section">
         <Grid>
           {websites__list.map(({ icon, text, link }, i) => {
-            const [width, height] = dimensions[i].split('x');
+            const [width, height] = dimensions[i].split('x')
 
             return (
               <Col cols={12} xs={6} md={3}>
@@ -82,10 +78,10 @@ export class CommunityPage {
                 <PrismicRichText richText={text} />
                 <PrismicRichText class="link" richText={link} />
               </Col>
-            );
+            )
           })}
         </Grid>
       </ResponsiveContainer>
-    );
+    )
   };
 }

@@ -1,19 +1,19 @@
-import { Fragment, h } from '@stencil/core';
+import { Fragment, h } from '@stencil/core'
 import {
   Route,
   createStaticRouter,
   staticState,
   match,
   matchAny,
-} from '@stencil/router';
-import { getPage } from './data.server/prismic';
-import { getDocsDataV3 } from './data.server/docs-v3';
-import { getBlogData, getAllBlogData } from './data.server/blog';
-import { getDocsDataV2 } from './data.server/docs-v2';
+} from '@stencil/router'
+import { getPage } from './data.server/prismic'
+import { getDocsDataV3 } from './data.server/docs-v3'
+import { getBlogData, getAllBlogData } from './data.server/blog'
+import { getDocsDataV2 } from './data.server/docs-v2'
 
-export const Router = createStaticRouter();
+export const Router = createStaticRouter()
 
-export default Router;
+export default Router
 
 export const Routes = () => (
   <Router.Switch>
@@ -62,12 +62,23 @@ export const Routes = () => (
     />
 
     <Route
-      path="/telemetry"
+      path="/terms"
       mapParams={staticState(getPage)}
       render={(_, data) => (
         <Fragment>
           <site-header class="heading-container" sticky={true} />
-          <telemetry-page />
+          <terms-service-page />
+        </Fragment>
+      )}
+    />
+
+    <Route
+      path="/privacy"
+      mapParams={staticState(getPage)}
+      render={(_, data) => (
+        <Fragment>
+          <site-header class="heading-container" sticky={true} />
+          <privacy-policy-page />
         </Fragment>
       )}
     />
@@ -123,8 +134,19 @@ export const Routes = () => (
         </Fragment>
       )}
     />
+
+    <Route
+      path={match('/product/:solutionId*')}
+      mapParams={staticState(getPage)}
+      render={(params, data) => (
+        <Fragment>
+          <site-header class="heading-container" />
+          <product-page solutionId={params.solutionId} />
+        </Fragment>
+      )}
+    />
   </Router.Switch>
-);
+)
 
 Router.on('change', (_newUrl, _oldUrl) => {
   // if (!oldUrl || oldUrl.pathname !== newUrl.pathname) {
@@ -143,17 +165,17 @@ Router.on('change', (_newUrl, _oldUrl) => {
   //     }
   //   }, 50);
   // }
-});
+})
 
-const docsPath = '/docs';
-const versionedDocsPath = '/docs/v2';
+const docsPath = '/docs'
+const versionedDocsPath = '/docs/v2'
 
 export const docsVersionHref = (path: string) => {
   if (
     Router.path.startsWith(versionedDocsPath) &&
     !path.startsWith(versionedDocsPath)
   ) {
-    return path.replace(docsPath, versionedDocsPath);
+    return path.replace(docsPath, versionedDocsPath)
   }
-  return path;
-};
+  return path
+}

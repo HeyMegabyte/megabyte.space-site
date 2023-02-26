@@ -1,19 +1,19 @@
-import { Component, Prop, h, Host, Element, State } from '@stencil/core';
+import { Component, Prop, h, Host, Element, State } from '@stencil/core'
 import {
   Heading,
   Paragraph,
   DateTime,
   ResponsiveContainer,
-} from '@ionic-internal/ionic-ds';
-import { Components as DS } from '@ionic-internal/ionic-ds/dist/types/components';
+} from '@ionic-internal/ionic-ds'
+import { Components as DS } from '@ionic-internal/ionic-ds/dist/types/components'
 
-import { href } from '@utils/common';
+import { href } from '@utils/common'
 
-import parseISO from 'date-fns/parseISO';
+import parseISO from 'date-fns/parseISO'
 
-import { BlogData } from 'src/data.server/blog';
-import Helmet from '@stencil/helmet';
-import ResponsiveImage from 'src/components/ResponsiveImage/ResponsiveImage';
+import { BlogData } from 'src/data.server/blog'
+import Helmet from '@stencil/helmet'
+import ResponsiveImage from 'src/components/ResponsiveImage/ResponsiveImage'
 
 @Component({
   tag: 'blog-post',
@@ -22,15 +22,15 @@ import ResponsiveImage from 'src/components/ResponsiveImage/ResponsiveImage';
 })
 export class BlogPost {
   @Prop() preview?: boolean = false;
-  @Prop() data: BlogData;
+  @Prop() data: BlogData
 
-  @State() ogAssetPath!: string;
+  @State() ogAssetPath!: string
   @State() moreResources: DS.MoreResources = {
     resources: [],
     routing: [],
   };
 
-  @Element() el!: HTMLElement;
+  @Element() el!: HTMLElement
 
   componentWillLoad() {
     // const { slug, getRelatedResources, preview } = this;
@@ -111,9 +111,9 @@ export class BlogPost {
   // }
 
   render() {
-    if (!this.data) return;
+    if (!this.data) return
 
-    const { PostDetail, PostPreview, preview } = this;
+    const { PostDetail, PostPreview, preview } = this
 
     return (
       <Host
@@ -125,22 +125,22 @@ export class BlogPost {
       >
         {preview ? <PostPreview /> : <PostDetail />}
       </Host>
-    );
+    )
   }
 
   PostHelmet = () => {
     const path = this.data!.featuredImage
       ? `${window.location.origin}/assets/img/blog${this.data!.featuredImage}`
-      : `https://capacitorjs.com/assets/img/og.png`;
+      : `https://megabyte.space/assets/img/og.png`
 
     return (
       <Helmet>
-        <title>Capacitor Blog - {this.data!.title}</title>
+        <title>Megabyte Labs Blog: {this.data!.title}</title>
         <meta property="twitter:title" content={this.data.title} />
         <meta name="description" content={this.data!.description} />
         <meta
           name="twitter:description"
-          content={`${this.data!.description} - Capacitor Blog`}
+          content={`${this.data!.description} | Megabyte Labs Blog`}
         />
         <meta name="twitter:image" content={path} />
         <meta
@@ -150,12 +150,12 @@ export class BlogPost {
         <meta property="og:title" content={this.data.title} />
         <meta
           property="og:description"
-          content={`${this.data.description} - Capacitor Blog`}
+          content={`${this.data.description} | Megabyte Labs Blog`}
         />
         <meta property="og:image" content={path} />
         {/* <meta property="og:url" content={router.url.href} /> */}
       </Helmet>
-    );
+    )
   };
 
   PostDetail = () => {
@@ -166,7 +166,7 @@ export class BlogPost {
       MoreResources,
       PostHelmet,
       data,
-    } = this;
+    } = this
 
     return [
       <PostHelmet />,
@@ -198,11 +198,12 @@ export class BlogPost {
           {/* <disqus-comments url={`https://useappflow.com/blog/${post.slug}`} siteId="ionic"/> */}
         </article>
       </ResponsiveContainer>,
-    ];
+      <capacitor-site-footer />
+    ]
   };
 
   PostPreview = () => {
-    const { PostAuthor, PostFeaturedImage } = this;
+    const { PostAuthor, PostFeaturedImage } = this
 
     return (
       <article class="post">
@@ -210,7 +211,7 @@ export class BlogPost {
           class="ui-theme--editorial"
           level={1}
           onClick={() => {
-            window.scrollTo(0, 0);
+            window.scrollTo(0, 0)
           }}
         >
           <a {...href(`/blog/${this.data.slug}`)}>{this.data!.title}</a>
@@ -229,12 +230,12 @@ export class BlogPost {
           </span>
         </a>
       </article>
-    );
+    )
   };
 
   PostAuthor = () => {
-    const { date, authorName, authorUrl } = this.data!;
-    const dateString = parseISO(date);
+    const { date, authorName, authorUrl } = this.data!
+    const dateString = parseISO(date)
     // const imageParts = authorImageName?.split('.');
     // if (!imageParts || !imageParts[0] || !imageParts[1])
     //   return console.error(
@@ -263,12 +264,12 @@ export class BlogPost {
               {authorName}
             </a>
           ) : (
-            authorName
-          )}{' '}
+              authorName
+            )}{' '}
           on <DateTime date={dateString} />
         </Paragraph>
       </div>
-    );
+    )
   };
 
   PostAuthorLarge = () => {
@@ -277,8 +278,8 @@ export class BlogPost {
       authorName,
       authorUrl,
       authorDescription,
-    } = this.data!;
-    if (!authorImageName) return null;
+    } = this.data!
+    if (!authorImageName) return null
 
     return (
       <a href={authorUrl} target="_blank" class="author-info">
@@ -295,7 +296,7 @@ export class BlogPost {
           ) : null}
         </div>
       </a>
-    );
+    )
   };
 
   MoreResources = () => {
@@ -303,38 +304,38 @@ export class BlogPost {
       !this.moreResources.resources ||
       this.moreResources.resources.length <= 0
     )
-      return;
+      return
 
     return [
       <Heading level={4} class="more-resources__title | ui-theme--editorial">
         You might also like...
       </Heading>,
       <more-resources {...this.moreResources} />,
-    ];
+    ]
   };
 
   PostFeaturedImage = ({
     post,
     preview,
   }: {
-    post: BlogData;
-    preview: boolean;
+    post: BlogData
+    preview: boolean
   }) => {
-    if (!post.featuredImage) return null;
+    if (!post.featuredImage) return null
 
-    const imageParts = post.featuredImage?.split('.');
+    const imageParts = post.featuredImage?.split('.')
     if (!imageParts || !imageParts[0] || !imageParts[1]) {
-      console.log(post);
+      console.log(post)
       return console.error(
         'Markdown Blog featured image name not formatted correctly.  It should look like: what-is-mobile-ci-cd.png',
-      );
+      )
     }
 
     const data = {
       name: imageParts[0],
       type: imageParts[1],
       alt: post.featuredImageAlt,
-    };
+    }
 
     return (
       <div class="featured-image-wrapper">
@@ -344,7 +345,7 @@ export class BlogPost {
               {...data}
               fallback
               onClick={() => {
-                window.scrollTo(0, 0);
+                window.scrollTo(0, 0)
               }}
               class="featured-image"
               dimensions="1600x840"
@@ -352,15 +353,15 @@ export class BlogPost {
             />
           </a>
         ) : (
-          <ResponsiveImage
-            {...data}
-            fallback
-            class="featured-image"
-            dimensions="1600x840"
-            path={'/assets/img/blog'}
-          />
-        )}
+            <ResponsiveImage
+              {...data}
+              fallback
+              class="featured-image"
+              dimensions="1600x840"
+              path={'/assets/img/blog'}
+            />
+          )}
       </div>
-    );
+    )
   };
 }
