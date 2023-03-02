@@ -164,6 +164,15 @@ export namespace Components {
     }
     interface VersionSelect {
     }
+    interface WebpImage {
+        "alt": string;
+        "class": string;
+        "height": string;
+        "loading": "lazy" | "auto" | "eager";
+        "src": any;
+        "srcset": string;
+        "width": string;
+    }
 }
 declare global {
     interface HTMLAnchorLinkElement extends Components.AnchorLink, HTMLStencilElement {
@@ -424,6 +433,12 @@ declare global {
         prototype: HTMLVersionSelectElement;
         new (): HTMLVersionSelectElement;
     };
+    interface HTMLWebpImageElement extends Components.WebpImage, HTMLStencilElement {
+    }
+    var HTMLWebpImageElement: {
+        prototype: HTMLWebpImageElement;
+        new (): HTMLWebpImageElement;
+    };
     interface HTMLElementTagNameMap {
         "anchor-link": HTMLAnchorLinkElement;
         "app-menu-toggle": HTMLAppMenuToggleElement;
@@ -468,6 +483,7 @@ declare global {
         "terms-service-page": HTMLTermsServicePageElement;
         "top-parallax": HTMLTopParallaxElement;
         "version-select": HTMLVersionSelectElement;
+        "webp-image": HTMLWebpImageElement;
     }
 }
 declare namespace LocalJSX {
@@ -622,6 +638,15 @@ declare namespace LocalJSX {
     }
     interface VersionSelect {
     }
+    interface WebpImage {
+        "alt"?: string;
+        "class"?: string;
+        "height"?: string;
+        "loading"?: "lazy" | "auto" | "eager";
+        "src"?: any;
+        "srcset"?: string;
+        "width"?: string;
+    }
     interface IntrinsicElements {
         "anchor-link": AnchorLink;
         "app-menu-toggle": AppMenuToggle;
@@ -666,6 +691,7 @@ declare namespace LocalJSX {
         "terms-service-page": TermsServicePage;
         "top-parallax": TopParallax;
         "version-select": VersionSelect;
+        "webp-image": WebpImage;
     }
 }
 export { LocalJSX as JSX };
@@ -715,6 +741,7 @@ declare module "@stencil/core" {
             "terms-service-page": LocalJSX.TermsServicePage & JSXBase.HTMLAttributes<HTMLTermsServicePageElement>;
             "top-parallax": LocalJSX.TopParallax & JSXBase.HTMLAttributes<HTMLTopParallaxElement>;
             "version-select": LocalJSX.VersionSelect & JSXBase.HTMLAttributes<HTMLVersionSelectElement>;
+            "webp-image": LocalJSX.WebpImage & JSXBase.HTMLAttributes<HTMLWebpImageElement>;
         }
     }
 }

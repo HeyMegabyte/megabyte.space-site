@@ -9,7 +9,7 @@ export class MetaTags {
   @Prop() pageTitle =
     'Megabyte Labs: Enterprise-grade open-source solutions';
   @Prop() description =
-    'Find free, enterprise-grade, open-source projects and solutions';
+    'Megabyte Labs is an open-source agency that provides enterprise-grade open-source solutions, from web development to cloud computing and more. Contact us today to learn more!';
   @Prop() image = 'https://megabyte.space/assets/img/og.png';
   @Prop() authorTwitter = '@MegabyteLabs';
   @Prop() ogType = 'website';
@@ -32,6 +32,8 @@ export class MetaTags {
       <Helmet>
         <title>{prettyTitle}</title>
         <meta name="description" content={this.description} />
+        <meta itemprop="image" content={this.image}></meta>
+        <meta property="al:web:url" content={this.canonicalUrl}></meta>
         <meta property="og:type" content={this.ogType} />
         <meta property="og:title" content={prettyTitle} />
         <meta property="og:description" content={this.description} />

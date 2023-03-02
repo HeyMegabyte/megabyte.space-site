@@ -1,10 +1,10 @@
 ---
-title: Improve Container Security and Decrease their Size with DockerSlim
+title: Improving Container Security and Size
 slug: what-is-dockerslim
 date: 2023-02-19 14:00:00
 author: Brian Zalewski <brian@megabyte.space>
 authorUrl: https://twitter.com/HillBillyHack3r
-description: A summary of what DockerSlim is and why you should use it
+description: A summary of what DockerSlim is and why you should use it to improve Docker container security and file size.
 featuredImage: /dockerslim.png
 featuredImageAlt: DockerSlim graphic
 ---

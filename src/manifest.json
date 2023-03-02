@@ -1,6 +1,8 @@
 {
     "name": "Megabyte Labs",
     "short_name": "Megabyte Labs",
+    "description": "Megabyte Labs is an open-source agency that provides enterprise-grade open-source solutions, from web development to cloud computing and more. Contact us today to learn more!",
+    "lang": "en-US",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,8 +15,66 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "categories": [
+        "business",
+        "personalization",
+        "productivity",
+        "utilities"
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
     "start_url": "https://megabyte.space",
-    "display": "standalone"
+    "display": "standalone",
+    "screenshots": [
+        {
+            "src": "https://megabyte.space/assets/img/screenshot-home.png",
+            "sizes": "1920x1080",
+            "platform": "wide",
+            "type": "image/png",
+            "label": "The homepage of Megabyte Labs"
+        },
+        {
+            "src": "https://megabyte.space/assets/img/screenshot-docs-mobile.png",
+            "sizes": "1080x1920",
+            "platform": "narrow",
+            "type": "image/png",
+            "label": "The homepage of Megabyte Labs (on mobile devices)"
+        },
+        {
+            "src": "https://megabyte.space/assets/img/screenshot-docs.png",
+            "sizes": "1920x1080",
+            "platform": "wide",
+            "type": "image/png",
+            "label": "Home of the documentation for Megabyte Labs"
+        },
+        {
+            "src": "https://megabyte.space/assets/img/screenshot-docs-mobile.png",
+            "sizes": "1080x1920",
+            "platform": "narrow",
+            "type": "image/png",
+            "label": "Home of the documentation for Megabyte Labs (on mobile devices)"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Home",
+            "url": "https://megabyte.space/",
+            "description": "Homepage of Megabyte Labs"
+        },
+        {
+            "name": "Blog",
+            "url": "https://megabyte.space/blog",
+            "description": "The Megabyte Labs blog"
+        },
+        {
+            "name": "Community",
+            "url": "https://megabyte.space/community",
+            "description": "Community Hub page with links to various social media groups related to Megabyte Labs"
+        },
+        {
+            "name": "Documentation",
+            "url": "https://megabyte.space/docs",
+            "description": "The official documentation for Megabyte Labs"
+        }
+    ]
 }

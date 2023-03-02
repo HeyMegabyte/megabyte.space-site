@@ -149,32 +149,32 @@ export class CapacitorSiteFooter {
             </div>
             <Grid>
               <Col md={6} sm={4} xs={12} cols={12} class="copyright">
-                <img
+                <webp-image
                   src="/assets/img/logo-white2.png"
                   alt="Megabyte Labs Logo"
                   class="logo"
                   loading="lazy"
                 />
-                <div>
-                  <a class="footer-social github" href="https://github.com/megabyte-labs" target="_blank">
+                <div class="footer-social-wrapper">
+                  <a class="footer-social github" href="https://github.com/megabyte-labs" target="_blank" rel="noopener">
                     <ion-icon name="logo-github"></ion-icon>
                   </a>
-                  <a class="footer-social gitlab" href="https://gitlab.com/megabyte-labs" target="_blank">
+                  <a class="footer-social gitlab" href="https://gitlab.com/megabyte-labs" target="_blank" rel="noopener">
                     <ion-icon name="logo-gitlab"></ion-icon>
                   </a>
-                  <a class="footer-social slack" href="https://megabyte-labs.slack.com" target="_blank">
+                  <a class="footer-social slack" href="https://megabyte-labs.slack.com" target="_blank" rel="noopener">
                     <ion-icon name="logo-slack"></ion-icon>
                   </a>
-                  <a class="footer-social discord" href="https://discord.com/channels/1077138419953713222/1078553488642027550" target="_blank">
+                  <a class="footer-social discord" href="https://discord.com/channels/1077138419953713222/1078553488642027550" target="_blank" rel="noopener">
                     <ion-icon name="logo-discord"></ion-icon>
                   </a>
-                  <a class="footer-social facebook" href="https://facebook.com/MegabyteLabs" target="_blank">
+                  <a class="footer-social facebook" href="https://facebook.com/MegabyteLabs" target="_blank" rel="noopener">
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a>
-                  <a class="footer-social twitter" href="https://twitter.com/MegabyteLabs" target="_blank">
+                  <a class="footer-social twitter" href="https://twitter.com/MegabyteLabs" target="_blank" rel="noopener">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a>
-                  <a class="footer-social linkedin" href="https://linkedin.com/company/megabyte-labs" target="_blank">
+                  <a class="footer-social linkedin" href="https://linkedin.com/company/megabyte-labs" target="_blank" rel="noopener">
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
                 </div>
@@ -202,8 +202,8 @@ export class CapacitorSiteFooter {
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/repositories">
-                          Repositories
+                        <a class="ui-paragraph-4" href="/docs/code">
+                          Code
                         </a>
                       </li>
                       <li>
@@ -217,11 +217,6 @@ export class CapacitorSiteFooter {
                     <Heading level={5}>Resources</Heading>
                     <ul class="routes">
                       <li>
-                        <a class="ui-paragraph-4" href="/">
-                          Home
-                        </a>
-                      </li>
-                      <li>
                         <a
                           class="ui-paragraph-4"
                           href="/blog"
@@ -232,6 +227,14 @@ export class CapacitorSiteFooter {
                       <li>
                         <a class="ui-paragraph-4" href="/community">
                           Community
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="ui-paragraph-4"
+                          href="https://github.com/orgs/megabyte-labs/discussions"
+                        >
+                          Discussions
                         </a>
                       </li>
                       <li>
@@ -249,6 +252,7 @@ export class CapacitorSiteFooter {
                           class="ui-paragraph-4"
                           href="https://github.com/megabyte-labs"
                           target="_blank"
+                          rel="noopener"
                         >
                           GitHub
                         </a>
@@ -258,6 +262,7 @@ export class CapacitorSiteFooter {
                           class="ui-paragraph-4"
                           href="https://gitlab.com/megabyte-labs"
                           target="_blank"
+                          rel="noopener"
                         >
                           GitLab
                         </a>
@@ -267,6 +272,7 @@ export class CapacitorSiteFooter {
                           class="ui-paragraph-4"
                           href="https://facebook.com/MegabyteLabs"
                           target="_blank"
+                          rel="noopener"
                         >
                           Facebook
                         </a>
@@ -276,6 +282,7 @@ export class CapacitorSiteFooter {
                           class="ui-paragraph-4"
                           href="https://twitter.com/MegabyteLabs"
                           target="_blank"
+                          rel="noopener"
                         >
                           Twitter
                         </a>

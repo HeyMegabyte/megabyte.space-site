@@ -33,7 +33,7 @@ bash <(curl -sSL https://install.doctor/start)
           <div class="heading-group">
             <Heading level={3}>Launch web services.</Heading>
             <div class="platforms">
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/docker-swarm.png"
                 alt="Docker Swarm"
@@ -41,7 +41,7 @@ bash <(curl -sSL https://install.doctor/start)
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/kubesphere.png"
                 alt="KubeSphere"
@@ -49,7 +49,7 @@ bash <(curl -sSL https://install.doctor/start)
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/tailscale.png"
                 alt="Tailscale"
@@ -57,7 +57,7 @@ bash <(curl -sSL https://install.doctor/start)
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/cloudflare.png"
                 alt="CloudFlare"
@@ -87,7 +87,7 @@ run setup:webapps
               Launch and provision VMs.
             </Heading>
             <div class="platforms">
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/hyperv.png"
                 alt="Hyper-V"
@@ -95,7 +95,7 @@ run setup:webapps
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/parallels.png"
                 alt="Parallels"
@@ -103,7 +103,7 @@ run setup:webapps
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/qemu.png"
                 alt="QEMU"
@@ -111,7 +111,7 @@ run setup:webapps
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/virtualbox.png"
                 alt="VirtualBox"
@@ -119,7 +119,7 @@ run setup:webapps
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/landing/vmware.png"
                 alt="VMWare"
@@ -133,7 +133,7 @@ run setup:webapps
             </Paragraph>
           </div>
           <div class="image-wrapper">
-            <img
+            <webp-image
               src="/assets/img/landing/logging-graphic.png"
               alt="Monitoring / Logging graphic"
               class="vm-icon"

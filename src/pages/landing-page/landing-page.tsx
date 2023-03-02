@@ -39,7 +39,12 @@ export class LandingPage {
 
     return (
       <Host>
-        <meta-tags />
+        <meta-tags
+          page-title="Open Source Wizardry"
+          description={
+            'Our community-driven platform provides innovative solutions for businesses and developers, enabling collaboration and customization. Join the open-source movement and unlock limitless potential for your projects.'
+          }
+        />
         <top-parallax />
         {/* <Top /> */}
         {/* <IoniconfCta /> */}
@@ -149,7 +154,7 @@ export class LandingPage {
   //       <ResponsiveContainer>
   //         <div class="section-wrapper">
   //           <div class="start">
-  //             <img
+  //             <webp-image
   //               class="logo"
   //               src="/assets/img/landing/logo-ioniconf.png"
   //               width="359.38"
@@ -676,6 +681,7 @@ firefoxAddOns:
                 kind="round"
                 anchor
                 class="secondary"
+                rel="noopener"
                 target="_blank"
                 color="cyan"
               >

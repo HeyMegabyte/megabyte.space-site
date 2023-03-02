@@ -150,7 +150,7 @@
             "link": [
                 {
                     "type": "paragraph",
-                    "text": "Learn More",
+                    "text": "Tweet",
                     "spans": [
                         {
                             "start": 0,
@@ -191,7 +191,7 @@
             "link": [
                 {
                     "type": "paragraph",
-                    "text": "Learn More",
+                    "text": "Post",
                     "spans": [
                         {
                             "start": 0,
@@ -232,7 +232,7 @@
             "link": [
                 {
                     "type": "paragraph",
-                    "text": "Learn More",
+                    "text": "Chat",
                     "spans": [
                         {
                             "start": 0,
@@ -273,7 +273,7 @@
             "link": [
                 {
                     "type": "paragraph",
-                    "text": "Learn More",
+                    "text": "Fork",
                     "spans": [
                         {
                             "start": 0,

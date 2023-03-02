@@ -46,7 +46,7 @@ export class ProductPage implements ComponentInterface {
     return (
       <Host>
         <meta-tags
-          page-title={this.framework.name + ' | Megabyte Labs'}
+          page-title={this.framework.name}
           description={
             'Find out more about ' +
             this.framework.name + ' and how it fits into the Megabyte Labs eco-system.'
@@ -54,7 +54,7 @@ export class ProductPage implements ComponentInterface {
         />
         <ResponsiveContainer id="top" as="section">
           <div class="heading-group">
-            <img
+            <webp-image
               width={this.framework.dimensions?.split('x')[0]}
               height={this.framework.dimensions?.split('x')[1]}
               loading="eager"
@@ -88,7 +88,7 @@ export class ProductPage implements ComponentInterface {
             <Heading level={3}>Continue your Megabyte Labs journey.</Heading>
             <Paragraph>
               This is only the beginning. Browse through the Megabyte Labs{' '}
-              <a href="https://gitlab.com/megabyte-labs" target="_blank">
+              <a href="https://gitlab.com/megabyte-labs" target="_blank" rel="noopener">
                 GitLab repository
             </a>{' '}
             or get started with contributing by checking out the{' '}

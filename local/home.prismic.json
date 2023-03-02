@@ -158,7 +158,7 @@
     "native": [
         {
             "type": "heading2",
-            "text": "Developer-first, open-source",
+            "text": "Developer-first open-source.",
             "spans": [
                 {
                     "start": 16,
@@ -442,7 +442,7 @@
     "framework": [
         {
             "type": "heading2",
-            "text": "Next-generation tech solutions",
+            "text": "Next-generation tech solutions.",
             "spans": [
                 {
                     "start": 15,
@@ -630,7 +630,7 @@
     "products": [
         {
             "type": "heading2",
-            "text": "Gorgeous interfaces, innovative products",
+            "text": "Gorgeous interfaces, innovative products.",
             "spans": [
                 {
                     "start": 20,
@@ -929,7 +929,7 @@
             "text": [
                 {
                     "type": "paragraph",
-                    "text": "Ready for enterprise. Augment your enterprise with subject matter experts.",
+                    "text": "Ready for enterprise. Augment your enterprise with open-source subject matter experts.",
                     "spans": [
                         {
                             "start": 0,

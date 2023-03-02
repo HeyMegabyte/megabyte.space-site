@@ -37,8 +37,8 @@ export class EnterprisePage {
     return (
       <Host>
         <meta-tags
-          page-title={`Enterprise open-source solutions | Megabyte Labs`}
-          description={'An overview of the enterprise-grade support and solutions that we offer.'}
+          page-title={`Enterprise-grade open-source solutions`}
+          description={'Learn about the enterprise-grade support and solutions that we offer. Find out how to amplify your business with our services.'}
         />
         <enterprise-subnav />
         <Top />
@@ -106,7 +106,7 @@ export class EnterprisePage {
           <div class="logos">
             <div class="row1">
               {companies__list.slice(0, 4).map((stats, i) => (
-                <img
+                <webp-image
                   width={stats[1].split('x')[0]}
                   height={stats[1].split('x')[1]}
                   src={`./assets-enterprise-page/companies/${i}@2x.png`}
@@ -117,7 +117,7 @@ export class EnterprisePage {
             </div>
             <div class="row2">
               {companies__list.slice(0, 4).map((stats, i) => (
-                <img
+                <webp-image
                   width={stats[1].split('x')[0]}
                   height={stats[1].split('x')[1]}
                   src={`./assets-enterprise-page/companies/${i + companies__list.length / 2
@@ -155,7 +155,7 @@ export class EnterprisePage {
         <ul class="list">
           {native__list.map(({ title, text }, i) => (
             <li key={icons[i][0]}>
-              <img
+              <webp-image
                 width={icons[i][1].split('x')[0]}
                 height={icons[i][1].split('x')[1]}
                 src={`https://megabyte.space/assets/img/enterprise/enterprise-overview-${i}.png`}

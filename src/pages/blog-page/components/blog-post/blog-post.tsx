@@ -12,7 +12,6 @@ import { href } from '@utils/common'
 import parseISO from 'date-fns/parseISO'
 
 import { BlogData } from 'src/data.server/blog'
-import Helmet from '@stencil/helmet'
 import ResponsiveImage from 'src/components/ResponsiveImage/ResponsiveImage'
 
 @Component({
@@ -29,6 +28,9 @@ export class BlogPost {
     resources: [],
     routing: [],
   };
+  popupHeight = 0;
+  popupWidth = 0;
+  facebookAppId = '959955721368038';
 
   @Element() el!: HTMLElement
 
@@ -37,6 +39,78 @@ export class BlogPost {
     // this.data = (posts as RenderedBlog[]).find(p => p.slug === slug);
     // if (!this.data) console.error('Could not find blog post by slug.');
     // if (!preview) getRelatedResources();
+  }
+
+  scrubUrl(url) {
+    return url.replace(/http:\/\/localhost:\d\d\d\d/g, "https://megabyte.space")
+  }
+
+  openPopup(url) {
+    this.calculatePopupSize()
+    let leftPosition
+    let topPosition
+    leftPosition = window.screen.width / 2 - (this.popupWidth / 2 + 10)
+    topPosition = window.screen.height / 2 - (this.popupHeight / 2 + 50)
+    window.open(
+      url,
+      "Window2",
+      "status=no,height=" +
+      this.popupHeight +
+      ",width=" +
+      this.popupWidth +
+      ",resizable=yes,left=" +
+      leftPosition +
+      ",top=" +
+      topPosition +
+      ",screenX=" +
+      leftPosition +
+      ",screenY=" +
+      topPosition +
+      ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no"
+    )
+  }
+
+  calculatePopupSize() {
+    if (window.screen.width > 630) {
+      this.popupHeight = 500
+      this.popupWidth = 600
+    } else {
+      this.popupHeight = 300
+      this.popupWidth = 450
+    }
+  }
+
+  shareFacebook() {
+    this.openPopup(
+      "https://www.facebook.com/dialog/share?app_id=" +
+      this.facebookAppId +
+      "&display=popup&href=" +
+      encodeURIComponent(this.scrubUrl(`${window.location.origin}${window.location.pathname}`))
+    )
+  }
+
+
+  shareTwitter() {
+    this.openPopup(
+      "https://twitter.com/intent/tweet?url=" +
+      encodeURIComponent(this.scrubUrl(`${window.location.origin}${window.location.pathname}`)) +
+      "&text=" +
+      encodeURIComponent('Cool open-source stuff:') +
+      "&via=MegabyteLabs&hashtags=opensource,GitHub,GitLab"
+    )
+  }
+
+  shareLinkedIn() {
+    this.openPopup(
+      'https://www.linkedin.com/shareArticle?mini=true&url=' +
+      encodeURIComponent(`${window.location.origin}${window.location.pathname}`) +
+      '&title=' +
+      encodeURIComponent(this.data!.title) +
+      '&summary=' +
+      encodeURIComponent('Cool open-source stuff:') +
+      '&source=' +
+      encodeURIComponent('pwa')
+    )
   }
 
   // getRelatedResources = async () => {
@@ -134,27 +208,11 @@ export class BlogPost {
       : `https://megabyte.space/assets/img/og.png`
 
     return (
-      <Helmet>
-        <title>Megabyte Labs Blog: {this.data!.title}</title>
-        <meta property="twitter:title" content={this.data.title} />
-        <meta name="description" content={this.data!.description} />
-        <meta
-          name="twitter:description"
-          content={`${this.data!.description} | Megabyte Labs Blog`}
-        />
-        <meta name="twitter:image" content={path} />
-        <meta
-          property="og:url"
-          content={`${window.location.origin}${window.location.pathname}`}
-        />
-        <meta property="og:title" content={this.data.title} />
-        <meta
-          property="og:description"
-          content={`${this.data.description} | Megabyte Labs Blog`}
-        />
-        <meta property="og:image" content={path} />
-        {/* <meta property="og:url" content={router.url.href} /> */}
-      </Helmet>
+      <meta-tags
+        page-title={this.data.title}
+        description={this.data.description}
+        image={path}
+      />
     )
   };
 
@@ -198,6 +256,14 @@ export class BlogPost {
           {/* <disqus-comments url={`https://useappflow.com/blog/${post.slug}`} siteId="ionic"/> */}
         </article>
       </ResponsiveContainer>,
+      <ResponsiveContainer id="footer-social-container">
+        <div class="blog-footer-social">
+          <h4><span>Obey</span> & Share:</h4>
+          <ion-icon class="footer-social facebook" name="logo-facebook" onClick={() => this.shareFacebook()}></ion-icon>
+          <ion-icon class="footer-social twitter" name="logo-twitter" onClick={() => this.shareTwitter()}></ion-icon>
+          <ion-icon class="footer-social linkedin" name="logo-linkedin" onClick={() => this.shareLinkedIn()}></ion-icon>
+        </div>
+      </ResponsiveContainer>,
       <capacitor-site-footer />
     ]
   };
@@ -209,7 +275,7 @@ export class BlogPost {
       <article class="post">
         <Heading
           class="ui-theme--editorial"
-          level={1}
+          level={2}
           onClick={() => {
             window.scrollTo(0, 0)
           }}
@@ -260,7 +326,7 @@ export class BlogPost {
         <Paragraph>
           By{' '}
           {authorUrl ? (
-            <a href={authorUrl} target="_blank">
+            <a href={authorUrl} target="_blank" rel="noopener">
               {authorName}
             </a>
           ) : (
@@ -282,8 +348,8 @@ export class BlogPost {
     if (!authorImageName) return null
 
     return (
-      <a href={authorUrl} target="_blank" class="author-info">
-        <img
+      <a href={authorUrl} target="_blank" rel="noopener" class="author-info">
+        <webp-image
           src={`/assets/blog/author/${authorImageName}`}
           alt={authorName}
           width="56"

@@ -21,9 +21,9 @@ export class CommunityPage {
     return (
       <Host>
         <meta-tags
-          page-title="Community | Megabyte Labs"
+          page-title="Community Hub: Chat, social, questions, answers"
           description={
-            'Get connected and get help from the Megabyte Labs community'
+            'Get connected and get help from the Megabyte Labs community. Find out how you can join our thriving community.'
           }
         />
         <Top />

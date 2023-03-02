@@ -71,6 +71,7 @@ export class LandingPage {
               color="indigo"
               href="https://gitlab.com/megabyte-labs"
               target="_blank"
+              rel="noopener"
               anchor={true}
             >
               Browse Code <span>{'->'}</span>

@@ -60,6 +60,10 @@ capacitor-site-footer {
     margin-right: 0;
   }
 
+  .footer-social-wrapper {
+    min-width: 240px;
+  }
+
   ul {
     padding: 0;
   }
@@ -67,12 +71,18 @@ capacitor-site-footer {
   .newsletter {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-block-end: 4rem;
     margin-block-start: -1rem;
+    align-items: center;
+    text-align: center;
 
     @media (max-width: $screen-xs-max) {
       margin-block-end: 2rem;
+    }
+    @media (min-width: 1024px) {
+      text-align: left;
+      justify-content: space-between;
     }
 
     --h4-color: var(--c-carbon-100);
@@ -107,6 +117,7 @@ capacitor-site-footer {
   img.logo {
     width: 200px;
     margin-bottom: 7px;
+    filter: invert(55%) sepia(5%) saturate(1382%) hue-rotate(178deg) brightness(92%) contrast(88%);
   }
 
   .ui-heading {
@@ -124,11 +135,15 @@ capacitor-site-footer {
 
   .form-group {
     flex-basis: 479px;
+    height: 48px;
   }
 
   .form-message {
     display: flex;
     align-items: center;
+    text-align: left;
+    padding-left: 14px;
+    padding-right: 14px;
 
     ion-icon {
       font-size: 32px;
@@ -139,10 +154,11 @@ capacitor-site-footer {
 
   form.hs-form {
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
     position: relative;
     margin-block-start: -16px;
+    align-items: center;
+    justify-content: center;
 
     > * {
       margin-block-start: 16px;
@@ -239,5 +255,9 @@ capacitor-site-footer {
   p > ion-icon {
     font-size: 24px;
     margin-right: 8px;
+  }
+
+  .form-message {
+    margin-top: 2px;
   }
 }

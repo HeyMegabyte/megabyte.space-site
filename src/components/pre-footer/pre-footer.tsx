@@ -38,7 +38,7 @@ export class PreFooter {
               Browse through the documentation that lays out the design-patterns and philosophy used by our open-source projects.
             </Paragraph>
           </a>
-          <a href="https://gitlab.com/megabyte-labs" target="_blank">
+          <a href="https://gitlab.com/megabyte-labs" target="_blank" rel="noopener">
             <svg
               width="48"
               height="50"

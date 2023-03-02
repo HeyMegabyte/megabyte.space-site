@@ -19,8 +19,8 @@ export class PrivacyPolicyPage {
     return (
       <Host>
         <meta-tags
-          page-title="Privacy Policy | Megabyte Labs"
-          description={'Megabyte Labs Privacy Policy'}
+          page-title="Privacy Policy"
+          description={'Learn about what we do to protect our users privacy. Our privacy policy can answer your privacy-related issues.'}
         />
         <Telemetry />
 
@@ -100,7 +100,7 @@ export class PrivacyPolicyPage {
           any feedback about these sites.</Paragraph>
       <Heading level={3}>Google</Heading>
       <Paragraph>Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide
-      a positive experience for users. See <a class="underline-hover" href="https://support.google.com/adwordspolicy/answer/1316548?hl=en" target="_blank">Google Ads Policies</a>.</Paragraph>
+      a positive experience for users. See <a class="underline-hover" href="https://support.google.com/adwordspolicy/answer/1316548?hl=en" target="_blank" rel="noopener">Google Ads Policies</a>.</Paragraph>
       <Paragraph>We use Google AdSense Advertising on our website.</Paragraph>
       <Paragraph>Google, as a third-party vendor, uses cookies to serve ads on our site. Google's use of the DART cookie enables it
       to serve ads to our users based on previous visits to our site and other sites on the Internet. Users may opt-out
@@ -127,7 +127,7 @@ export class PrivacyPolicyPage {
       policy. The law's reach stretches well beyond California to require any person or company in the United States
       (and conceivably the world) that operates websites collecting Personally Identifiable Information from California
       consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and
-      those individuals or companies with whom it is being shared. See <a class="underline-hover" href="http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf" target="_blank">ConsumerCal.org's article on CalOPPA</a>.
+      those individuals or companies with whom it is being shared. See <a class="underline-hover" href="http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf" target="_blank" rel="noopener">ConsumerCal.org's article on CalOPPA</a>.
       </Paragraph>
       <Paragraph>
         <b>According to CalOPPA, we agree to the following:</b>

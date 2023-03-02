@@ -1,17 +1,17 @@
-import { h } from '@stencil/core';
-import { JSXBase } from '@stencil/core/internal';
+import { h } from '@stencil/core'
+import { JSXBase } from '@stencil/core/internal'
 
 interface ResponsiveImgProps
   extends JSXBase.ImgHTMLAttributes<HTMLImageElement> {
-  path: string;
+  path: string
 
-  name: string;
+  name: string
 
-  type?: string;
+  type?: string
 
-  dimensions: string;
+  dimensions: string
 
-  fallback?: boolean;
+  fallback?: boolean
 }
 
 const ResponsiveImage = ({
@@ -20,36 +20,24 @@ const ResponsiveImage = ({
   type = 'png',
   alt,
   dimensions,
-  fallback = false,
+  fallback = true,
   ...props
 }: ResponsiveImgProps) => {
-  !props.loading ? (props.loading = 'lazy') : '';
-
-  if (fallback) {
-    return (
-      <picture>
-        <source src={`${path}${name}@2x.${type} 2x`} />
-        <source src={`${path}${name}.${type} 1x`} />
-        <img
-          {...props}
-          src={`${path}${name}.${type}`}
-          width={dimensions.split('x')[0]}
-          height={dimensions.split('x')[1]}
-        />
-      </picture>
-    );
-  } else {
-    return (
+  !props.loading ? (props.loading = 'lazy') : ''
+  return (
+    <picture>
+      <source type="image/webp" src={`${path}${name}@2x.webp 2x`} />
+      <source type="image/webp" src={`${path}${name}.webp 1x`} />
+      <source type="image/png" src={`${path}${name}@2x.${type} 2x`} />
+      <source type="image/png" src={`${path}${name}.${type} 1x`} />
       <img
         {...props}
-        src={`${path}${name}@2x.${type}`}
-        srcset={`${path}${name}.${type} 1x,
-                ${path}${name}@2x.${type} 2x`}
+        src={`${path}${name}.${type}`}
         width={dimensions.split('x')[0]}
         height={dimensions.split('x')[1]}
       />
-    );
-  }
-};
+    </picture>
+  )
+}
 
-export default ResponsiveImage;
+export default ResponsiveImage

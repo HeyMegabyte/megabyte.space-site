@@ -162,12 +162,6 @@
     margin-bottom: 0;
 }
 
-@media (max-width: 600px) {
-  #what-is {
-    padding-left: 0;
-  }
-}
-
 #continue {
   margin: 0;
   background-color: var(--c-indigo-10);
@@ -226,6 +220,12 @@
     .what-is-info-icon {
       display: none;
     }
+  }
+}
+
+@media (max-width: 720px) {
+  #what-is {
+    padding-left: 14px !important;
   }
 }
 

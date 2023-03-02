@@ -1,10 +1,10 @@
 ---
-title: '[NSFW] How Megabyte Labs Came to Be (An Illustrated Story)'
+title: '[NSFW] How Megabyte Labs Came to Be'
 slug: nsfw-inception-of-megabyte-labs
 date: 2023-02-19 14:00:00
 author: Brian Zalewski <brian@megabyte.space>
 authorUrl: https://twitter.com/HillBillyHack3r
-description: An illustrated story detailing how, on this timeline, Megabyte Labs is what it is
+description: An illustrated story detailing how, on this timeline, Megabyte Labs is what it is and how it is connected to time travelers and possibly aliens.
 featuredImage: /truth-hurts.png
 featuredImageAlt: Truth hurts with angel smoke
 ---

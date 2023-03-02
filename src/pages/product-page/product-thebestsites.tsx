@@ -15,7 +15,7 @@ export const ProductTheBestSites = () => {
               Continuous Integration / Delivery (CI/CD)
             </Heading>
             <div class="platforms">
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/bitbucket.png"
                 alt="BitBucket icon"
@@ -23,7 +23,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/github.png"
                 alt="GitHub icon"
@@ -31,7 +31,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/gitlab.png"
                 alt="GitLab icon"
@@ -45,7 +45,7 @@ export const ProductTheBestSites = () => {
             </Paragraph>
           </div>
           <div class="image-wrapper">
-            <img
+            <webp-image
               src="/assets/img/solutions/ci-cd-graphic.png"
               alt="Continuous Integration and Continuous Delivery illustration"
               class="vm-icon"
@@ -58,7 +58,7 @@ export const ProductTheBestSites = () => {
           <div class="heading-group">
             <Heading level={3}>Infrastructure-as-Code (IaC)</Heading>
             <div class="platforms">
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/install-doctor.png"
                 alt="Install Doctor icon"
@@ -66,7 +66,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/ansible.png"
                 alt="Ansible icon"
@@ -74,7 +74,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/pulumi.png"
                 alt="Pulumi icon"
@@ -82,7 +82,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/terraform.png"
                 alt="Terraform icon"
@@ -96,7 +96,7 @@ export const ProductTheBestSites = () => {
             </Paragraph>
           </div>
           <div class="image-wrapper">
-            <img
+            <webp-image
               src="/assets/img/solutions/iac-graphic.png"
               alt="Infrastructure-as-Code illustration"
               class="vm-icon"
@@ -111,7 +111,7 @@ export const ProductTheBestSites = () => {
               Monitoring / Logging
             </Heading>
             <div class="platforms">
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/elasticsearch.png"
                 alt="ElasticSearch icon"
@@ -119,7 +119,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/logstash.png"
                 alt="LogStash icon"
@@ -127,7 +127,7 @@ export const ProductTheBestSites = () => {
                 width="37"
                 height="37"
               />
-              <img
+              <webp-image
                 loading="lazy"
                 src="/assets/img/solutions/kibana.png"
                 alt="Kibana icon"
@@ -141,7 +141,7 @@ export const ProductTheBestSites = () => {
             </Paragraph>
           </div>
           <div class="image-wrapper">
-            <img
+            <webp-image
               src="/assets/img/solutions/logging-graphic.png"
               alt="Monitoring / Logging graphic"
               class="vm-icon"

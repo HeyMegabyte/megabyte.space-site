@@ -76,15 +76,15 @@ export class SolutionPage implements ComponentInterface {
     return (
       <Host>
         <meta-tags
-          page-title={'Enterprise ' + this.framework.name + ' solutions | Megabyte Labs'}
+          page-title={'Enterprise ' + this.framework.name + ' solutions'}
           description={
             'Find out how Megabyte Labs utilizes ' +
-            this.framework.name + ' and learn about how you can leverage our expertise.'
+            this.framework.name + ' and learn about how you can leverage our expertise to improve your business.'
           }
         />
         <ResponsiveContainer id="top" as="section">
           <div class="heading-group">
-            <img
+            <webp-image
               width={this.framework.dimensions?.split('x')[0]}
               height={this.framework.dimensions?.split('x')[1]}
               loading="eager"
@@ -117,7 +117,7 @@ export class SolutionPage implements ComponentInterface {
             <Heading level={3}>Continue your Megabyte Labs journey.</Heading>
             <Paragraph>
               This is only the beginning. Browse through the Megabyte Labs{' '}
-              <a href="https://gitlab.com/megabyte-labs" target="_blank">
+              <a href="https://gitlab.com/megabyte-labs" target="_blank" rel="noopener">
                 GitLab repository
             </a>{' '}
             or get started with contributing by checking out the{' '}

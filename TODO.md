@@ -10,3 +10,11 @@ GV: 860-8SW-ANKY
 
 WEB
 help@megabyte.space
+
+
+<webp-image(([^>]|\n)*)src..(([^"])*)"(([^>]|\n)*)> | <picture><source srcset="$3" type="image/webp"><source srcset="$3" type="image/png"><webp-image$1src="$3"$5></picture>
+
+
+pe while>
+❯ find . -type f -name "*.png" | while read PNGFILE; do sharp -i "$PNGFILE" -o "$(echo "$PNGFILE" | sed 's/png$/webp/')"; done
+/U

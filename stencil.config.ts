@@ -68,6 +68,14 @@ export const config: Config = {
         {
           src: './sitemap_index.xml',
           dest: 'sitemap_index.xml'
+        },
+        {
+          src: './robots.txt',
+          dest: 'robots.txt'
+        },
+        {
+          src: './humans.txt',
+          dest: 'humans.txt'
         }
       ],
     },
