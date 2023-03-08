@@ -4,6 +4,7 @@ import {
   Heading,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
+import { href } from '@stencil/router'
 
 @Component({
   tag: 'pre-footer',
@@ -16,7 +17,7 @@ export class PreFooter {
       <Host>
         <div class="squares"></div>
         <ResponsiveContainer>
-          <a href="/docs">
+          <a {...href('/docs')}>
             <svg
               width="56"
               height="50"

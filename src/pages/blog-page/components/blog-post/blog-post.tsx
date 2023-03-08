@@ -7,7 +7,7 @@ import {
 } from '@ionic-internal/ionic-ds'
 import { Components as DS } from '@ionic-internal/ionic-ds/dist/types/components'
 
-import { href } from '@utils/common'
+import { href } from '@stencil/router'
 
 import parseISO from 'date-fns/parseISO'
 
@@ -228,6 +228,7 @@ export class BlogPost {
 
     return [
       <PostHelmet />,
+      <site-header class="heading-container" sticky={true} />,
       <blog-subnav
         breadcrumbs={[
           ['Blog', '/blog'],

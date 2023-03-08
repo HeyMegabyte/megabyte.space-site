@@ -1,4 +1,5 @@
 import { Component, Host, State, h } from '@stencil/core'
+import { href } from '@stencil/router'
 import {
   ResponsiveContainer,
   Grid,
@@ -180,10 +181,10 @@ export class CapacitorSiteFooter {
                 </div>
                 <p>© {new Date().getFullYear()} Megabyte LLC</p>
                 <p>
-                  <a href="/">Megabyte Labs Open Source</a>
+                  <a {...href('/')}>Megabyte Labs Open Source</a>
                 </p>
                 <p>
-                  <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a>
+                  <a {...href('/privacy')}>Privacy Policy</a> | <a {...href('/terms')}>Terms of Service</a>
                 </p>
               </Col >
               <Col md={6} sm={8} xs={12} cols={12}>
@@ -192,22 +193,22 @@ export class CapacitorSiteFooter {
                     <Heading level={5}>Documentation</Heading>
                     <ul class="routes">
                       <li>
-                        <a class="ui-paragraph-4" href="/docs">
+                        <a class="ui-paragraph-4" {...href('/docs')}>
                           Overview
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/philosophy">
+                        <a class="ui-paragraph-4" {...href('/docs/philosophy')}>
                           Philosophy
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/code">
+                        <a class="ui-paragraph-4" {...href('/docs/code')}>
                           Code
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/docs/contributing">
+                        <a class="ui-paragraph-4" {...href('/docs/contributing')}>
                           Contributing
                         </a>
                       </li>
@@ -219,13 +220,13 @@ export class CapacitorSiteFooter {
                       <li>
                         <a
                           class="ui-paragraph-4"
-                          href="/blog"
+                          {...href('/blog')}
                         >
                           Blog
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/community">
+                        <a class="ui-paragraph-4" {...href('/community')}>
                           Community
                         </a>
                       </li>
@@ -238,7 +239,7 @@ export class CapacitorSiteFooter {
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" href="/enterprise">
+                        <a class="ui-paragraph-4" {...href('/enterprise')}>
                           Enterprise
                         </a>
                       </li>

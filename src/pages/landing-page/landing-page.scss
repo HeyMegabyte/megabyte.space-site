@@ -400,8 +400,7 @@ h6 {
 
   prismic-image {
     display: inline-block;
-    margin: 29px;
-    zoom: 50%;
+    margin: 14px;
     filter: grayscale(1);
   }
 
@@ -644,24 +643,7 @@ h6 {
     }
   }
 }
-.homepage-blog-article {
-  background-color: white;
-    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 39%);
-    width: 95%;
-    max-width: 720px;
-    padding: 69px;
-    margin: 0 auto;
 
-  img {
-    max-width: min(290px, 69%);
-    margin-left: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .fun-fact {
-    line-height: 1.1;
-  }
-}
 #tweets {
   --h2-color: var(--c-carbon-50);
 

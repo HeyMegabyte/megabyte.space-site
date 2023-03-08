@@ -4,6 +4,7 @@ import {
   Heading,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
+import { href } from '@stencil/router'
 export const SolutionKubernetes = () => {
   return (
     <Fragment>
@@ -68,7 +69,7 @@ export const SolutionKubernetes = () => {
               Docker image optimization experts.
             </Heading>
             <Paragraph>
-              Our experts work with you to design performant, functional Docker images catered to your business needs. We leverage technologies like <a href="/blog/what-is-dockerslim">DockerSlim</a> to minimize the size of your Docker images, with sometimes up to a 90% decrease in Docker image size. At the same time, our experts can improve security by implementing sandboxes like <a href="https://github.com/google/gvisor" target="_blank" rel="noopener">gVisor</a>.
+              Our experts work with you to design performant, functional Docker images catered to your business needs. We leverage technologies like <a {...href('/blog/what-is-dockerslim')}>DockerSlim</a> to minimize the size of your Docker images, with sometimes up to a 90% decrease in Docker image size. At the same time, our experts can improve security by implementing sandboxes like <a href="https://github.com/google/gvisor" target="_blank" rel="noopener">gVisor</a>.
             </Paragraph>
           </div>
           <div class="image-wrapper">

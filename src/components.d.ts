@@ -70,14 +70,11 @@ export namespace Components {
   };
     }
     interface CommunityPage {
-        "data": any;
     }
     interface ContributorList {
         "contributors": string[];
         "editApiUrl": string;
         "editUrl": string;
-    }
-    interface CordovaPage {
     }
     interface DocSnippet {
     }
@@ -102,7 +99,6 @@ export namespace Components {
         "theme": SiteHeader['theme'];
     }
     interface EnterprisePage {
-        "data": any;
     }
     interface EnterpriseSubnav {
     }
@@ -113,7 +109,6 @@ export namespace Components {
         "url": string;
     }
     interface LandingPage {
-        "data": any;
     }
     interface LowerContentNav {
         "navigation": PageNavigation;
@@ -133,6 +128,8 @@ export namespace Components {
     }
     interface NewsletterSignupParallax {
     }
+    interface NotFoundPage {
+    }
     interface PluginPlatforms {
         "platforms": string;
     }
@@ -148,7 +145,6 @@ export namespace Components {
         "width": number | string;
     }
     interface PrivacyPolicyPage {
-        "data": any;
     }
     interface ProductPage {
         "solutionId": string;
@@ -167,7 +163,6 @@ export namespace Components {
         "data": any;
     }
     interface TermsServicePage {
-        "data": any;
     }
     interface TopParallax {
     }
@@ -292,12 +287,6 @@ declare global {
         prototype: HTMLContributorListElement;
         new (): HTMLContributorListElement;
     };
-    interface HTMLCordovaPageElement extends Components.CordovaPage, HTMLStencilElement {
-    }
-    var HTMLCordovaPageElement: {
-        prototype: HTMLCordovaPageElement;
-        new (): HTMLCordovaPageElement;
-    };
     interface HTMLDocSnippetElement extends Components.DocSnippet, HTMLStencilElement {
     }
     var HTMLDocSnippetElement: {
@@ -381,6 +370,12 @@ declare global {
     var HTMLNewsletterSignupParallaxElement: {
         prototype: HTMLNewsletterSignupParallaxElement;
         new (): HTMLNewsletterSignupParallaxElement;
+    };
+    interface HTMLNotFoundPageElement extends Components.NotFoundPage, HTMLStencilElement {
+    }
+    var HTMLNotFoundPageElement: {
+        prototype: HTMLNotFoundPageElement;
+        new (): HTMLNotFoundPageElement;
     };
     interface HTMLPluginPlatformsElement extends Components.PluginPlatforms, HTMLStencilElement {
     }
@@ -473,7 +468,6 @@ declare global {
         "code-tabs": HTMLCodeTabsElement;
         "community-page": HTMLCommunityPageElement;
         "contributor-list": HTMLContributorListElement;
-        "cordova-page": HTMLCordovaPageElement;
         "doc-snippet": HTMLDocSnippetElement;
         "docs-component": HTMLDocsComponentElement;
         "docs-dropdown": HTMLDocsDropdownElement;
@@ -488,6 +482,7 @@ declare global {
         "more-button": HTMLMoreButtonElement;
         "newsletter-signup": HTMLNewsletterSignupElement;
         "newsletter-signup-parallax": HTMLNewsletterSignupParallaxElement;
+        "not-found-page": HTMLNotFoundPageElement;
         "plugin-platforms": HTMLPluginPlatformsElement;
         "pre-footer": HTMLPreFooterElement;
         "prismic-image": HTMLPrismicImageElement;
@@ -563,14 +558,11 @@ declare namespace LocalJSX {
   };
     }
     interface CommunityPage {
-        "data"?: any;
     }
     interface ContributorList {
         "contributors"?: string[];
         "editApiUrl"?: string;
         "editUrl"?: string;
-    }
-    interface CordovaPage {
     }
     interface DocSnippet {
     }
@@ -592,7 +584,6 @@ declare namespace LocalJSX {
         "theme"?: SiteHeader['theme'];
     }
     interface EnterprisePage {
-        "data"?: any;
     }
     interface EnterpriseSubnav {
     }
@@ -603,7 +594,6 @@ declare namespace LocalJSX {
         "url"?: string;
     }
     interface LandingPage {
-        "data"?: any;
     }
     interface LowerContentNav {
         "navigation"?: PageNavigation;
@@ -623,6 +613,8 @@ declare namespace LocalJSX {
     }
     interface NewsletterSignupParallax {
     }
+    interface NotFoundPage {
+    }
     interface PluginPlatforms {
         "platforms"?: string;
     }
@@ -638,7 +630,6 @@ declare namespace LocalJSX {
         "width"?: number | string;
     }
     interface PrivacyPolicyPage {
-        "data"?: any;
     }
     interface ProductPage {
         "solutionId"?: string;
@@ -657,7 +648,6 @@ declare namespace LocalJSX {
         "data"?: any;
     }
     interface TermsServicePage {
-        "data"?: any;
     }
     interface TopParallax {
     }
@@ -691,7 +681,6 @@ declare namespace LocalJSX {
         "code-tabs": CodeTabs;
         "community-page": CommunityPage;
         "contributor-list": ContributorList;
-        "cordova-page": CordovaPage;
         "doc-snippet": DocSnippet;
         "docs-component": DocsComponent;
         "docs-dropdown": DocsDropdown;
@@ -706,6 +695,7 @@ declare namespace LocalJSX {
         "more-button": MoreButton;
         "newsletter-signup": NewsletterSignup;
         "newsletter-signup-parallax": NewsletterSignupParallax;
+        "not-found-page": NotFoundPage;
         "plugin-platforms": PluginPlatforms;
         "pre-footer": PreFooter;
         "prismic-image": PrismicImage;
@@ -742,7 +732,6 @@ declare module "@stencil/core" {
             "code-tabs": LocalJSX.CodeTabs & JSXBase.HTMLAttributes<HTMLCodeTabsElement>;
             "community-page": LocalJSX.CommunityPage & JSXBase.HTMLAttributes<HTMLCommunityPageElement>;
             "contributor-list": LocalJSX.ContributorList & JSXBase.HTMLAttributes<HTMLContributorListElement>;
-            "cordova-page": LocalJSX.CordovaPage & JSXBase.HTMLAttributes<HTMLCordovaPageElement>;
             "doc-snippet": LocalJSX.DocSnippet & JSXBase.HTMLAttributes<HTMLDocSnippetElement>;
             "docs-component": LocalJSX.DocsComponent & JSXBase.HTMLAttributes<HTMLDocsComponentElement>;
             "docs-dropdown": LocalJSX.DocsDropdown & JSXBase.HTMLAttributes<HTMLDocsDropdownElement>;
@@ -757,6 +746,7 @@ declare module "@stencil/core" {
             "more-button": LocalJSX.MoreButton & JSXBase.HTMLAttributes<HTMLMoreButtonElement>;
             "newsletter-signup": LocalJSX.NewsletterSignup & JSXBase.HTMLAttributes<HTMLNewsletterSignupElement>;
             "newsletter-signup-parallax": LocalJSX.NewsletterSignupParallax & JSXBase.HTMLAttributes<HTMLNewsletterSignupParallaxElement>;
+            "not-found-page": LocalJSX.NotFoundPage & JSXBase.HTMLAttributes<HTMLNotFoundPageElement>;
             "plugin-platforms": LocalJSX.PluginPlatforms & JSXBase.HTMLAttributes<HTMLPluginPlatformsElement>;
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
             "prismic-image": LocalJSX.PrismicImage & JSXBase.HTMLAttributes<HTMLPrismicImageElement>;

@@ -1,7 +1,7 @@
 import { Component, h, Element, State, Host, Prop } from '@stencil/core'
 import { IntersectionHelper, Breadcrumbs } from '@ionic-internal/ionic-ds'
 
-import { href } from '@utils/common'
+import { href } from '@stencil/router'
 
 @Component({
   tag: 'blog-subnav',

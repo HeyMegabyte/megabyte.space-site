@@ -11,7 +11,7 @@ import {
 import { RenderJsxAst } from '@stencil/ssg'
 import { DocsData } from '../../data.server/models'
 import Router, { docsVersionHref } from '../../router'
-import { href } from '@utils/common'
+import { href } from '@stencil/router'
 
 @Component({
   tag: 'docs-component',

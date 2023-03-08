@@ -5,6 +5,7 @@ import {
   Heading,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
+import { href } from '@stencil/router'
 
 import { SolutionHybrid } from './solution-hybrid'
 import { SolutionDevOps } from './solution-devops'
@@ -82,6 +83,7 @@ export class SolutionPage implements ComponentInterface {
             this.framework.name + ' and learn about how you can leverage our expertise to improve your business.'
           }
         />
+        <site-header class="heading-container" sticky={true} />
         <ResponsiveContainer id="top" as="section">
           <div class="heading-group">
             <webp-image
@@ -121,7 +123,7 @@ export class SolutionPage implements ComponentInterface {
                 GitLab repository
             </a>{' '}
             or get started with contributing by checking out the{' '}
-              <a href="/docs">
+              <a {...href('/docs')}>
                 eco-system documentation
             </a>{' '}
             .
