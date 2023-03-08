@@ -25,17 +25,14 @@ export const Routes = () => (
     />
 
     <Route
-      path={match('/blog', { exact: true })}
+      path="/blog"
       mapParams={staticState(getAllBlogData)}
-      render={(_, data) => {
-        console.log(_)
-        console.log(data)
-        return (
-          <Fragment>
-            <blog-page data={data instanceof Map ? Object.values(Object.fromEntries(data))[0] : data} />
-          </Fragment>
-        )
-      }}
+      render={(_, data) => (
+        <Fragment>
+          <blog-page data={data instanceof Map ? Object.values(Object.fromEntries(data))[0] : data} />
+        </Fragment>
+      )
+      }
     ></Route>
 
     <Route

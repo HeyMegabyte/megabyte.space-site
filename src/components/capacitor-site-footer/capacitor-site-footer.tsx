@@ -193,22 +193,22 @@ export class CapacitorSiteFooter {
                     <Heading level={5}>Documentation</Heading>
                     <ul class="routes">
                       <li>
-                        <a class="ui-paragraph-4" {...href('/docs')}>
+                        <a class="ui-paragraph-4" href='/docs'>
                           Overview
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" {...href('/docs/philosophy')}>
+                        <a class="ui-paragraph-4" href='/docs/philosophy'>
                           Philosophy
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" {...href('/docs/code')}>
+                        <a class="ui-paragraph-4" href='/docs/code'>
                           Code
                         </a>
                       </li>
                       <li>
-                        <a class="ui-paragraph-4" {...href('/docs/contributing')}>
+                        <a class="ui-paragraph-4" href='/docs/contributing'>
                           Contributing
                         </a>
                       </li>
@@ -220,7 +220,7 @@ export class CapacitorSiteFooter {
                       <li>
                         <a
                           class="ui-paragraph-4"
-                          {...href('/blog')}
+                          href='/blog'
                         >
                           Blog
                         </a>

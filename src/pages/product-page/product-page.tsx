@@ -5,7 +5,6 @@ import {
   Heading,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
-import { href } from '@stencil/router'
 
 import { ProductLinkBlink } from './product-linkblink'
 import { ProductMusicBlobs } from './product-musicblobs'
@@ -94,7 +93,7 @@ export class ProductPage implements ComponentInterface {
                 GitLab repository
             </a>{' '}
             or get started with contributing by checking out the{' '}
-              <a {...href('/docs')}>
+              <a href='/docs'>
                 eco-system documentation
             </a>{' '}
             .

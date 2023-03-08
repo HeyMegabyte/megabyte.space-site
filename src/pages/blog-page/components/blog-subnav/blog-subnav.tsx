@@ -1,8 +1,6 @@
 import { Component, h, Element, State, Host, Prop } from '@stencil/core'
 import { IntersectionHelper, Breadcrumbs } from '@ionic-internal/ionic-ds'
 
-import { href } from '@stencil/router'
-
 @Component({
   tag: 'blog-subnav',
   styleUrl: 'blog-subnav.scss',
@@ -45,7 +43,7 @@ export class BlogSubnav {
             {this.breadcrumbs.map((crumb, i) => (
               <li>
                 {i !== this.breadcrumbs.length - 1 ? (
-                  <a class="ui-heading-5" {...href(`${crumb[1]}`)}>
+                  <a class="ui-heading-5" href={`${crumb[1]}`}>
                     <span class="arrow">&lt;-</span>
                     {crumb[0]}
                   </a>

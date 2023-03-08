@@ -79,7 +79,7 @@ export class LandingPage {
               <Button
                 kind="round"
                 anchor
-                {...href('/docs')}
+                href='/docs'
                 class="primary"
               >
                 {primary} <span class="arrow"> -&gt;</span>
@@ -88,13 +88,13 @@ export class LandingPage {
                 kind="round"
                 variation="light"
                 anchor
-                {...href('/docs')}
+                href='/docs'
                 class="secondary"
               >
                 {secondary}
               </Button>
             </div>
-            <a class="link | ui-paragraph-4" {...href('/docs/customization')}>
+            <a class="link | ui-paragraph-4" href='/docs/customization'>
               {top__link}
               <span class="arrow"> -&gt;</span>
             </a>
@@ -437,7 +437,7 @@ firefoxAddOns:
         <ResponsiveContainer>
           <div class="heading-group">
             <PrismicRichText richText={features} />
-            <a {...href('/docs/features')} class="link | ui-heading-4">
+            <a href='/docs/features' class="link | ui-heading-4">
               {features__link}
               <span class="arrow">-&gt;</span>
             </a>
@@ -683,7 +683,7 @@ firefoxAddOns:
                 <span class="arrow"> -&gt;</span>
               </Button>
               <Button
-                {...href('/docs')}
+                href='/docs'
                 anchor
                 kind="round"
                 variation="light"

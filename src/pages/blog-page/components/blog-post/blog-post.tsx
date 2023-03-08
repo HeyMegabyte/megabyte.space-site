@@ -407,7 +407,7 @@ export class BlogPost {
     return (
       <div class="featured-image-wrapper">
         {preview ? (
-          <a {...href(`/blog/${post.slug}`)}>
+          <a href={`/blog/${post.slug}`}>
             <ResponsiveImage
               {...data}
               fallback

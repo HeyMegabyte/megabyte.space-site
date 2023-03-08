@@ -5,7 +5,6 @@ import {
   Heading,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
-import { href } from '@stencil/router'
 
 import { SolutionHybrid } from './solution-hybrid'
 import { SolutionDevOps } from './solution-devops'
@@ -123,7 +122,7 @@ export class SolutionPage implements ComponentInterface {
                 GitLab repository
             </a>{' '}
             or get started with contributing by checking out the{' '}
-              <a {...href('/docs')}>
+              <a href='/docs'>
                 eco-system documentation
             </a>{' '}
             .

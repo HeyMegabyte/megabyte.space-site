@@ -212,7 +212,7 @@ export class SiteHeader implements ComponentInterface {
               <docs-search />
             </div>
             <a
-              {...href('/blog')}
+              href='/blog'
               class="ui-paragraph-4"
               ref={el => (this.links.blog = el)}
             >
@@ -299,7 +299,7 @@ export class SiteHeader implements ComponentInterface {
             <Button
               class="primary | ui-paragraph-4"
               anchor
-              {...href('/docs')}
+              href='/docs'
               kind="regular"
               color="cyan"
               size="md"
