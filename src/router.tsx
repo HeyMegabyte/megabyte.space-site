@@ -119,7 +119,6 @@ export const Routes = () => (
 )
 
 Router.on('change', (newUrl, oldUrl) => {
-  console.log('New URL', newUrl)
   window.scrollTo(0, 0)
   //debugger
   //requestAnimationFrame(() => window.scrollTo(0, 0))
