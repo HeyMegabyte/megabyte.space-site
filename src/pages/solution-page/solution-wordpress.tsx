@@ -41,7 +41,7 @@ export const SolutionWordPress = () => {
             <webp-image
               src="/assets/img/solutions/wordpress-1.png"
               alt="WordPress expert illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -58,7 +58,7 @@ export const SolutionWordPress = () => {
             <webp-image
               src="/assets/img/solutions/wordpress-2.png"
               alt="Wordpress custom themes and plugins illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -119,7 +119,7 @@ export const SolutionWordPress = () => {
             <webp-image
               src="/assets/img/solutions/wordpress-3.png"
               alt="Alternative CMS graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -153,7 +153,7 @@ export const SolutionWordPress = () => {
             <webp-image
               src="/assets/img/solutions/wordpress-4.png"
               alt="E-commerce illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

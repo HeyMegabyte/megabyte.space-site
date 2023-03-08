@@ -32,6 +32,7 @@ const ResponsiveImage = ({
       <source type="image/png" src={`${path}${name}.${type} 1x`} />
       <img
         {...props}
+        alt={alt}
         src={`${path}${name}.${type}`}
         width={dimensions.split('x')[0]}
         height={dimensions.split('x')[1]}

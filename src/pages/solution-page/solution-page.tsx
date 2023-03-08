@@ -76,7 +76,7 @@ export class SolutionPage implements ComponentInterface {
     return (
       <Host>
         <meta-tags
-          page-title={'Enterprise ' + this.framework.name + ' solutions'}
+          pageTitle={'Enterprise ' + this.framework.name + ' solutions'}
           description={
             'Find out how Megabyte Labs utilizes ' +
             this.framework.name + ' and learn about how you can leverage our expertise to improve your business.'
@@ -85,8 +85,8 @@ export class SolutionPage implements ComponentInterface {
         <ResponsiveContainer id="top" as="section">
           <div class="heading-group">
             <webp-image
-              width={this.framework.dimensions?.split('x')[0]}
-              height={this.framework.dimensions?.split('x')[1]}
+              width="301"
+              height="167"
               loading="eager"
               src={this.framework.logo}
               alt={this.framework.name}

@@ -21,7 +21,7 @@ export class CordovaPage {
     return (
       <Host>
         <meta-tags
-          page-title={`Cordova to Capacitor Migration`}
+          pageTitle={`Cordova to Capacitor Migration`}
           description={'A step by step guide to migrating your app'}
         />
 
@@ -186,11 +186,11 @@ cordova-res android --skip-config --copy
           <Heading level={3}>Audit existing Cordova plugins.</Heading>
           <Paragraph>
             Review all of Capacitor's{' '}
-            <a {...href('/docs/apis')} target="_blank">
+            <a {...href('/docs/apis')} target="_blank" rel="noopener">
               core
             </a>{' '}
             and{' '}
-            <a {...href('/docs/plugins/community')} target="_blank">
+            <a {...href('/docs/plugins/community')} target="_blank" rel="noopener">
               community
             </a>{' '}
             plugins. You may be able to switch to the Capacitor-equivalent

@@ -46,7 +46,7 @@ export class BlogSubnav {
               <li>
                 {i !== this.breadcrumbs.length - 1 ? (
                   <a class="ui-heading-5" {...href(`${crumb[1]}`)}>
-                    <span class="arrow">&lt;- </span>
+                    <span class="arrow">&lt;-</span>
                     {crumb[0]}
                   </a>
                 ) : (

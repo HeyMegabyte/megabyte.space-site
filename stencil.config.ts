@@ -17,7 +17,7 @@ export const config: Config = {
       baseUrl: 'https://megabyte.space/',
       serviceWorker: {
         globPatterns: [
-          '**/*.{js,css,json,html,ico,png}'
+          '**/*.{js,css,json,html,ico,webp,png}'
         ]
       },
       copy: [

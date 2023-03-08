@@ -42,7 +42,7 @@ export const SolutionRust = () => {
             <webp-image
               src="/assets/img/solutions/rust-1.png"
               alt="Rust experts illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -59,7 +59,7 @@ export const SolutionRust = () => {
             <webp-image
               src="/assets/img/solutions/rust-2.png"
               alt="WASM illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

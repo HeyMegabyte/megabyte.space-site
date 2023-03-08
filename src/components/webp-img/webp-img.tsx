@@ -4,10 +4,10 @@ import { Component, Host, Element, Prop, h } from '@stencil/core'
   tag: 'webp-image',
 })
 export class WebpImg {
-  @Prop() src
+  @Prop() src = '';
   @Prop() alt = '';
-  @Prop() width = '';
-  @Prop() height = '';
+  @Prop() width: string | number
+  @Prop() height: string | number
   @Prop() srcset = '';
 
   @Prop() class = '';

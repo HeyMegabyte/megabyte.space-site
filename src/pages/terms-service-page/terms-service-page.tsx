@@ -19,7 +19,7 @@ export class TermsServicePage {
     return (
       <Host>
         <meta-tags
-          page-title="Terms of Service"
+          pageTitle="Terms of Service"
           description={'Megabyte Labs is owned by Megabyte LLC and, as a requirement of many web services it integrates with, provides this Terms of Service agreement to its users to keep them well informed.'}
         />
         <Telemetry />

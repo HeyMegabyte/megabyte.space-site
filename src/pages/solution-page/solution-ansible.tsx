@@ -41,14 +41,14 @@ export const SolutionAnsible = () => {
               Featured Project: Gas Station
             </Heading>
             <Paragraph>
-              <a href="https://github.com/megabyte-labs/gas-station" target="_blank" rel="noopener">Gas Station</a> is the predecessor to <a href="https://install.doctor" target="_blank">Install Doctor</a>. It is a massive Ansible project that can be used to provision both workstations and servers. To support its development, many unique features were included, namely <a href="https://github.com/megabyte-labs/ansibler" target="_blank" rel="noopener">Ansibler</a> and <a href="https://github.com/megabyte-labs/mod-ansible-autodoc" target="_blank" rel="noopener">Ansible Auto-Documentation</a>.
+              <a href="https://github.com/megabyte-labs/gas-station" target="_blank" rel="noopener">Gas Station</a> is the predecessor to <a href="https://install.doctor" target="_blank" rel="noopener">Install Doctor</a>. It is a massive Ansible project that can be used to provision both workstations and servers. To support its development, many unique features were included, namely <a href="https://github.com/megabyte-labs/ansibler" target="_blank" rel="noopener">Ansibler</a> and <a href="https://github.com/megabyte-labs/mod-ansible-autodoc" target="_blank" rel="noopener">Ansible Auto-Documentation</a>.
             </Paragraph>
           </div>
           <div class="image-wrapper">
             <webp-image
               src="/assets/img/solutions/gas-station.png"
               alt="Gas Station Ansible project logo graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -65,7 +65,7 @@ export const SolutionAnsible = () => {
             <webp-image
               src="/assets/img/solutions/ansible-galaxy-graphic.png"
               alt="Ansible Galaxy illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -84,7 +84,7 @@ export const SolutionAnsible = () => {
             <webp-image
               src="/assets/img/solutions/ansible-molecule-graphic.png"
               alt="Ansible Molecule graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

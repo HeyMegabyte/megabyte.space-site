@@ -39,7 +39,7 @@ export const SolutionTypeScript = () => {
             <webp-image
               src="/assets/img/solutions/typescript-1.png"
               alt="TypeScript expert illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -56,7 +56,7 @@ export const SolutionTypeScript = () => {
             <webp-image
               src="/assets/img/solutions/typescript-2.png"
               alt="Open-source TypeScript contributions illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -75,7 +75,7 @@ export const SolutionTypeScript = () => {
             <webp-image
               src="/assets/img/solutions/typescript-3.png"
               alt="Maintainable TypeScript / JavaScript graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

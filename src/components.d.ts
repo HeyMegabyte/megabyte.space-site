@@ -138,6 +138,15 @@ export namespace Components {
     }
     interface PreFooter {
     }
+    interface PrismicImage {
+        "alt": string;
+        "class": string;
+        "height": number | string;
+        "image": any;
+        "loading": 'eager' | 'lazy';
+        "params": any;
+        "width": number | string;
+    }
     interface PrivacyPolicyPage {
         "data": any;
     }
@@ -167,11 +176,11 @@ export namespace Components {
     interface WebpImage {
         "alt": string;
         "class": string;
-        "height": string;
+        "height": string | number;
         "loading": "lazy" | "auto" | "eager";
-        "src": any;
+        "src": string;
         "srcset": string;
-        "width": string;
+        "width": string | number;
     }
 }
 declare global {
@@ -385,6 +394,12 @@ declare global {
         prototype: HTMLPreFooterElement;
         new (): HTMLPreFooterElement;
     };
+    interface HTMLPrismicImageElement extends Components.PrismicImage, HTMLStencilElement {
+    }
+    var HTMLPrismicImageElement: {
+        prototype: HTMLPrismicImageElement;
+        new (): HTMLPrismicImageElement;
+    };
     interface HTMLPrivacyPolicyPageElement extends Components.PrivacyPolicyPage, HTMLStencilElement {
     }
     var HTMLPrivacyPolicyPageElement: {
@@ -475,6 +490,7 @@ declare global {
         "newsletter-signup-parallax": HTMLNewsletterSignupParallaxElement;
         "plugin-platforms": HTMLPluginPlatformsElement;
         "pre-footer": HTMLPreFooterElement;
+        "prismic-image": HTMLPrismicImageElement;
         "privacy-policy-page": HTMLPrivacyPolicyPageElement;
         "product-page": HTMLProductPageElement;
         "site-header": HTMLSiteHeaderElement;
@@ -612,6 +628,15 @@ declare namespace LocalJSX {
     }
     interface PreFooter {
     }
+    interface PrismicImage {
+        "alt"?: string;
+        "class"?: string;
+        "height"?: number | string;
+        "image"?: any;
+        "loading"?: 'eager' | 'lazy';
+        "params"?: any;
+        "width"?: number | string;
+    }
     interface PrivacyPolicyPage {
         "data"?: any;
     }
@@ -641,11 +666,11 @@ declare namespace LocalJSX {
     interface WebpImage {
         "alt"?: string;
         "class"?: string;
-        "height"?: string;
+        "height"?: string | number;
         "loading"?: "lazy" | "auto" | "eager";
-        "src"?: any;
+        "src"?: string;
         "srcset"?: string;
-        "width"?: string;
+        "width"?: string | number;
     }
     interface IntrinsicElements {
         "anchor-link": AnchorLink;
@@ -683,6 +708,7 @@ declare namespace LocalJSX {
         "newsletter-signup-parallax": NewsletterSignupParallax;
         "plugin-platforms": PluginPlatforms;
         "pre-footer": PreFooter;
+        "prismic-image": PrismicImage;
         "privacy-policy-page": PrivacyPolicyPage;
         "product-page": ProductPage;
         "site-header": SiteHeader;
@@ -733,6 +759,7 @@ declare module "@stencil/core" {
             "newsletter-signup-parallax": LocalJSX.NewsletterSignupParallax & JSXBase.HTMLAttributes<HTMLNewsletterSignupParallaxElement>;
             "plugin-platforms": LocalJSX.PluginPlatforms & JSXBase.HTMLAttributes<HTMLPluginPlatformsElement>;
             "pre-footer": LocalJSX.PreFooter & JSXBase.HTMLAttributes<HTMLPreFooterElement>;
+            "prismic-image": LocalJSX.PrismicImage & JSXBase.HTMLAttributes<HTMLPrismicImageElement>;
             "privacy-policy-page": LocalJSX.PrivacyPolicyPage & JSXBase.HTMLAttributes<HTMLPrivacyPolicyPageElement>;
             "product-page": LocalJSX.ProductPage & JSXBase.HTMLAttributes<HTMLProductPageElement>;
             "site-header": LocalJSX.SiteHeader & JSXBase.HTMLAttributes<HTMLSiteHeaderElement>;

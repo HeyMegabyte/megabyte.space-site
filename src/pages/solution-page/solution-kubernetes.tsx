@@ -39,7 +39,7 @@ export const SolutionKubernetes = () => {
             <webp-image
               src="/assets/img/solutions/kubernetes-1.png"
               alt="Kubernetes experts illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -56,7 +56,7 @@ export const SolutionKubernetes = () => {
             <webp-image
               src="/assets/img/solutions/kubernetes-2.png"
               alt="KubeSphere illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -75,7 +75,7 @@ export const SolutionKubernetes = () => {
             <webp-image
               src="/assets/img/solutions/kubernetes-3.png"
               alt="Docker optimization experts graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

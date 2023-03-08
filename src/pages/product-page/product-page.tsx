@@ -46,7 +46,7 @@ export class ProductPage implements ComponentInterface {
     return (
       <Host>
         <meta-tags
-          page-title={this.framework.name}
+          pageTitle={this.framework.name}
           description={
             'Find out more about ' +
             this.framework.name + ' and how it fits into the Megabyte Labs eco-system.'

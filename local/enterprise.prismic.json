@@ -736,7 +736,7 @@
                 },
                 "alt": "Head icon with light bulb",
                 "copyright": null,
-                "url": "https://megabyte.space/assets/img/enteprise/head-icon.png",
+                "url": "https://megabyte.space/assets/img/enterprise/head-icon.png",
                 "2x": {
                     "dimensions": {
                         "width": 112,
@@ -760,7 +760,7 @@
                     "text": "Slay requirements, leverage open-source",
                     "spans": [
                         {
-                            "start": 20,
+                            "start": 18,
                             "end": 39,
                             "type": "em"
                         }

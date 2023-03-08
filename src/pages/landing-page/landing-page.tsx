@@ -7,7 +7,6 @@ import {
   Breakpoint,
   Button,
   PrismicRichText,
-  PrismicResponsiveImage,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
 import { href } from '@stencil/router'
@@ -28,6 +27,7 @@ export class LandingPage {
       // Top,
       // Started,
       Native,
+      Companies,
       // Features,
       Framework,
       Products,
@@ -40,9 +40,9 @@ export class LandingPage {
     return (
       <Host>
         <meta-tags
-          page-title="Open Source Wizardry"
+          pageTitle="Megabyte Labs: Enterprise-Grade Open-Source Solutions"
           description={
-            'Our community-driven platform provides innovative solutions for businesses and developers, enabling collaboration and customization. Join the open-source movement and unlock limitless potential for your projects.'
+            'Innovative solutions for businesses and developers. Join the open-source movement and unlock limitless potential for your projects.'
           }
         />
         <top-parallax />
@@ -53,6 +53,7 @@ export class LandingPage {
         <Native />
         {/*<Features /> */}
         <Framework />
+        <Companies />
         <Products />
         <Tweets />
         <Cta />
@@ -66,7 +67,6 @@ export class LandingPage {
     const { Announcement } = this
     const { top, top__ctas, top__link, top__hero, top__icons } = this.data
     const { primary, secondary } = top__ctas[0]
-
     return (
       <section id="top">
         <div class="background"></div>
@@ -97,17 +97,15 @@ export class LandingPage {
               {top__link}
               <span class="arrow"> -&gt;</span>
             </a>
-            <PrismicResponsiveImage
+            <prismic-image
               loading="eager"
               image={top__icons}
-              params={{
-                w: '91',
-                h: '16',
-              }}
+              width="91"
+              height="16"
             />
           </div>
           <div class="image-wrapper">
-            <PrismicResponsiveImage loading="eager" image={top__hero} />
+            <prismic-image loading="eager" image={top__hero} />
           </div>
         </ResponsiveContainer>
       </section>
@@ -373,10 +371,10 @@ firefoxAddOns:
             <capacitor-hubspot-form formId="df7c28cd-d123-4ea2-aa2c-d7cb304fd398" />
           </site-modal>
           <div class="wrapper">
-            <PrismicResponsiveImage image={background} class="background" />
+            <prismic-image image={background} class="background" />
             <div class="content">
               <div class="image-wrapper">
-                <PrismicResponsiveImage image={book} />
+                <prismic-image image={book} />
               </div>
               <div class="heading-group">
                 <PrismicRichText paragraphLevel={1} richText={text} />
@@ -397,7 +395,7 @@ firefoxAddOns:
 
   Native = () => {
     const { native, native__list } = this.data
-    const dimensions = ['48x64', '60x64', '60x64']
+    const dimensions = ['64x64', '64x64', '64x64']
 
     return (
       <ResponsiveContainer id="native" as="section">
@@ -407,7 +405,7 @@ firefoxAddOns:
         <Grid>
           {native__list.map(({ icon, item }, i: number) => (
             <Col xs={6} sm={4} cols={12}>
-              <PrismicResponsiveImage
+              <prismic-image
                 image={icon}
                 width={dimensions[i].split('x')[0]}
                 height={dimensions[i].split('x')[1]}
@@ -446,7 +444,7 @@ firefoxAddOns:
           <Grid>
             {features__list.map(({ icon, item }, i: number) => (
               <Col xs={6} sm={4} md={3} cols={12}>
-                <PrismicResponsiveImage
+                <prismic-image
                   image={icon}
                   width={dimensions[i].split('x')[0]}
                   height={dimensions[i].split('x')[1]}
@@ -464,7 +462,7 @@ firefoxAddOns:
     const { framework, framework__list } = this.data
 
     const logoTile = (logo: any) => (
-      <PrismicResponsiveImage image={logo} width="272" height="200" />
+      <prismic-image image={logo} width="272" height="200" />
     )
 
     return (
@@ -487,7 +485,7 @@ firefoxAddOns:
     const { products, products__list } = this.data
 
     const logoTile = (logo: any) => (
-      <PrismicResponsiveImage image={logo} width="272" height="200" />
+      <prismic-image image={logo} width="272" height="200" />
     )
 
     return (
@@ -498,7 +496,7 @@ firefoxAddOns:
         <Grid>
           {products__list.map(({ logo, link }) => (
             <Col sm={3} cols={6}>
-              {link ? <a {...href(link)} target="_blank">{logoTile(logo)}</a> : logoTile(logo)}
+              {link ? <a {...href(link)} target="_blank" rel="noopener">{logoTile(logo)}</a> : logoTile(logo)}
             </Col>
           ))}
         </Grid>
@@ -526,7 +524,7 @@ firefoxAddOns:
             {tweets__list.map(({ name, handle, text, image, verified }, i) => (
               <article class="tweet" key={i}>
                 <div class="title-row">
-                  <PrismicResponsiveImage image={image} />
+                  <prismic-image image={image} />
                   <div class="title">
                     <Heading level={5} as="h3">
                       {name}
@@ -573,7 +571,7 @@ firefoxAddOns:
               {tweets__bottom__list.map(({ icon, text, link }) => (
                 <a href={link.url} target={link.target}>
                   <article>
-                    <PrismicResponsiveImage image={icon} />
+                    <prismic-image image={icon} />
                     <Heading level={4}>{text}</Heading>
                   </article>
                 </a>
@@ -584,51 +582,46 @@ firefoxAddOns:
       </section>
     )
   };
-
-  // Companies = () => {
-  //   const { companies, companies__list } = this.data;
-
-  //   //array structure matches css div placement
-  //   const dimensions = [
-  //     //groups of 4 (2 groups of 2)
-  //     [
-  //       //groups of 2
-  //       ['38x40', '62x32'],
-  //       ['102x30', '82x28'],
-  //     ],
-  //     [
-  //       ['41x40', '152x26'],
-  //       ['40x40', '79x32'],
-  //     ],
-  //   ];
-
-  //   return (
-  //     <ResponsiveContainer id="companies" as="section">
-  //       <div class="heading-group">
-  //         <Paragraph level={2}>{companies}</Paragraph>
-  //       </div>
-  //       <div class="images">
-  //         {dimensions.map((_, i1: number) => (
-  //           //row of 4 images (2 groups of 2)
-  //           <div class="image-row">
-  //             {dimensions[i1].map((_, i2: number) => (
-  //               //group of 2 images
-  //               <div class="image-group">
-  //                 {dimensions[i1][i2].map((dimensions, i3) => (
-  //                   <PrismicResponsiveImage
-  //                     image={companies__list[i1 * 4 + i2 * 2 + i3].logo}
-  //                     width={dimensions.split('x')[0]}
-  //                     height={dimensions.split('x')[1]}
-  //                   />
-  //                 ))}
-  //               </div>
-  //             ))}
-  //           </div>
-  //         ))}
-  //       </div>
-  //     </ResponsiveContainer>
-  //   );
-  // };
+  Companies = () => {
+    const { companies, companies__list } = this.data
+    //array structure matches css div placement
+    const dimensions = [
+      //groups of 4 (2 groups of 2)
+      //groups of 2
+      '93x32',
+      '118x32',
+      '37x32',
+      '48x32',
+      '107x32',
+      '100x32',
+      '38x32',
+      '32x32',
+      '86x32',
+      '32x32',
+      '108x32',
+      '38x32',
+      '56x32',
+      '114x32',
+      '117x32',
+      '47x32',
+    ]
+    return (
+      <ResponsiveContainer id="technologies" as="section">
+        <div class="heading-group">
+          <Paragraph level={2}>{companies}</Paragraph>
+        </div>
+        <div class="images">
+          {dimensions.map((x, i) => (
+            <prismic-image
+              image={companies__list[i].logo}
+              width={x.split('x')[0]}
+              height={x.split('x')[1]}
+            />
+          ))}
+        </div>
+      </ResponsiveContainer>
+    )
+  };
 
   Cta = () => {
     const { cta } = this.data
@@ -658,7 +651,7 @@ firefoxAddOns:
             <PrismicRichText richText={title} />
             <div class="wrapper">
               <div class="card">
-                <PrismicResponsiveImage image={image} class="background" />
+                <prismic-image image={image} class="background" />
                 <div class="heading-group">
                   <PrismicRichText richText={text} paragraphLevel={1} />
                   <Button kind="round" {...href('/enterprise')}>
@@ -702,6 +695,41 @@ firefoxAddOns:
             </div>
           </div>
         </ResponsiveContainer>
+        <div class="homepage-blog-article">
+          <Paragraph>
+            <b>Dear Open-Source Sugar Plum,</b>
+          </Paragraph>
+          <Paragraph>
+            At Megabyte Labs, we take pride in being the umbrella company for a large ecosystem of open-source projects that are powered by the open-source community. Whether you are a business looking for a technology consulting firm or an open-source community member, we are the golden standard for leveraging free, industry-leading, open-source solutions that increase the capital efficiency of your business.
+            </Paragraph>
+          <Paragraph>
+            Our team of skilled technology professionals has extensive knowledge of open-source solutions and can help you identify the most suitable open-source solutions for your business. By leveraging these solutions, you can reduce your IT costs and improve the overall efficiency of your business operations.
+            </Paragraph>
+          <Paragraph>
+            Additionally, we can help you optimize your business processes by automating routine tasks and streamlining workflows. Our skilled technology professionals can create custom solutions that meet your specific business needs and free up your employees' time, increase their productivity, and reduce the risk of human errors.
+            </Paragraph>
+          <Paragraph>
+            Moreover, as the umbrella company for a large ecosystem of open-source projects, we are deeply rooted in the open-source community. We understand the value of community-driven projects and are committed to supporting them. We are constantly seeking ways to contribute to the open-source community, and our team is always up-to-date with the latest technology trends and best practices.
+            </Paragraph>
+          <Paragraph>
+            Whether you are a business looking for a technology consulting firm or an open-source community member, Megabyte Labs is the golden standard for leveraging free, industry-leading, open-source solutions. With our team of skilled technology professionals and commitment to the open-source community, we can help take your business to the next level and increase its capital efficiency. <a href="/enterprise#demo">Contact us today</a> to learn more about how we can help you reach your business goals.
+          </Paragraph>
+          <div class="homepage-blog-article-signature">
+            <webp-image
+              loading="lazy"
+              src="/assets/img/landing/signature.png"
+              alt="Heart Megabyte Labs"
+              width="290"
+              height="81"
+            />
+          </div>
+          <Paragraph class="fun-fact">
+            <small><b>SEO Fun Fact:</b> This comical letter / blib is down here at the bottom because search engines need a sizable amount of text to properly index a website. <i>SEO is another thing we do.</i></small>
+          </Paragraph>
+          <Paragraph class="fun-fact">
+            <small><b>AI Fun Fact:</b> The content in this article and most of the content across the entire site (apart from the documentation) was written using ChatGPT AI. <i>AI is another thing we do.</i></small>
+          </Paragraph>
+        </div>
       </section>
     )
   };

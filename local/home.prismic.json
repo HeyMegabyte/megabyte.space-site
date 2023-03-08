@@ -942,184 +942,182 @@
             "cta1": "Learn more"
         }
     ],
-    "companies": "Leveraged by some of the best businesses around the world",
+    "companies": "Diverse experience in industry-leading technologies, software, libraries, and APIs, ensuring top-notch results",
     "companies__list": [
         {
             "logo": {
                 "dimensions": {
-                    "width": 76,
-                    "height": 80
-                },
-                "alt": "burger king logo",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/b0e76edf-a57c-4f7d-86e6-f010a596465d_capacitor-homepage-companies-0%402x.png?auto=compress,format"
-            }
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 124,
+                    "width": 186,
                     "height": 64
                 },
-                "alt": "blue cross blue shield logo",
+                "alt": "Ionic logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/5ca56496-4fd6-4ceb-b324-feeea81d4493_capacitor-homepage-companies-1%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-ionic.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 204,
-                    "height": 60
-                },
-                "alt": "british broadcasting corporation",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/3c804c15-56b3-4ca0-b3b7-c89faeeb0672_capacitor-homepage-companies-2%402x.png?auto=compress,format"
-            }
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 164,
-                    "height": 56
-                },
-                "alt": "aflac logo",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/339d0b98-4812-4b40-9e05-f8a0eaf7b285_capacitor-homepage-companies-3%402x.png?auto=compress,format"
-            }
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 82,
-                    "height": 80
-                },
-                "alt": "popeyes logo",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/115a6107-e8fd-43b6-8c9e-e074fe6e0a55_capacitor-homepage-companies-4%402x.png?auto=compress,format"
-            }
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 304,
-                    "height": 52
-                },
-                "alt": "sworkit text logo",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/30409747-044b-482c-9c94-68882eb53044_capacitor-homepage-companies-5%402x.png?auto=compress,format"
-            }
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 80,
-                    "height": 80
-                },
-                "alt": "social security administration logo",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/ddd5a69e-f6a7-4069-8b2a-95978a4cc12c_capacitor-homepage-companies-6%402x.png?auto=compress,format"
-            }
-        },
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 158,
+                    "width": 236,
                     "height": 64
                 },
-                "alt": "ibm logo",
+                "alt": "Angular logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/6c1dea9a-b214-4f38-a2b6-7f9571560632_capacitor-homepage-companies-7%402x.png?auto=compress,format"
-            }
-        }
-    ],
-    "companies__list2": [
-        {
-            "logo": {
-                "dimensions": {
-                    "width": 68,
-                    "height": 84
-                },
-                "alt": "Nationwide Logo",
-                "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/50c2420c-4c24-4f11-9a32-f4a7ca3d0336_capacitor-homepage-companies-0%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-angular.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 62,
-                    "height": 84
+                    "width": 74,
+                    "height": 64
                 },
-                "alt": "Target Logo",
+                "alt": "Android logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/8b7dc819-33d3-4956-8f71-cc1541521f72_capacitor-homepage-companies-1%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-android.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 96,
+                    "height": 64
+                },
+                "alt": "iOS logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-ios.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 214,
+                    "height": 64
+                },
+                "alt": "Microsoft logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-microsoft.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 199,
+                    "height": 64
+                },
+                "alt": "RedHat logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-redhat.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 75,
+                    "height": 64
+                },
+                "alt": "Docker logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-docker.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
                     "width": 64,
-                    "height": 72
+                    "height": 64
                 },
-                "alt": "Burger King Logo",
+                "alt": "VirtualBox logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/db3e8564-d1db-4761-8375-9b0b3eb08d3a_capacitor-homepage-companies-2%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-virtualbox.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 69,
-                    "height": 68
+                    "width": 171,
+                    "height": 64
                 },
-                "alt": "Home Depot Logo",
+                "alt": "Go logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/9548bcc9-021c-44cb-bace-dec55a005f3f_capacitor-homepage-companies-3%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-go.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 102,
-                    "height": 60
+                    "width": 64,
+                    "height": 64
                 },
-                "alt": "NBC Logo",
+                "alt": "VMWare Logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/efdea796-9ff0-4c91-8c60-2d6270395380_capacitor-homepage-companies-4%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-vmware.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 71,
-                    "height": 70
+                    "width": 216,
+                    "height": 64
                 },
-                "alt": "Microsoft Logo",
+                "alt": "Python logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/546bfd08-986e-4b5b-b579-2e4feb92d0fc_capacitor-homepage-companies-5%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-python.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 117,
-                    "height": 49
+                    "width": 76,
+                    "height": 64
                 },
-                "alt": "Amtrak Logo",
+                "alt": "Ubuntu logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/3f84243e-9c48-465f-a6a7-66c6b974dc97_capacitor-homepage-companies-6%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-ubuntu.png"
             }
         },
         {
             "logo": {
                 "dimensions": {
-                    "width": 71,
-                    "height": 70
+                    "width": 111,
+                    "height": 64
                 },
-                "alt": "GE Logo",
+                "alt": "Google Cloud Platform logo",
                 "copyright": null,
-                "url": "https://images.prismic.io/ionicframeworkcom/2a210c8e-f3f0-4ec5-be6b-38a087b17c19_capacitor-homepage-companies-7%402x.png?auto=compress,format"
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-gcp.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 228,
+                    "height": 64
+                },
+                "alt": "Firebase logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-firebase.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 233,
+                    "height": 64
+                },
+                "alt": "Chrome logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-chrome.png"
+            }
+        },
+        {
+            "logo": {
+                "dimensions": {
+                    "width": 94,
+                    "height": 64
+                },
+                "alt": "Arduino logo",
+                "copyright": null,
+                "url": "https://megabyte.space/assets/img/landing/tech/logo-arduino.png"
             }
         }
     ],

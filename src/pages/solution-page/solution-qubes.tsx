@@ -31,7 +31,7 @@ export const SolutionQubes = () => {
         <article class="step">
           <sup class="ui-heading-6">01</sup>
           <div class="heading-group">
-            <Heading level={3} id="install">
+            <Heading level={3}>
               Install Doctor supports Qubes.
             </Heading>
             <Paragraph>
@@ -42,7 +42,7 @@ export const SolutionQubes = () => {
             <webp-image
               src="/assets/img/products/venn-qubes.png"
               alt="Qubes Install Doctor venn diagram"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -50,7 +50,7 @@ export const SolutionQubes = () => {
         <article class="step">
           <sup class="ui-heading-6">02</sup>
           <div class="heading-group">
-            <Heading level={3} id="install">
+            <Heading level={3}>
               Industry leading security.
             </Heading>
             <Paragraph>
@@ -61,7 +61,7 @@ export const SolutionQubes = () => {
             <webp-image
               src="/assets/img/solutions/security-graphic.png"
               alt="Desktop security graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -70,48 +70,6 @@ export const SolutionQubes = () => {
           <sup class="ui-heading-6">03</sup>
           <div class="heading-group">
             <Heading level={3}>Virtualization with other platforms.</Heading>
-            <div class="platforms">
-              <webp-image
-                loading="lazy"
-                src="/assets/img/landing/hyperv.png"
-                alt="Hyper-V"
-                class="vm-icon"
-                width="37"
-                height="37"
-              />
-              <webp-image
-                loading="lazy"
-                src="/assets/img/landing/parallels.png"
-                alt="Parallels"
-                class="vm-icon"
-                width="37"
-                height="37"
-              />
-              <webp-image
-                loading="lazy"
-                src="/assets/img/landing/qemu.png"
-                alt="QEMU"
-                class="vm-icon"
-                width="37"
-                height="37"
-              />
-              <webp-image
-                loading="lazy"
-                src="/assets/img/landing/virtualbox.png"
-                alt="VirtualBox"
-                class="vm-icon"
-                width="37"
-                height="37"
-              />
-              <webp-image
-                loading="lazy"
-                src="/assets/img/landing/vmware.png"
-                alt="VMWare"
-                class="vm-icon"
-                width="37"
-                height="37"
-              />
-            </div>
             <Paragraph>
               Part of what makes Qubes unique is its integration of virtualized desktop environment into an all-encompassing operating system that is designed to never connect to the internet. Our expertise with virtualization does not stop with Qubes. VMWare, Parallels, KVM, Docker, Hyper-V, and VirtualBox are all essential to our eco-system.
             </Paragraph>
@@ -120,7 +78,7 @@ export const SolutionQubes = () => {
             <webp-image
               src="/assets/img/solutions/virtualization.png"
               alt="Virtualization graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

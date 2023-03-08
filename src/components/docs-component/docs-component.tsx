@@ -57,7 +57,7 @@ export class DocsComponent implements ComponentInterface {
       <Fragment>
         <meta-tags
           canonicalUrl={this.data.canonicalUrl}
-          page-title={this.data.title}
+          pageTitle={this.data.title}
           description={`${this.data.description} | Megabyte Labs Documentation`}
         />
         {/* <capacitor-site-platform-bar

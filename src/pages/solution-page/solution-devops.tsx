@@ -77,7 +77,7 @@ export const SolutionDevOps = () => {
             <webp-image
               src="/assets/img/solutions/ci-cd-graphic.png"
               alt="Continuous Integration and Continuous Delivery illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -128,7 +128,7 @@ export const SolutionDevOps = () => {
             <webp-image
               src="/assets/img/solutions/iac-graphic.png"
               alt="Infrastructure-as-Code illustration"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -173,7 +173,7 @@ export const SolutionDevOps = () => {
             <webp-image
               src="/assets/img/solutions/logging-graphic.png"
               alt="Monitoring / Logging graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

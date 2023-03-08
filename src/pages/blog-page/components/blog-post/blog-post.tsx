@@ -209,7 +209,7 @@ export class BlogPost {
 
     return (
       <meta-tags
-        page-title={this.data.title}
+        pageTitle={this.data.title}
         description={this.data.description}
         image={path}
       />
@@ -414,8 +414,9 @@ export class BlogPost {
                 window.scrollTo(0, 0)
               }}
               class="featured-image"
-              dimensions="1600x840"
+              dimensions="1200x670"
               path={'/assets/img/blog'}
+              loading="eager"
             />
           </a>
         ) : (
@@ -423,8 +424,9 @@ export class BlogPost {
               {...data}
               fallback
               class="featured-image"
-              dimensions="1600x840"
+              dimensions="1200x670"
               path={'/assets/img/blog'}
+              loading="eager"
             />
           )}
       </div>

@@ -1,9 +1,9 @@
-import { Component, Host, h, Prop } from '@stencil/core';
+import { Component, Host, h, Prop } from '@stencil/core'
 import {
   ResponsiveContainer,
   Heading,
   Paragraph,
-} from '@ionic-internal/ionic-ds';
+} from '@ionic-internal/ionic-ds'
 
 @Component({
   tag: 'telemetry-page',
@@ -11,15 +11,15 @@ import {
   scoped: true,
 })
 export class TelemetryPage {
-  @Prop() data: any;
+  @Prop() data: any
 
   render() {
-    const { Telemetry } = this;
+    const { Telemetry } = this
 
     return (
       <Host>
         <meta-tags
-          page-title="Telemetry"
+          pageTitle="Telemetry"
           description={'Capacitor Telemetry usage information'}
         />
         <Telemetry />
@@ -27,7 +27,7 @@ export class TelemetryPage {
         <pre-footer />
         <capacitor-site-footer />
       </Host>
-    );
+    )
   }
 
   Telemetry = () => (

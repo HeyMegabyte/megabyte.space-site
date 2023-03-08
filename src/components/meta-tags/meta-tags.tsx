@@ -1,4 +1,4 @@
-import { Build, Component, Element, Host, Prop, h } from '@stencil/core'
+import { Component, Element, Prop, h } from '@stencil/core'
 import Helmet from '@stencil/helmet'
 
 @Component({
@@ -7,7 +7,7 @@ import Helmet from '@stencil/helmet'
 export class MetaTags {
   site = 'https://megabyte.space';
   @Prop() pageTitle =
-    'Megabyte Labs: Enterprise-grade open-source solutions';
+    'Megabyte Labs: Enterprise-Grade Open-Source Solutions';
   @Prop() description =
     'Megabyte Labs is an open-source agency that provides enterprise-grade open-source solutions, from web development to cloud computing and more. Contact us today to learn more!';
   @Prop() image = 'https://megabyte.space/assets/img/og.png';
@@ -20,13 +20,13 @@ export class MetaTags {
   render() {
     const prettyTitle =
       this.pageTitle ===
-        'Megabyte Labs: Enterprise-grade open-source solutions'
+        'Megabyte Labs: Enterprise-Grade Open-Source Solutions'
         ? this.pageTitle
         : `${this.pageTitle} | Megabyte Labs`
 
-    if (!this.el.isConnected || Build.isServer) {
-      return <Host></Host>
-    }
+    //if (!this.el.isConnected || Build.isServer) {
+    //  return <Host></Host>
+    //}
 
     return (
       <Helmet>

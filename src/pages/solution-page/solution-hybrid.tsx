@@ -48,7 +48,7 @@ export const SolutionHybrid = () => {
             <webp-image
               src="/assets/img/solutions/hybrid-1.png"
               alt="Cordova app development graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -65,7 +65,7 @@ export const SolutionHybrid = () => {
             <webp-image
               src="/assets/img/solutions/hybrid-2.png"
               alt="Hybrid app development graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>
@@ -84,7 +84,7 @@ export const SolutionHybrid = () => {
             <webp-image
               src="/assets/img/solutions/hybrid-3.png"
               alt="Cross-platform app development graphic"
-              class="vm-icon"
+              class="numbered-pic"
             />
           </div>
         </article>

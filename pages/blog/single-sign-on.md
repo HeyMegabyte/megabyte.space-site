@@ -11,6 +11,6 @@ featuredImageAlt: Single sign-on graphic
 
 Single Sign-On (SSO) is a key feature in many enterprises. With it, you can protect all your web services by leveraging authentication methods that are already integrated into your code landscape or freely available from tech giants like Google, Microsoft, Facebook, and Twitter. Megabyte Labs paves the way from integrating SSO into your devices by making it incredibly easy to integrate SSO solutions like [CloudFlare Teams](https://www.cloudflare.com/products/zero-trust/) and [Ory.sh](https://www.ory.sh/).
 
-## Coming soon..
+## "Single Sign-On Authentication System," is coming soon..
 
 Be sure to register for our newsletter for more details on our Single Sign-On capabilities.

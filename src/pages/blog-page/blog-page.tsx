@@ -22,7 +22,7 @@ export class BlogPage {
       <Host>
         {/* <blog-subnav breadcrumbs={[['Blog', '/blog']]} /> */}
         <meta-tags
-          page-title="The Blog: Articles by the team and community"
+          pageTitle="The Blog: Articles by the team and community"
           description="Read about open-source that matters on the Megabyte Labs blog. Join our community to become part of an open-source brand that develops cool, useful tools."
         />
         <ResponsiveContainer>

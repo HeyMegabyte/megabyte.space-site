@@ -7,7 +7,7 @@ Megabyte Labs designs tools for anything we wish already existed. Sometimes thos
 Although we do not host public repositories with the source to our applications, feel free to reach out if you are interested in borrowing some of the code.
 
 GV: 860-8SW-ANKY
-
+Make it so service worker caches either png or webp based on browser
 WEB
 help@megabyte.space
 

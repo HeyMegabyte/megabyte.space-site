@@ -19,7 +19,7 @@ export class PrivacyPolicyPage {
     return (
       <Host>
         <meta-tags
-          page-title="Privacy Policy"
+          pageTitle="Privacy Policy"
           description={'Learn about what we do to protect our users privacy. Our privacy policy can answer your privacy-related issues.'}
         />
         <Telemetry />

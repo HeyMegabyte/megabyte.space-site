@@ -4,7 +4,6 @@ import {
   Heading,
   Button,
   PrismicRichText,
-  PrismicResponsiveImage,
   Paragraph,
 } from '@ionic-internal/ionic-ds'
 import { State } from '@stencil/core/internal'
@@ -37,7 +36,7 @@ export class EnterprisePage {
     return (
       <Host>
         <meta-tags
-          page-title={`Enterprise-grade open-source solutions`}
+          pageTitle={`Enterprise-grade open-source solutions`}
           description={'Learn about the enterprise-grade support and solutions that we offer. Find out how to amplify your business with our services.'}
         />
         <enterprise-subnav />
@@ -64,7 +63,7 @@ export class EnterprisePage {
 
     return (
       <section id="top">
-        <PrismicResponsiveImage image={background} class="background" />
+        <prismic-image image={background} class="background" loading="eager" />
         <ResponsiveContainer>
           <div class="heading-group">
             <Heading level={1}>{title}</Heading>
@@ -78,54 +77,6 @@ export class EnterprisePage {
                 {cta_2}
                 <span class="arrow"> -&gt;</span>
               </a> */}
-            </div>
-          </div>
-        </ResponsiveContainer>
-      </section>
-    )
-  };
-
-  Companies = () => {
-    const { companies } = this.data
-
-    const companies__list = [
-      ['nationwide', '34x42'],
-      ['target', '31x42'],
-      ['burger-king', '32x36'],
-      ['home-depot', '34x34'],
-      ['nbc', '51x30'],
-      ['microsoft', '35x35'],
-      ['amtrak', '58x25'],
-      ['general-electric', '35x35'],
-    ]
-
-    return (
-      <section id="companies">
-        <ResponsiveContainer>
-          <Heading level={2}>{companies}</Heading>
-          <div class="logos">
-            <div class="row1">
-              {companies__list.slice(0, 4).map((stats, i) => (
-                <webp-image
-                  width={stats[1].split('x')[0]}
-                  height={stats[1].split('x')[1]}
-                  src={`./assets-enterprise-page/companies/${i}@2x.png`}
-                  loading="lazy"
-                  alt={`${stats[0]} logo`}
-                />
-              ))}
-            </div>
-            <div class="row2">
-              {companies__list.slice(0, 4).map((stats, i) => (
-                <webp-image
-                  width={stats[1].split('x')[0]}
-                  height={stats[1].split('x')[1]}
-                  src={`./assets-enterprise-page/companies/${i + companies__list.length / 2
-                    }@2x.png`}
-                  loading="lazy"
-                  alt={`${stats[0]} logo`}
-                />
-              ))}
             </div>
           </div>
         </ResponsiveContainer>
@@ -175,7 +126,6 @@ export class EnterprisePage {
   Ebook = () => {
     const { ebook } = this.data
     const { text, cta, background, book } = ebook[0]
-
     return (
       <section id="ebook">
         <ResponsiveContainer>
@@ -192,10 +142,10 @@ export class EnterprisePage {
             <capacitor-hubspot-form formId="df7c28cd-d123-4ea2-aa2c-d7cb304fd398" />
           </site-modal>
           <div class="wrapper">
-            <PrismicResponsiveImage image={background} class="background" />
+            <prismic-image image={background} class="background" />
             <div class="content">
               <div class="image-wrapper">
-                <PrismicResponsiveImage image={book} />
+                <prismic-image image={book} />
               </div>
               <div class="heading-group">
                 <PrismicRichText paragraphLevel={1} richText={text} />
@@ -237,7 +187,7 @@ export class EnterprisePage {
             <article class="traditional column">
               <Heading>{approach_traditional[0]['title']}</Heading>
               <Paragraph>{approach_traditional[0]['text']}</Paragraph>
-              <PrismicResponsiveImage
+              <prismic-image
                 image={approach_traditional[0]['image']}
               />
               <div class="list">
@@ -247,7 +197,7 @@ export class EnterprisePage {
                 <ul>
                   {approach_traditional__list.map(({ text, icon }) => (
                     <li>
-                      <PrismicResponsiveImage image={icon} />
+                      <prismic-image image={icon} />
                       <Paragraph>{text}</Paragraph>
                     </li>
                   ))}
@@ -257,13 +207,13 @@ export class EnterprisePage {
             <article class="web column">
               <Heading>{approach_web[0]['title']}</Heading>
               <Paragraph>{approach_web[0]['text']}</Paragraph>
-              <PrismicResponsiveImage image={approach_web[0]['image']} />
+              <prismic-image image={approach_web[0]['image']} />
               <div class="list">
                 <Heading level={4}>{approach_web[0]['subtitle']}</Heading>
                 <ul>
                   {approach_web__list.map(({ text, icon }) => (
                     <li>
-                      <PrismicResponsiveImage image={icon} />
+                      <prismic-image image={icon} />
                       <Paragraph>{text}</Paragraph>
                     </li>
                   ))}
@@ -285,7 +235,7 @@ export class EnterprisePage {
         <ResponsiveContainer>
           <div class="wrapper">
             <div class="image-wrapper">
-              <PrismicResponsiveImage image={image} />
+              <prismic-image image={image} />
             </div>
             <div class="heading-group">
               <p class="ui-heading-6">
@@ -316,7 +266,7 @@ export class EnterprisePage {
               <Paragraph level={2}>{subtext}</Paragraph>
             </div>
             <div class="image-wrapper">
-              <PrismicResponsiveImage image={image} />
+              <prismic-image image={image} />
             </div>
           </div>
         </ResponsiveContainer>
@@ -333,7 +283,7 @@ export class EnterprisePage {
         <ResponsiveContainer>
           <div class="wrapper">
             <div class="image-wrapper">
-              <PrismicResponsiveImage image={image} />
+              <prismic-image image={image} />
             </div>
             <div class="heading-group">
               <p class="ui-heading-6">
@@ -364,7 +314,7 @@ export class EnterprisePage {
               <PrismicRichText richText={subtext} paragraphLevel={2} />
             </div>
             <div class="image-wrapper">
-              <PrismicResponsiveImage image={image} />
+              <prismic-image image={image} />
             </div>
           </div>
         </ResponsiveContainer>
@@ -381,7 +331,7 @@ export class EnterprisePage {
           <div class="wrapper">
             {support_guidance.map(({ image, title, text }) => (
               <article>
-                <PrismicResponsiveImage image={image} />
+                <prismic-image image={image} />
                 <Heading level={3}>{title}</Heading>
                 <Paragraph level={2}>{text}</Paragraph>
               </article>
@@ -411,7 +361,7 @@ export class EnterprisePage {
               {features__list.map(({ icon, title, text }) => (
                 <li>
                   <div class="image-wrapper">
-                    <PrismicResponsiveImage image={icon} />
+                    <prismic-image image={icon} />
                   </div>
                   <div>
                     <Heading level={4} as="h3">
@@ -455,7 +405,7 @@ export class EnterprisePage {
               </div>
             </div>
             <div class="image-wrapper">
-              <PrismicResponsiveImage image={image} />
+              <prismic-image image={image} />
             </div>
           </div>
         </ResponsiveContainer>
