@@ -18,7 +18,6 @@ export class BlogPage {
 
   render() {
     if (!this.data) console.error('No blog posts received')
-    console.log(this.data)
     return (
       <Host>
         {/* <blog-subnav breadcrumbs={[['Blog', '/blog']]} /> */}

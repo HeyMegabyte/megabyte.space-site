@@ -331,8 +331,8 @@ export class BlogPost {
               {authorName}
             </a>
           ) : (
-              authorName
-            )}{' '}
+            authorName
+          )}{' '}
           on <DateTime date={dateString} />
         </Paragraph>
       </div>
@@ -421,15 +421,15 @@ export class BlogPost {
             />
           </a>
         ) : (
-            <ResponsiveImage
-              {...data}
-              fallback
-              class="featured-image"
-              dimensions="1200x670"
-              path={'/assets/img/blog'}
-              loading="eager"
-            />
-          )}
+          <ResponsiveImage
+            {...data}
+            fallback
+            class="featured-image"
+            dimensions="1200x670"
+            path={'/assets/img/blog'}
+            loading="eager"
+          />
+        )}
       </div>
     )
   };

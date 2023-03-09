@@ -120,13 +120,13 @@ export class SolutionPage implements ComponentInterface {
               This is only the beginning. Browse through the Megabyte Labs{' '}
               <a href="https://gitlab.com/megabyte-labs" target="_blank" rel="noopener">
                 GitLab repository
-            </a>{' '}
-            or get started with contributing by checking out the{' '}
+              </a>{' '}
+              or get started with contributing by checking out the{' '}
               <a href='/docs'>
                 eco-system documentation
-            </a>{' '}
-            .
-          </Paragraph>
+              </a>{' '}
+              .
+            </Paragraph>
           </ResponsiveContainer>
         </section>
         {this.Demo()}

@@ -116,36 +116,36 @@ export class CapacitorSiteFooter {
                     </Paragraph>
                   </div>
                 ) : (
-                    <form class="hs-form" onSubmit={e => this.handleNewsletterSubmit(e)}>
-                      <div class="hs_email hs-email hs-fieldtype-text field hs-form-field">
-                        <div class="input">
-                          <input
-                            name="email"
-                            type="email"
-                            autocomplete="email"
-                            inputmode="email"
-                            value={this.email}
-                            onInput={() => this.handleEmailChange(event)}
-                            disabled={this.isLoading}
-                            placeholder="E-mail"
-                            class={{ 'error': this.isValid, 'ui-paragraph-4': true }}
-                            aria-label="Email"
-                            required
-                          />
-                        </div>
+                  <form class="hs-form" onSubmit={e => this.handleNewsletterSubmit(e)}>
+                    <div class="hs_email hs-email hs-fieldtype-text field hs-form-field">
+                      <div class="input">
+                        <input
+                          name="email"
+                          type="email"
+                          autocomplete="email"
+                          inputmode="email"
+                          value={this.email}
+                          onInput={() => this.handleEmailChange(event)}
+                          disabled={this.isLoading}
+                          placeholder="E-mail"
+                          class={{ 'error': this.isValid, 'ui-paragraph-4': true }}
+                          aria-label="Email"
+                          required
+                        />
                       </div>
-                      <div class="hs_submit hs-submit">
-                        <div class="actions">
-                          <input type="submit" class="hs-button primary large" value="Subscribe" />
-                        </div>
+                    </div>
+                    <div class="hs_submit hs-submit">
+                      <div class="actions">
+                        <input type="submit" class="hs-button primary large" value="Subscribe" />
                       </div>
-                      {!this.isValid && (
-                        <Paragraph level={5} class="error-message">
-                          {this.inlineMessage}
-                        </Paragraph>
-                      )}
-                    </form>
-                  )}
+                    </div>
+                    {!this.isValid && (
+                      <Paragraph level={5} class="error-message">
+                        {this.inlineMessage}
+                      </Paragraph>
+                    )}
+                  </form>
+                )}
               </div>
             </div>
             <Grid>

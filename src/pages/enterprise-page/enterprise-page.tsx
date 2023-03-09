@@ -110,7 +110,7 @@ export class EnterprisePage {
               <webp-image
                 width={icons[i][1].split('x')[0]}
                 height={icons[i][1].split('x')[1]}
-                src={`https://megabyte.space/assets/img/enterprise/enterprise-overview-${i}.png`}
+                src={`/assets/img/enterprise/enterprise-overview-${i}.png`}
                 loading="lazy"
               />
               <Heading level={4} as="h3">

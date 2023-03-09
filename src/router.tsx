@@ -31,8 +31,7 @@ export const Routes = () => (
         <Fragment>
           <blog-page data={data instanceof Map ? Object.values(Object.fromEntries(data))[0] : data} />
         </Fragment>
-      )
-      }
+      )}
     ></Route>
 
     <Route
@@ -119,9 +118,7 @@ export const Routes = () => (
 )
 
 Router.on('change', (newUrl, oldUrl) => {
-  window.scrollTo(0, 0)
-  //debugger
-  //requestAnimationFrame(() => window.scrollTo(0, 0))
+  requestAnimationFrame(() => window.scrollTo(0, 0))
   if (newUrl.hash) {
     const id = newUrl.hash.slice(1)
     setTimeout(() => {

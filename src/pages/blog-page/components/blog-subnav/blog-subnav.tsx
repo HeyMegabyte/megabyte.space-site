@@ -48,8 +48,8 @@ export class BlogSubnav {
                     {crumb[0]}
                   </a>
                 ) : (
-                    crumb[0]
-                  )}
+                  crumb[0]
+                )}
               </li>
             ))}
           </Breadcrumbs>
