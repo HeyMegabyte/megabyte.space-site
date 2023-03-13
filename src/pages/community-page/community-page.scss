@@ -68,7 +68,7 @@
 }
 
 #websites {
-  margin-block-end: 160px;
+  margin-block-end: 80px;
 
   .ui-grid {
     column-gap: 32px;
@@ -96,4 +96,14 @@
 
 #newsletter {
   margin-block-end: 160px;
+}
+
+#what-is {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  #top .image-wrapper {
+    max-width: 430px !important;
+  }
 }

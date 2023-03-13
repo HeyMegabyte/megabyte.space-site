@@ -426,6 +426,15 @@ export class EnterprisePage {
               <sup>{supertext}</sup>
             </p>
             <Heading level={2}>{title}</Heading>
+            <Paragraph>
+              Asking for enterprise support from Megabyte Labs can provide your enterprise with valuable advice and consulting that can potentially increase your capital efficiency. Megabyte Labs specializes in integrating open-source software and projects into people's products and businesses, which means they have a deep understanding of the latest industry trends and best practices. By engaging with their support team, you can gain insights into how to leverage open-source technology to optimize your operations, reduce costs, and increase efficiency.
+            </Paragraph>
+            <Paragraph>
+              Additionally, Megabyte Labs' consulting services can help you identify new opportunities to grow your business and generate more revenue. By leveraging their expertise in open-source technology, they can help you identify new ways to improve your products and services, enhance your customer experience, and streamline your operations. This can potentially lead to increased sales, higher margins, and improved profitability. Overall, by asking for enterprise support from Megabyte Labs, you can gain access to a wealth of knowledge and expertise that can help you achieve your business goals and drive long-term success.
+            </Paragraph>
+            <Paragraph>
+              <b>Fill out and submit the form below and we will respond to your inquiry in a timely fashion.</b>
+            </Paragraph>
           </div>
           <capacitor-hubspot-form formId="a24b8d44-bc52-414d-b194-3652c7bab375" />
         </ResponsiveContainer>
