@@ -5,7 +5,7 @@ import dotenvPlugin from 'rollup-plugin-dotenv';
 
 export const config: Config = {
   devServer: {
-    openBrowser: false,
+    openBrowser: true,
     // logRequests: true,
   },
   globalStyle: './src/global/style.scss',
@@ -29,10 +29,6 @@ export const config: Config = {
         {
           src: '../docs/build',
           dest: 'docs'
-        },
-        {
-          src: '../node_modules/@ionic-internal/ionic-ds/www/assets/fonts',
-          dest: 'assets/fonts'
         },
         {
           src: './android-chrome-192x192.png',
