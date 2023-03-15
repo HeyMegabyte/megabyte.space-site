@@ -22,6 +22,7 @@ $section-space: 6.25rem;
   --p3-color: var(--c-indigo-80);
   --p3-size: clamp(14px, 2vw, 16px);
 }
+
 //#endregion
 
 //#region ----------- GENERAL STYLES -----------
@@ -38,6 +39,7 @@ h6 {
   font-style: normal;
   color: var(--c-carbon-100);
 }
+
 //#endregion
 
 :host {
@@ -51,21 +53,21 @@ h6 {
   margin-bottom: 178px;
 
   .ui-container {
-    display: flex;
+    // display: flex;
     // flex-wrap: wrap;
-    margin-block-start: clamp(64px, 17vh, 154px);
+    // margin-block-start: clamp(64px, 17vh, 154px);
 
     @media screen and (max-width: $screen-xs) {
       margin-block-start: 240px;
       flex-direction: column-reverse;
     }
 
-    > * {
+    >* {
       flex-grow: 1;
     }
   }
 
-  img.background {
+  .background img {
     position: absolute;
     bottom: 100px;
 
@@ -85,6 +87,7 @@ h6 {
     .ui-heading {
       max-width: 504px;
     }
+
     .ui-paragraph {
       margin-block-end: var(--space-6);
       max-width: 448px;
@@ -107,6 +110,7 @@ h6 {
         --c-background--active: #0090f0;
         --c-focus: #bde4ff;
       }
+
       &.secondary {
         --c-text: var(--c-capacitor-blue);
         --c-focus: #80caff;
@@ -139,10 +143,8 @@ h6 {
       @media screen and (max-width: $screen-xs) {
         --width: 200px;
         max-width: var(--width);
-        left: min(
-          calc(480px / 2 - var(--width) / 2),
-          100% / 2 - var(--width) / 2
-        );
+        left: min(calc(480px / 2 - var(--width) / 2),
+            100% / 2 - var(--width) / 2);
         top: -220px;
         position: absolute;
       }
@@ -221,7 +223,7 @@ h6 {
 
     padding: 3rem;
 
-    > * {
+    >* {
       flex-basis: 50%;
     }
 
@@ -240,7 +242,7 @@ h6 {
   }
 
   header {
-    > * {
+    >* {
       max-width: 32rem;
     }
 
@@ -342,7 +344,7 @@ h6 {
         flex-direction: column;
       }
 
-      > * {
+      >* {
         margin-block-start: 32px;
         margin-inline-start: 32px;
       }
@@ -356,6 +358,7 @@ h6 {
         max-width: 384px;
         margin-inline-end: 32px;
       }
+
       .ui-paragraph {
         margin-block-start: 24px;
         max-width: 384px;
@@ -375,7 +378,7 @@ h6 {
     .platforms {
       display: flex;
 
-      * + * {
+      *+* {
         margin-inline-start: var(--space-3);
       }
     }
@@ -418,7 +421,8 @@ h6 {
       margin-block-end: 2rem;
     }
   }
-  img.background {
+
+  .background img {
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -543,7 +547,7 @@ h6 {
     }
   }
 
-  img.sc-landing-page {
+  img {
     width: 64px;
     height: 64px;
   }
@@ -566,7 +570,7 @@ h6 {
     margin-block-start: -16px;
     margin-block-end: var(--space-11);
 
-    > * {
+    >* {
       margin-inline-start: 32px;
       margin-block-start: 16px;
     }
@@ -590,7 +594,8 @@ h6 {
   }
 }
 
-#framework, #products {
+#framework,
+#products {
   margin-block-start: $section-space;
   margin-block-end: $section-space;
 
@@ -604,7 +609,7 @@ h6 {
     margin-block-start: -16px;
     margin-block-end: var(--space-11);
 
-    > * {
+    >* {
       margin-inline-start: 32px;
       margin-block-start: 16px;
     }
@@ -613,6 +618,7 @@ h6 {
       margin-block-end: 0px;
       max-width: 400px;
     }
+
     .ui-paragraph {
       max-width: 560px;
     }
@@ -651,9 +657,11 @@ h6 {
   padding-block-end: $section-space;
 
   background: var(--c-indigo-10);
+
   article {
     width: 269px;
   }
+
   .heading-group {
     margin-block-end: 6rem;
 
@@ -696,7 +704,7 @@ h6 {
       border-radius: 8px;
       background: #fff;
 
-      + .tweet {
+      +.tweet {
         margin-block-start: 2rem;
       }
 
@@ -720,6 +728,7 @@ h6 {
               margin-block-end: -0.125rem;
             }
           }
+
           .ui-paragraph {
             font-weight: 500;
             color: var(--c-carbon-60);
@@ -745,6 +754,7 @@ h6 {
       font-size: 1.75rem;
       margin-block-end: 0.5rem;
     }
+
     .ui-paragraph-1 {
       letter-spacing: 0;
       font-weight: bold;
@@ -788,6 +798,7 @@ h6 {
         img {
           max-width: 100%;
         }
+
         .ui-heading {
           font-weight: bold;
           color: var(--c-carbon-100);
@@ -807,6 +818,7 @@ h6 {
   background: linear-gradient(180deg, #ffffff 0%, #f6f8fc 100%);
   padding-bottom: 69px;
 }
+
 #cta {
   --h2-color: var(--c-carbon-50);
   --p1-color: var(--c-indigo-40);
@@ -855,7 +867,7 @@ h6 {
       overflow: hidden;
     }
 
-    img.background {
+    .background img {
       position: absolute;
       z-index: 1;
       right: 0;
@@ -931,6 +943,7 @@ h6 {
           margin: 0;
         }
       }
+
       &.second {
         margin-inline-end: calc(-1 * (50% - 179px) / 7);
 
@@ -981,6 +994,7 @@ h6 {
         --elevation: var(--elevation-3);
       }
     }
+
     .secondary {
       --c-background: #49b6ff;
       --c-background--hover: #5cbeff;
@@ -999,7 +1013,7 @@ h6 {
   width: 214px;
 }
 
-#top > .ui-container > .heading-group > .link {
+#top>.ui-container>.heading-group>.link {
   margin-left: 5px;
   margin-bottom: 14px;
 }

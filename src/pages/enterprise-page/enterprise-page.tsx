@@ -70,7 +70,7 @@ export class EnterprisePage {
             <Heading level={1}>{title}</Heading>
             <Paragraph level={2}>{text}</Paragraph>
             <div class="cta-row">
-              <Button anchor href="#demo" kind="round">
+              <Button anchor href="#inquiry" kind="round">
                 {cta_1}
                 <span class="arrow"> -&gt;</span>
               </Button>
@@ -395,7 +395,7 @@ export class EnterprisePage {
               <PrismicRichText richText={paragraph_1} paragraphLevel={2} />
               <PrismicRichText richText={paragraph_2} paragraphLevel={2} />
               <div class="cta-row">
-                <Button href="#demo" anchor kind="round">
+                <Button href="#inquiry" anchor kind="round">
                   {cta_1}
                   <span class="arrow"> -&gt;</span>
                 </Button>
@@ -421,7 +421,7 @@ export class EnterprisePage {
     return (
       <section id="demo">
         <ResponsiveContainer>
-          <div class="heading-group">
+          <div class="heading-group" id="inquiry">
             <p class="ui-heading-6">
               <sup>{supertext}</sup>
             </p>
@@ -433,7 +433,10 @@ export class EnterprisePage {
               Additionally, Megabyte Labs' consulting services can help you identify new opportunities to grow your business and generate more revenue. By leveraging their expertise in open-source technology, they can help you identify new ways to improve your products and services, enhance your customer experience, and streamline your operations. This can potentially lead to increased sales, higher margins, and improved profitability. Overall, by asking for enterprise support from Megabyte Labs, you can gain access to a wealth of knowledge and expertise that can help you achieve your business goals and drive long-term success.
             </Paragraph>
             <Paragraph>
-              <b>Fill out and submit the form below and we will respond to your inquiry in a timely fashion.</b>
+              <b class="noshow-noscript">Fill out and submit the form below and we will respond to your inquiry in a timely fashion.</b>
+              <noscript>
+                <b>Send an e-mail to <a href="mailto:help@megabyte.space">help@megabyte.space</a> and we will respond to you in a timely fashion.</b>
+              </noscript>
             </Paragraph>
           </div>
           <capacitor-hubspot-form formId="a24b8d44-bc52-414d-b194-3652c7bab375" />

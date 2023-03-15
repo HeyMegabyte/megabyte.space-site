@@ -1678,7 +1678,7 @@ firefoxAddOns:
             Moreover, as the umbrella company for a large ecosystem of open-source projects, we are deeply rooted in the open-source community. We understand the value of community-driven projects and are committed to supporting them. We are constantly seeking ways to contribute to the open-source community, and our team is always up-to-date with the latest technology trends and best practices.
           </Paragraph>
           <Paragraph>
-            Whether you are a business looking for a technology consulting firm or an open-source community member, Megabyte Labs is the golden standard for leveraging free, industry-leading, open-source solutions. With our team of skilled technology professionals and commitment to the open-source community, we can help take your business to the next level and increase its capital efficiency. <a {...href('/enterprise#demo')}>Contact us today</a> to learn more about how we can help you reach your business goals.
+            Whether you are a business looking for a technology consulting firm or an open-source community member, Megabyte Labs is the golden standard for leveraging free, industry-leading, open-source solutions. With our team of skilled technology professionals and commitment to the open-source community, we can help take your business to the next level and increase its capital efficiency. <a {...href('/enterprise#inquiry')}>Contact us today</a> to learn more about how we can help you reach your business goals.
           </Paragraph>
           <div class="homepage-blog-article-signature">
             <webp-image
