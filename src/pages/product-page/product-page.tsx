@@ -4,7 +4,7 @@ import {
   ResponsiveContainer,
   Heading,
   Paragraph,
-} from '@ionic-internal/ionic-ds'
+} from 'ionic-ds-no-fonts'
 
 import { ProductLinkBlink } from './product-linkblink'
 import { ProductMusicBlobs } from './product-musicblobs'

@@ -4,7 +4,7 @@ import {
   ResponsiveContainer,
   Heading,
   Paragraph,
-} from '@ionic-internal/ionic-ds'
+} from 'ionic-ds-no-fonts'
 
 import { SolutionHybrid } from './solution-hybrid'
 import { SolutionDevOps } from './solution-devops'

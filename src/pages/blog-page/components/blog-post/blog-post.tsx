@@ -4,8 +4,8 @@ import {
   Paragraph,
   DateTime,
   ResponsiveContainer,
-} from '@ionic-internal/ionic-ds'
-import { Components as DS } from '@ionic-internal/ionic-ds/dist/types/components'
+} from 'ionic-ds-no-fonts'
+import { Components as DS } from 'ionic-ds-no-fonts/dist/types/components'
 import { JSXBase } from '@stencil/core/internal'
 import parseISO from 'date-fns/parseISO'
 

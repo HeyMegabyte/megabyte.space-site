@@ -9,7 +9,7 @@ import {
 } from '@stencil/core'
 import { href } from '@stencil/router'
 import Router from '../../router'
-import { Button } from '@ionic-internal/ionic-ds'
+import { Button } from 'ionic-ds-no-fonts'
 import { JSXBase } from '@stencil/core/internal'
 import { DocsTemplate } from 'src/data.server/models'
 //import { Translation } from '../../icons';
