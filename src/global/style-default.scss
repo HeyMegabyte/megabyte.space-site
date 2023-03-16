@@ -583,3 +583,10 @@ enterprise-page {
   max-width: 670px;
   margin: 0 auto;
 }
+
+.icon-inner,
+.ionicon,
+svg {
+  width: unset;
+  height: unset;
+}

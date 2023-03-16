@@ -27,10 +27,12 @@
 :host(.theme--dark) {
   --c-background: black;
   background: black;
+
   .capacitor-logo {
-    .st0{
-      fill:#FFFFFF;
+    .st0 {
+      fill: #FFFFFF;
     }
+
     path:not(.logo) {
       fill: #fff;
     }
@@ -68,6 +70,7 @@
     --color: #fff;
   }
 }
+
 // #endregion ---------------------------------------------------------
 
 .docs-search-wrapper {
@@ -220,7 +223,7 @@ a.ui-paragraph-4 {
   white-space: nowrap;
   margin-inline-start: var(--space-1);
 
-  > a {
+  >a {
     display: flex;
     align-items: center;
     margin-inline-start: var(--space-3);
@@ -256,6 +259,7 @@ more-button {
 }
 
 @media screen and (max-width: $screen-sm-max) {
+
   .ctas,
   .sm-hide {
     display: none;
@@ -267,7 +271,7 @@ more-button {
     display: none;
   }
 
-  header > .docs-search-wrapper + .ui-paragraph-4 {
+  header>.docs-search-wrapper+.ui-paragraph-4 {
     margin-inline-start: auto;
   }
 
@@ -313,7 +317,7 @@ more-button {
 
       border-radius: var(--radius-1);
 
-      + a {
+      +a {
         margin-block-start: var(--space-0);
       }
 
@@ -328,6 +332,7 @@ more-button {
       // }
     }
   }
+
   .routes.expanded {
     transform: translateY(0px);
     opacity: 1;

@@ -14,8 +14,9 @@ export const config: Config = {
     {
       type: 'www',
       prerenderConfig: './prerender.config.ts',
-      baseUrl: 'https://megabyte.space/',
+      baseUrl: 'https://megabyte.space',
       serviceWorker: {
+        swSrc: 'src/sw.js',
         globPatterns: [
           '*.{png,xml,ico,json,svg,html}',
           'host.config.json',
@@ -77,10 +78,6 @@ export const config: Config = {
         {
           src: './humans.txt',
           dest: 'humans.txt'
-        },
-        {
-          src: './OneSignalSDKWorker.js',
-          dest: 'OneSignalSDKWorker.js'
         },
         {
           src: './site-noscript.css',
