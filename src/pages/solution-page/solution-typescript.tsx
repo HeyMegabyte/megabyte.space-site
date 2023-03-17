@@ -10,18 +10,18 @@ export const SolutionTypeScript = () => {
       <ResponsiveContainer id="what-is" as="section">
         <div class="ui-container">
           <ion-icon class="what-is-info-icon" name="information-circle-outline"></ion-icon>
-          <Paragraph class="quote-summary">
-            <b>What is TypeScript / JavaScript?</b>
-          </Paragraph>
+          <Heading class="quote-summary" level={2}>
+            What is TypeScript / JavaScript?
+          </Heading>
           <Paragraph class="quote-summary">
             TypeScript and JavaScript are both programming languages that are widely used for building web applications and other software projects. JavaScript is a scripting language that is supported by all major web browsers and is used for client-side scripting, while TypeScript is a superset of JavaScript that adds static typing and other features to make it easier to write and maintain large-scale applications.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             One of the main reasons why TypeScript and JavaScript are considered some of the best programming languages to choose is their versatility and widespread use. They are used by developers to build everything from simple websites to complex web applications, mobile apps, and even desktop applications. They are also supported by a large and active developer community, which provides a wealth of resources, libraries, and tools to help make development faster and more efficient.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             In addition, TypeScript and JavaScript are both relatively easy to learn and use, making them accessible to developers of all skill levels. They also allow for rapid prototyping and development, which can help businesses bring products to market faster and more efficiently. Finally, both languages are constantly evolving and improving, with regular updates and new features being added to keep pace with changing technologies and user needs.
-        </Paragraph>
+          </Paragraph>
         </div>
       </ResponsiveContainer>
       <ResponsiveContainer id="getting-started" as="section">

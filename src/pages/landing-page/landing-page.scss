@@ -58,7 +58,7 @@ h6 {
     // margin-block-start: clamp(64px, 17vh, 154px);
 
     @media screen and (max-width: $screen-xs) {
-      margin-block-start: 240px;
+      margin-block-start: 24px;
       flex-direction: column-reverse;
     }
 
@@ -1076,4 +1076,14 @@ h6 {
 
 #products .ui-col.ui-col-6.ui-col-sm-3:nth-child(4) {
   background: #cccccc
+}
+
+.fun-fact {
+  line-height: 1.1;
+}
+
+#what-is {
+  margin-bottom: 0;
+  padding-top: 124px;
+  padding-bottom: 59px;
 }

@@ -10,27 +10,27 @@ export const SolutionAnsible = () => {
       <ResponsiveContainer id="what-is" as="section">
         <div class="ui-container">
           <ion-icon class="what-is-info-icon" name="information-circle-outline"></ion-icon>
-          <Paragraph class="quote-summary">
-            <b>What is Ansible?</b>
-          </Paragraph>
+          <Heading class="quote-summary" level={2}>
+            What is Ansible?
+          </Heading>
           <Paragraph class="quote-summary">
             Ansible is an open-source IT automation tool that provides a simple, yet powerful way to automate software provisioning, configuration management, and application deployment. It was created by Michael DeHaan in 2012 and was later acquired by Red Hat.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Ansible uses a declarative language to describe system configurations, which makes it easy to write and understand automation scripts. Ansible playbooks are written in YAML, a human-readable data serialization format, and allow users to define the desired state of the systems they are configuring.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             One of the key advantages of Ansible is its agentless architecture, which means that it does not require any software to be installed on the target systems. This makes it easy to manage a large number of systems and reduces the overhead of managing software and configurations.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Another advantage of Ansible is its ability to automate tasks across multiple systems simultaneously. This allows users to easily manage large-scale deployments and configurations, such as those found in cloud computing environments.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Ansible also provides a robust set of modules and plugins, which allows users to automate a wide range of tasks, including network device management, cloud infrastructure management, and application deployment.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Finally, Ansible is easy to learn and use, even for users with limited programming or scripting experience. Its simplicity and ease-of-use make it an ideal choice for system administrators, developers, and DevOps teams who want to streamline their workflows and increase their efficiency.
-        </Paragraph>
+          </Paragraph>
         </div>
       </ResponsiveContainer>
       <ResponsiveContainer id="getting-started" as="section">

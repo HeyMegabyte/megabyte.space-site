@@ -11,18 +11,18 @@ export const SolutionKubernetes = () => {
       <ResponsiveContainer id="what-is" as="section">
         <div class="ui-container">
           <ion-icon class="what-is-info-icon" name="information-circle-outline"></ion-icon>
-          <Paragraph class="quote-summary">
-            <b>What is Kubernetes?</b>
-          </Paragraph>
+          <Heading class="quote-summary" level={2}>
+            What is Kubernetes?
+          </Heading>
           <Paragraph class="quote-summary">
             Kubernetes is an open-source container orchestration platform that is used for deploying, scaling, and managing containerized applications. It provides a highly scalable and resilient infrastructure for deploying and managing complex applications, and enables automated deployment, scaling, and management of containerized applications across multiple nodes.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Leveraging Kubernetes experts can be highly beneficial for businesses looking to improve their operations and stay competitive in today's fast-paced digital landscape. Kubernetes experts can help businesses to design and implement highly efficient and scalable infrastructure solutions, streamline their application deployment processes, and optimize their resource utilization.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             By partnering with Kubernetes experts, businesses can also benefit from improved performance, increased uptime, enhanced security, and reduced infrastructure costs. Additionally, Kubernetes experts can provide valuable guidance and support in developing and implementing effective DevOps practices, such as continuous integration and delivery (CI/CD), which can help businesses to accelerate their time-to-market and improve their overall competitiveness.
-        </Paragraph>
+          </Paragraph>
         </div>
       </ResponsiveContainer>
       <ResponsiveContainer id="getting-started" as="section">

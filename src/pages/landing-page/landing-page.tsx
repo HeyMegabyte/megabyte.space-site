@@ -1661,41 +1661,44 @@ firefoxAddOns:
             </div>
           </div>
         </ResponsiveContainer>
-        <div class="homepage-blog-article">
-          <Paragraph>
-            <b>Dear Open-Source Sugar Plum,</b>
-          </Paragraph>
-          <Paragraph>
-            At Megabyte Labs, we take pride in being the umbrella company for a large ecosystem of open-source projects that are powered by the open-source community. Whether you are a business looking for a technology consulting firm or an open-source community member, we are the golden standard for leveraging free, industry-leading, open-source solutions that increase the capital efficiency of your business.
-          </Paragraph>
-          <Paragraph>
-            Our team of skilled technology professionals has extensive knowledge of open-source solutions and can help you identify the most suitable open-source solutions for your business. By leveraging these solutions, you can reduce your IT costs and improve the overall efficiency of your business operations.
-          </Paragraph>
-          <Paragraph>
-            Additionally, we can help you optimize your business processes by automating routine tasks and streamlining workflows. Our skilled technology professionals can create custom solutions that meet your specific business needs and free up your employees' time, increase their productivity, and reduce the risk of human errors.
-          </Paragraph>
-          <Paragraph>
-            Moreover, as the umbrella company for a large ecosystem of open-source projects, we are deeply rooted in the open-source community. We understand the value of community-driven projects and are committed to supporting them. We are constantly seeking ways to contribute to the open-source community, and our team is always up-to-date with the latest technology trends and best practices.
-          </Paragraph>
-          <Paragraph>
-            Whether you are a business looking for a technology consulting firm or an open-source community member, Megabyte Labs is the golden standard for leveraging free, industry-leading, open-source solutions. With our team of skilled technology professionals and commitment to the open-source community, we can help take your business to the next level and increase its capital efficiency. <a {...href('/enterprise#inquiry')}>Contact us today</a> to learn more about how we can help you reach your business goals.
-          </Paragraph>
-          <div class="homepage-blog-article-signature">
-            <webp-image
-              loading="lazy"
-              src="/assets/img/landing/signature.png"
-              alt="Heart Megabyte Labs"
-              width="290"
-              height="81"
-            />
+        <ResponsiveContainer id="what-is" as="section">
+          <div class="ui-container">
+            <ion-icon class="what-is-info-icon" name="information-circle-outline"></ion-icon>
+            <Heading class="quote-summary" level={2}>
+              Why partner with Megabyte Labs?
+            </Heading>
+            <Paragraph class="quote-summary">
+              At Megabyte Labs, we take pride in being the umbrella company for a large ecosystem of open-source projects that are powered by the open-source community. Whether you are a business looking for a technology consulting firm or an open-source community member, we are the golden standard for leveraging free, industry-leading, open-source solutions that increase the capital efficiency of your business.
+            </Paragraph>
+            <Paragraph class="quote-summary">
+              Our team of skilled technology professionals has extensive knowledge of open-source solutions and can help you identify the most suitable open-source solutions for your business. By leveraging these solutions, you can reduce your IT costs and improve the overall efficiency of your business operations.
+            </Paragraph>
+            <Paragraph class="quote-summary">
+              Additionally, we can help you optimize your business processes by automating routine tasks and streamlining workflows. Our skilled technology professionals can create custom solutions that meet your specific business needs and free up your employees' time, increase their productivity, and reduce the risk of human errors.
+            </Paragraph>
+            <Paragraph class="quote-summary">
+              Moreover, as the umbrella company for a large ecosystem of open-source projects, we are deeply rooted in the open-source community. We understand the value of community-driven projects and are committed to supporting them. We are constantly seeking ways to contribute to the open-source community, and our team is always up-to-date with the latest technology trends and best practices.
+            </Paragraph>
+            <Paragraph class="quote-summary">
+              Whether you are a business looking for a technology consulting firm or an open-source community member, Megabyte Labs is the golden standard for leveraging free, industry-leading, open-source solutions. With our team of skilled technology professionals and commitment to the open-source community, we can help take your business to the next level and increase its capital efficiency. <a {...href('/enterprise#inquiry')}>Contact us today</a> to learn more about how we can help you reach your business goals.
+            </Paragraph>
+            <div class="quote-summary heart-mblabs">
+              <webp-image
+                loading="lazy"
+                src="/assets/img/landing/signature.png"
+                alt="Heart Megabyte Labs"
+                width="290"
+                height="81"
+              />
+            </div>
+            <Paragraph class="fun-fact quote-summary">
+              <small><b>SEO Fact:</b> This article is down here at the bottom because search engines need a sizable amount of text to properly index a website. <i>SEO is another thing we do.</i></small>
+            </Paragraph>
+            <Paragraph class="fun-fact quote-summary">
+              <small><b>AI Fact:</b> The content in this article and most of the content across the entire site (apart from the documentation) was written using ChatGPT AI. <i>AI is another thing we do.</i></small>
+            </Paragraph>
           </div>
-          <Paragraph class="fun-fact">
-            <small><b>SEO Fun Fact:</b> This comical letter / blib is down here at the bottom because search engines need a sizable amount of text to properly index a website. <i>SEO is another thing we do.</i></small>
-          </Paragraph>
-          <Paragraph class="fun-fact">
-            <small><b>AI Fun Fact:</b> The content in this article and most of the content across the entire site (apart from the documentation) was written using ChatGPT AI. <i>AI is another thing we do.</i></small>
-          </Paragraph>
-        </div>
+        </ResponsiveContainer>
       </section>
     )
   };

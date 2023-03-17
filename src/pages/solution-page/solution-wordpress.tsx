@@ -10,21 +10,21 @@ export const SolutionWordPress = () => {
       <ResponsiveContainer id="what-is" as="section">
         <div class="ui-container">
           <ion-icon class="what-is-info-icon" name="information-circle-outline"></ion-icon>
-          <Paragraph class="quote-summary">
-            <b>What is WordPress?</b>
-          </Paragraph>
+          <Heading class="quote-summary" level={2}>
+            What is WordPress?
+          </Heading>
           <Paragraph class="quote-summary">
             WordPress is a free and open-source content management system (CMS) that is used by millions of websites around the world. It allows users to easily create and manage their own websites, without needing to have advanced coding skills or knowledge.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             One of the main reasons why WordPress is a great CMS to choose is its ease of use and flexibility. It has a simple and intuitive interface, which makes it easy to create and manage content, such as blog posts, pages, and media files. It also supports a wide range of plugins and themes, which can be used to customize the appearance and functionality of the website to suit individual needs and preferences.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Another advantage of WordPress is its robust and active developer community. This community regularly releases updates and new features, which help to keep the platform secure, stable, and up-to-date with the latest technologies and trends. Additionally, there are many resources and tutorials available online, which can help users to troubleshoot issues or learn how to use the platform more effectively.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Finally, WordPress is highly scalable and can be used for a wide range of applications, from personal blogs to e-commerce sites and even large corporate websites. It can also be easily integrated with other platforms and tools, making it a versatile and powerful solution for many different types of websites and businesses.
-        </Paragraph>
+          </Paragraph>
         </div>
       </ResponsiveContainer>
       <ResponsiveContainer id="getting-started" as="section">

@@ -10,21 +10,21 @@ export const SolutionDevOps = () => {
       <ResponsiveContainer id="what-is" as="section">
         <div class="ui-container">
           <ion-icon class="what-is-info-icon" name="information-circle-outline"></ion-icon>
-          <Paragraph class="quote-summary">
-            <b>What is Continuous Integration / Continuous Deployment (CI/CD)?</b>
-          </Paragraph>
+          <Heading class="quote-summary" level={2}>
+            What is Continuous Integration / Continuous Deployment (CI/CD)?
+          </Heading>
           <Paragraph class="quote-summary">
             Continuous Integration (CI) and Continuous Delivery (CD) are software development practices that involve automating the building, testing, and deployment of software applications. CI/CD allows developers to deliver new code changes more frequently, with higher quality and greater efficiency, which helps businesses to stay competitive and meet the demands of their customers.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Continuous Integration is the process of regularly integrating new code changes into a shared code repository and automatically running tests to ensure that the code is functional and free of bugs. This allows developers to detect and fix errors quickly, reducing the risk of introducing defects into the codebase.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             Continuous Delivery is the process of automating the deployment of code changes to production environments. This involves automatically building, testing, and packaging code changes, and deploying them to a staging environment for further testing and validation. Once the changes have been validated, they can be automatically deployed to the production environment.
-        </Paragraph>
+          </Paragraph>
           <Paragraph class="quote-summary">
             CI/CD is absolutely vital for businesses because it provides a number of benefits, including:
-        </Paragraph>
+          </Paragraph>
           <ul class="quote-summary quote-summary-list">
             <li><b>Faster time-to-market</b>: With CI/CD, developers can release new code changes more frequently, reducing the time it takes to bring new features and functionality to market.</li>
             <li><b>Improved quality</b>: CI/CD helps to ensure that code changes are thoroughly tested before they are deployed, reducing the risk of introducing defects into the production environment.</li>
@@ -33,7 +33,7 @@ export const SolutionDevOps = () => {
           </ul>
           <Paragraph class="quote-summary">
             Overall, CI/CD helps businesses to deliver high-quality software more quickly and efficiently, which is essential in today's fast-paced and competitive business environment.
-        </Paragraph>
+          </Paragraph>
         </div>
       </ResponsiveContainer>
       <ResponsiveContainer id="getting-started" as="section">
